@@ -1,0 +1,4 @@
+{
+  "extends": "@total-typescript/tsconfig/tsc/no-dom/library-monorepo",
+  "exclude": ["**/**/vitest.config.ts", "**/*.test.ts", "**/*/lib"]
+}

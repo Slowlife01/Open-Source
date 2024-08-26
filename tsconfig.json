@@ -1,0 +1,8 @@
+{
+  "references": [
+    {
+      "path": "./packages/romanize-thai/tsconfig.json"
+    }
+  ],
+  "files": []
+}

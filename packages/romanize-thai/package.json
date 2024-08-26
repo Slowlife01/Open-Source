@@ -1,0 +1,23 @@
+{
+  "name": "@dehoist/romanize-thai",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Romanize Thai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dehoist/Open-Source.git",
+    "directory": "packages/romanize-thai"
+  },
+  "bugs": {
+    "url": "https://github.com/Dehoist/Open-Source/issues"
+  },
+  "keywords": ["thai", "romanize"],
+  "exports": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "files": [
+    "lib"
+  ]
+}
