@@ -7,11 +7,11 @@ export const successTests = [
   },
   {
     input: 'คนไทยไม่รักกันใครจะร้องเพลงชาติ',
-    romanized: 'khnthaimairakkankhaircharongphelngchati',
+    romanized: 'khonthaimairakkankhaircharongphelngchat',
   },
   {
     input: 'สมจวย',
-    romanized: 'smchuai',
+    romanized: 'somchuai',
   },
   {
     input: 'ไข่ดิบ (nama tamago)',
@@ -31,11 +31,11 @@ export const successTests = [
   },
   {
     input: 'อยากกินข้าวหมูกรอบ',
-    romanized: 'yakkinkhoawhmukrob',
+    romanized: 'yakkinkhawhmukrob',
   },
   {
     input: 'ทุกคนเรียกผมว่าแมว',
-    romanized: 'thukkhnriakphmuaamaeo',
+    romanized: 'thukkhonriakphmuaamaeo',
   },
   {
     input: 'ไก่อยู่ในไข่',
@@ -47,7 +47,7 @@ export const successTests = [
   },
   {
     input: 'ทำทรงไม่ทำงาน',
-    romanized: 'thamthrngmaithamngan',
+    romanized: 'thamthrongmaithamngan',
   },
   {
     input: 'ไม่ต้องเช็คไม่ใช่เด็กใคร',
@@ -55,7 +55,7 @@ export const successTests = [
   },
   {
     input: 'หนุ่มข้าวผัด',
-    romanized: 'hnumkhoawphad',
+    romanized: 'hnumkhawphad',
   },
   {
     input: 'ลูซี่บอย',
@@ -67,7 +67,7 @@ export const successTests = [
   },
   {
     input: 'ออมมี่โยคีในรัศมีวงกลม',
-    romanized: 'ommiyokhinairasmiwngklm',
+    romanized: 'ommiyokhinairasmiwongklom',
   },
   {
     input: 'ปะกาสิด',
@@ -75,7 +75,7 @@ export const successTests = [
   },
   {
     input: 'เด็กชายชาตรี  สีสดใส',
-    romanized: 'dukchaichatri  sisdsai',
+    romanized: 'dukchaichatri  sisodsai',
   },
   {
     input: 'วัยรุ่นหมากเก็บ',
@@ -103,7 +103,7 @@ export const successTests = [
   },
   {
     input: 'ฉันพบเจอไก่',
-    romanized: 'chanphbchoekai',
+    romanized: 'chanphobchoekai',
   },
   {
     input: 'จองกุกbts',
@@ -143,7 +143,7 @@ export const successTests = [
   },
   {
     input: 'จ้างวาดได้นะฮ้าบ',
-    romanized: 'choanguaaddainahoab',
+    romanized: 'changuaaddainahab',
   },
   {
     input: 'หนีฮ่าว',
@@ -155,7 +155,7 @@ export const successTests = [
   },
   {
     input: 'กลับบ้านไม่ถามแม่มึงดูว่ากูใคร',
-    romanized: 'klabboanmaithammaemuengduwakukhair',
+    romanized: 'klabbanmaithammaemuengduwakukhair',
   },
   {
     input: 'นินะน่ารักจริงนะ',
@@ -175,19 +175,19 @@ export const successTests = [
   },
   {
     input: 'อ้วน',
-    romanized: 'wn',
+    romanized: 'on',
   },
   {
     input: 'ดำดีสีไม่ตก🦄',
-    romanized: 'damdisimaitk🦄',
+    romanized: 'damdisimaitok🦄',
   },
   {
     input: 'Sky(เถียงทันหน่วง)',
-    romanized: 'Sky(thiangthanhnwng)',
+    romanized: 'Sky(thiangthanhnuang)',
   },
   {
     input: 'จ้าวเซ็น✨',
-    romanized: 'choawsun✨',
+    romanized: 'chawsun✨',
   },
   {
     input: 'วุ้นบูด🤞',
@@ -195,7 +195,7 @@ export const successTests = [
   },
   {
     input: 'เจ้ามันม่วง',
-    romanized: 'cheamanomwng',
+    romanized: 'cheamanmuang',
   },
   {
     input: 'ซี-วิท',
@@ -239,15 +239,15 @@ export const successTests = [
   },
   {
     input: 'วน',
-    romanized: 'wn',
+    romanized: 'won',
   },
   {
     input: 'วอกน้อย',
-    romanized: 'woknooi',
+    romanized: 'woknoi',
   },
   {
     input: 'ไข่เจียวของออมเล็ต',
-    romanized: 'khaichiaokhongomlut',
+    romanized: 'khaichiaokhongoomlut',
   },
   {
     input: 'อซฮ \'ㅅ\'',
@@ -263,7 +263,7 @@ export const successTests = [
   },
   {
     input: 'กนกก้อง',
-    romanized: 'knkkong',
+    romanized: 'kanokkong',
   },
   {
     input: 'Ariøภ',
@@ -279,7 +279,7 @@ export const successTests = [
   },
   {
     input: 'ชิก้ามารุ',
-    romanized: 'chikoamaru',
+    romanized: 'chikamaru',
   },
   {
     input: 'โฮ่งเหมียว',
@@ -311,7 +311,7 @@ export const successTests = [
   },
   {
     input: 'หน่องเอฟฟี่',
-    romanized: 'hnngeffi',
+    romanized: 'nongeffi',
   },
   {
     input: 'Miเคิล',
@@ -339,11 +339,11 @@ export const successTests = [
   },
   {
     input: 'ขาดเธอทำผมเบลอเหมือนขาดหุ้น',
-    romanized: 'khadthoethamphmbelohemuenkhadhun',
+    romanized: 'khadthoethamphombelohemuenkhadhun',
   },
   {
     input: 'ดูดม้าฟันหลอหรอ',
-    romanized: 'dudmoafanhlohro',
+    romanized: 'dudmafanhlohro',
   },
   {
     input: 'ไอว้อนทูสะเตอะเวอจิ้น',
@@ -351,7 +351,7 @@ export const successTests = [
   },
   {
     input: 'หนองโพ',
-    romanized: 'hnongpho',
+    romanized: 'nongpho',
   },
   {
     input: 'งั่มมม !!',
@@ -363,11 +363,11 @@ export const successTests = [
   },
   {
     input: 'มา3อย่าถาม4',
-    romanized: 'ma3oiatham4',
+    romanized: 'ma3yatham4',
   },
   {
     input: 'สมหมายชายแท้',
-    romanized: 'smhmaichaithae',
+    romanized: 'somhmaichaithae',
   },
   {
     input: '! 𝔅𝔢𝔫𝔦𝔱𝔞๖ۣۜᴳᵒ',
@@ -375,7 +375,7 @@ export const successTests = [
   },
   {
     input: 'บิ๊กจง',
-    romanized: 'bikchng',
+    romanized: 'bikchong',
   },
   {
     input: 'empty คาเฟ่',
@@ -415,7 +415,7 @@ export const successTests = [
   },
   {
     input: 'อ้นเทพซ่า 007',
-    romanized: 'nthephsa 007',
+    romanized: 'onthephsa 007',
   },
   {
     input: '🌈โนนา',
@@ -479,11 +479,11 @@ export const successTests = [
   },
   {
     input: '🐳แฟนแม่บ้าน',
-    romanized: '🐳faenmaeboan',
+    romanized: '🐳faenmaeban',
   },
   {
     input: 'นายเกิอดใหม่มารวยแน่',
-    romanized: 'naikoedhaimmaruainae',
+    romanized: 'naikoeodhaimmaruainae',
   },
   {
     input: 'หัวดอ',
@@ -495,7 +495,7 @@ export const successTests = [
   },
   {
     input: 'ฟดหดเห้ห้ห',
-    romanized: 'fdhdhehoh',
+    romanized: 'fodhdhehh',
   },
   {
     input: 'ยิ้มม เธอทำได้อยู่แล้ว',
@@ -535,7 +535,7 @@ export const successTests = [
   },
   {
     input: 'น๋องมอล',
-    romanized: 'nngmol',
+    romanized: 'nongmol',
   },
   {
     input: '★꧁๖ۣۣۜ𝓓𝖆𝖗ҟ꧂★',
@@ -543,7 +543,7 @@ export const successTests = [
   },
   {
     input: 'KUMAʕ•ᴥ•ʔ เด็กดีค้าบบบบบบบ',
-    romanized: 'KUMAʕ•ᴥ•ʔ dukdikhoabbbbbbb',
+    romanized: 'KUMAʕ•ᴥ•ʔ dukdikhabbbbbbb',
   },
   {
     input: 'ดูควยหน่อย',
@@ -563,7 +563,7 @@ export const successTests = [
   },
   {
     input: 'สวัสดีค้าบ',
-    romanized: 'swasdikhoab',
+    romanized: 'swasdikhab',
   },
   {
     input: 'โลมา',
@@ -579,7 +579,7 @@ export const successTests = [
   },
   {
     input: 'ผมง่วงครับ',
-    romanized: 'phmngwngkhrab',
+    romanized: 'phomnguangkhrab',
   },
   {
     input: 'คุณส้มส้ม',
@@ -591,7 +591,7 @@ export const successTests = [
   },
   {
     input: 'จะไปเดินเล่นบนดาวไม้ไผ่',
-    romanized: 'chapaidoenlenbndaomaiphai',
+    romanized: 'chapaidoenlenbondaomaiphai',
   },
   {
     input: '⚡๖ۣۜ㉺DEMIﾂ⚡',
@@ -619,11 +619,11 @@ export const successTests = [
   },
   {
     input: 'น้องเกมตัวร้ายย',
-    romanized: 'nongkemtuaroayy',
+    romanized: 'nongkemtuarayy',
   },
   {
     input: 'ฟิวน้อย',
-    romanized: 'fuainooi',
+    romanized: 'fuainoi',
   },
   {
     input: 'กระบี่คู่ ผู้พิชิต',
@@ -711,7 +711,7 @@ export const successTests = [
   },
   {
     input: 'เข้าสู่ห้วงนิทรา 🌙✨',
-    romanized: 'kheasuhowngnithra 🌙✨',
+    romanized: 'kheasuhwongnithra 🌙✨',
   },
   {
     input: 'เด็กเอ๋อ',
@@ -739,11 +739,11 @@ export const successTests = [
   },
   {
     input: 'พีน้อย1มิล',
-    romanized: 'phinooi1mil',
+    romanized: 'phinoi1mil',
   },
   {
     input: 'นกพิราบ',
-    romanized: 'nkphirab',
+    romanized: 'nokphirab',
   },
   {
     input: 'ฟอฟอ',
@@ -751,7 +751,7 @@ export const successTests = [
   },
   {
     input: 'ตัวผมไร้ขนมคงหิว',
-    romanized: 'tuaphmraikhnomkhnghio',
+    romanized: 'tuaphomraikhnomkhonghio',
   },
   {
     input: 'โคโคมิยะ',
@@ -759,15 +759,15 @@ export const successTests = [
   },
   {
     input: 'โจรบราซิล',
-    romanized: 'chorbrasil',
+    romanized: 'chobrasil',
   },
   {
     input: 'กล้วยหอมจอมซน',
-    romanized: 'klowyhomchomsn',
+    romanized: 'klwyhomchomson',
   },
   {
     input: 'สามหก',
-    romanized: 'samhk',
+    romanized: 'samhok',
   },
   {
     input: 'อ้ายอวบบ',
@@ -779,7 +779,7 @@ export const successTests = [
   },
   {
     input: 'เอ่าเห้ย',
-    romanized: 'eahey',
+    romanized: 'ahey',
   },
   {
     input: 'ოﻨĸձﻨl  |  սռսรεժռεժ',
@@ -791,7 +791,7 @@ export const successTests = [
   },
   {
     input: 'นายสะเหล่อ',
-    romanized: 'naisahel',
+    romanized: 'naisale',
   },
   {
     input: 'ɱ૯ςคՐ੮Һɿɱ-ც',
@@ -823,7 +823,7 @@ export const successTests = [
   },
   {
     input: 'ดิวดิ่วดิ้วดิ๊วดิ๋ว',
-    romanized: 'diodiwdiwdiwdiw',
+    romanized: 'diwdiwdiwdiwdiw',
   },
   {
     input: 'สิงหา.',
@@ -863,7 +863,7 @@ export const successTests = [
   },
   {
     input: 'หวาดดีฮ้าฟ',
-    romanized: 'hwaddihoaf',
+    romanized: 'hwaddihaf',
   },
   {
     input: 'เด้น',
@@ -879,7 +879,7 @@ export const successTests = [
   },
   {
     input: 'คำคมบาดแผล',
-    romanized: 'khamkhmbadphael',
+    romanized: 'khamkhombadphael',
   },
   {
     input: 'น้องเจนดึกกี้',
@@ -903,7 +903,7 @@ export const successTests = [
   },
   {
     input: 'กูว่าแล้วมึงต้องอ่าน',
-    romanized: 'kuwalaewmuengtongoan',
+    romanized: 'kuwalaewmuengtongan',
   },
   {
     input: 'เซฟ',
@@ -911,7 +911,7 @@ export const successTests = [
   },
   {
     input: 'แมวง่วง',
-    romanized: 'maeongwng',
+    romanized: 'maeonguang',
   },
   {
     input: 'งูงุ้ยฮุยจุยงาา',
@@ -927,7 +927,7 @@ export const successTests = [
   },
   {
     input: '悲しみ [คะนะชิมิ] ความเศร้าโศก',
-    romanized: '悲しみ [khanachimi] khwamseroasok',
+    romanized: '悲しみ [khanachimi] khwamsaosok',
   },
   {
     input: 'หนุ่มรูปงาม',
@@ -943,7 +943,7 @@ export const successTests = [
   },
   {
     input: 'อย่าทำให้ผมโกด',
-    romanized: 'oiathamhaiphmkod',
+    romanized: 'yathamhaiphomkod',
   },
   {
     input: 'เซียนไพ่ที่แพ้ริสุครั้งที่ 3',
@@ -975,7 +975,7 @@ export const successTests = [
   },
   {
     input: 'กระผมนายวรชาน วงชายชานชัยช่งชัน',
-    romanized: 'kraphmnaiwrchan wngchaichanchaichngchan',
+    romanized: 'kraphomnaiwrchan wongchaichanchaichngchan',
   },
   {
     input: '蝴蝶忍(๑• . •๑)',
@@ -1019,11 +1019,11 @@ export const successTests = [
   },
   {
     input: 'ตกจนท้อขอนอนต่อดีกว่าไหม',
-    romanized: 'tkchnthokhonontdikwahaim',
+    romanized: 'tokchonthkhonontodikwahaim',
   },
   {
     input: 'เต็มสิบหักหมด',
-    romanized: 'tumsibhakhmd',
+    romanized: 'temsibhakmod',
   },
   {
     input: 'ทาด๊าาาาาาาาาา',
@@ -1047,7 +1047,7 @@ export const successTests = [
   },
   {
     input: 'โกโก้กล้วย_🍌',
-    romanized: 'kokoklowy_🍌',
+    romanized: 'kokoklwy_🍌',
   },
   {
     input: 'กัร',
@@ -1055,11 +1055,11 @@ export const successTests = [
   },
   {
     input: 'ผมคือผู้วิเศษ',
-    romanized: 'phmkhuephuwises',
+    romanized: 'phomkhuephuwises',
   },
   {
     input: 'ค้าน',
-    romanized: 'khoan',
+    romanized: 'khan',
   },
   {
     input: 'รantymïg_ 🏰',
@@ -1083,7 +1083,7 @@ export const successTests = [
   },
   {
     input: 'อ๋วง',
-    romanized: 'wng',
+    romanized: 'uang',
   },
   {
     input: 'นายปากกา',
@@ -1119,15 +1119,15 @@ export const successTests = [
   },
   {
     input: 'นกเดินดิน',
-    romanized: 'nkdoendin',
+    romanized: 'nokdoendin',
   },
   {
     input: 'ธรรมะกระตุกจิตกระชากใจ',
-    romanized: 'thamakratukchitkrachakchai',
+    romanized: 'thamakratukchitokrachakchai',
   },
   {
     input: 'คิดเชิงทดลอง',
-    romanized: 'khidchoengthdlong',
+    romanized: 'khidchoengthodlong',
   },
   {
     input: 'โต้',
@@ -1155,7 +1155,7 @@ export const successTests = [
   },
   {
     input: 'โอเคร สุดหล่อ',
-    romanized: 'okher sudhl',
+    romanized: 'okher sudlo',
   },
   {
     input: 'ใข่เจียว',
@@ -1167,7 +1167,7 @@ export const successTests = [
   },
   {
     input: 'อ้อมกอด<3',
-    romanized: 'mkod<3',
+    romanized: 'omkod<3',
   },
   {
     input: 'มุแง้ด',
@@ -1191,7 +1191,7 @@ export const successTests = [
   },
   {
     input: 'พ่อบ้าน切妻・ファン🥀',
-    romanized: 'phboan切妻・ファン🥀',
+    romanized: 'phoban切妻・ファン🥀',
   },
   {
     input: 'กัปตัน โดนแบน',
@@ -1207,7 +1207,7 @@ export const successTests = [
   },
   {
     input: 'โต้เทพในเงา ราชามังกรบนมือขวา',
-    romanized: 'tothephnaingao rachamangkrbnmuekhuaa',
+    romanized: 'tothephnaingao rachamangokrbonmuekhuaa',
   },
   {
     input: 'โฮกปิป',
@@ -1247,11 +1247,11 @@ export const successTests = [
   },
   {
     input: 'พายมึงต้อ',
-    romanized: 'phaimuengto',
+    romanized: 'phaimuengt',
   },
   {
     input: 'กินนมก่อนนอนนะ!',
-    romanized: 'kinnomknnonna!',
+    romanized: 'kinnomkonnonna!',
   },
   {
     input: '£₹💷❄🧊🧋ไอ้เจv1🌠❗',
@@ -1263,7 +1263,7 @@ export const successTests = [
   },
   {
     input: 'ชินาม่อนนนน',
-    romanized: 'chinamnnnn',
+    romanized: 'chinamonnnn',
   },
   {
     input: 'ขจร',
@@ -1275,11 +1275,11 @@ export const successTests = [
   },
   {
     input: 'อย่ามาอยู่กับกุ้ง',
-    romanized: 'oiamayukabkung',
+    romanized: 'yamayukabkung',
   },
   {
     input: 'สมดุ๋ย',
-    romanized: 'smduy',
+    romanized: 'somduy',
   },
   {
     input: 'รู้อยู้สบู่ไทย',
@@ -1307,7 +1307,7 @@ export const successTests = [
   },
   {
     input: 'ชาไทยขลั่ยหมาสำหรับน้องมุก',
-    romanized: 'chathaikhlayhmasamhrabnongmuk',
+    romanized: 'chathaikhlaihmasamhrabnongmuk',
   },
   {
     input: 'เห็ดหอมแมวเป้า',
@@ -1327,11 +1327,11 @@ export const successTests = [
   },
   {
     input: 'พี่หน่วง',
-    romanized: 'phihnwng',
+    romanized: 'phihnuang',
   },
   {
     input: 'จิตปล่อยวาง',
-    romanized: 'chitplyuaang',
+    romanized: 'chitploiwang',
   },
   {
     input: 'คɭєรเคシ',
@@ -1359,7 +1359,7 @@ export const successTests = [
   },
   {
     input: 'ช่องคลอด',
-    romanized: 'chngkhlod',
+    romanized: 'chongkhlod',
   },
   {
     input: 'ซึม:7',
@@ -1375,7 +1375,7 @@ export const successTests = [
   },
   {
     input: 'ข้าวเหนียวข้าวเหนียว',
-    romanized: 'khoawheniyuakhoawheniyua',
+    romanized: 'khawheniyuakhawheniyua',
   },
   {
     input: 'ตวย',
@@ -1399,7 +1399,7 @@ export const successTests = [
   },
   {
     input: 'สว่างแดนดิน',
-    romanized: 'suaangdaendin',
+    romanized: 'swangdaendin',
   },
   {
     input: 'มุซาชิ#6666',
@@ -1411,11 +1411,11 @@ export const successTests = [
   },
   {
     input: 'ไอ้กล้วย',
-    romanized: 'aiklowy',
+    romanized: 'aiklwy',
   },
   {
     input: 'กล้วยอบเนยโรยเกลือ',
-    romanized: 'klowyobnoeiroikelue',
+    romanized: 'klwyobnoeiroikelue',
   },
   {
     input: 'ปิ้งไก่',
@@ -1427,7 +1427,7 @@ export const successTests = [
   },
   {
     input: 'ฟ้ารักพ่อ',
-    romanized: 'foarakph',
+    romanized: 'farakpho',
   },
   {
     input: 'เพ็ดดีกรีอร่อยดี',
@@ -1435,7 +1435,7 @@ export const successTests = [
   },
   {
     input: 'สม.ที่แปลว่าสัดมีน',
-    romanized: 'sm.thipaeluaasadmin',
+    romanized: 'som.thipaeluaasadmin',
   },
   {
     input: 'ฮา เดส.',
@@ -1455,11 +1455,11 @@ export const successTests = [
   },
   {
     input: 'ซง จุงกิต',
-    romanized: 'sng chungkit',
+    romanized: 'song chungkit',
   },
   {
     input: 'นิติง่ายกี่โมง',
-    romanized: 'nitingaykimong',
+    romanized: 'nitingaikimong',
   },
   {
     input: 'ฮัมตี้ดัมตี้',
@@ -1483,11 +1483,11 @@ export const successTests = [
   },
   {
     input: 'หยักกินป๋องแป๋ง~~',
-    romanized: 'hyakkinpngpaeng~~',
+    romanized: 'hyakkinpongpaeng~~',
   },
   {
     input: 'ปิงราชานรก',
-    romanized: 'pingrachanrk',
+    romanized: 'pingrachanrok',
   },
   {
     input: 'รินรักท่านนายพลเฟยเซียว',
@@ -1503,7 +1503,7 @@ export const successTests = [
   },
   {
     input: 'ร้อยคนทักผมรักพ่อหลวง',
-    romanized: 'rooikhnthakphmrakphhluang',
+    romanized: 'roikhonthakphomrakphohluang',
   },
   {
     input: 'ไม่รู้อะไร',
@@ -1527,15 +1527,15 @@ export const successTests = [
   },
   {
     input: 'จ้า',
-    romanized: 'choa',
+    romanized: 'cha',
   },
   {
     input: 'ปลิดปลิวดั่งใบไม้ร่วง',
-    romanized: 'plidpliodangbaimairwng',
+    romanized: 'plidpliodangbaimairuang',
   },
   {
     input: 'ชอบกินมิ้นช้อค',
-    romanized: 'chobkinminchokh',
+    romanized: 'chobkinminchkh',
   },
   {
     input: 'ยโสdo not eat',
@@ -1587,15 +1587,15 @@ export const successTests = [
   },
   {
     input: 'กระต่ายหูตก ! ୨ৎ',
-    romanized: 'kratayhutk ! ୨ৎ',
+    romanized: 'krataihutok ! ୨ৎ',
   },
   {
     input: 'MUTUKEK ชายที่กลับมาจากนรก',
-    romanized: 'MUTUKEK chaithiklabmachaknrk',
+    romanized: 'MUTUKEK chaithiklabmachakonrok',
   },
   {
     input: 'ข้าวต้มปลาวาฬ',
-    romanized: 'khoawtomplaoal',
+    romanized: 'khawtomplaoal',
   },
   {
     input: 'Arm ลูคีเมีย',
@@ -1631,11 +1631,11 @@ export const successTests = [
   },
   {
     input: 'อรุ้ยจร้าา 👌😍',
-    romanized: 'ruychroaa 👌😍',
+    romanized: 'ruychraa 👌😍',
   },
   {
     input: 'กูจะบ้า',
-    romanized: 'kuchaboa',
+    romanized: 'kuchaba',
   },
   {
     input: 'แอ๋ว',
@@ -1643,11 +1643,11 @@ export const successTests = [
   },
   {
     input: 'แมวฟ้า',
-    romanized: 'maeofoa',
+    romanized: 'maeofa',
   },
   {
     input: 'ไอ้ดุ่ย',
-    romanized: 'aiduy',
+    romanized: 'aidui',
   },
   {
     input: 'ลูกพระเจ้าตาก',
@@ -1663,11 +1663,11 @@ export const successTests = [
   },
   {
     input: 'อย่ายุ่งดิ้!!!',
-    romanized: 'oiayungdi!!!',
+    romanized: 'yaingdi!!!',
   },
   {
     input: 'ข้าวจ่าว',
-    romanized: 'khoawchaw',
+    romanized: 'khawchao',
   },
   {
     input: 'ปลุกกู',
@@ -1675,11 +1675,11 @@ export const successTests = [
   },
   {
     input: 'ต้าวหมาส้ม',
-    romanized: 'toawhmasom',
+    romanized: 'tawhmasom',
   },
   {
     input: 'นักเล่านิทาน',
-    romanized: 'nakleanithan',
+    romanized: 'naklaonithan',
   },
   {
     input: 'น้องมี่',
@@ -1687,11 +1687,11 @@ export const successTests = [
   },
   {
     input: 'อ้ายส่งสุดแขน เขาแทงสุดโคน',
-    romanized: 'aysngsudkhaen khaothaengsudkhon',
+    romanized: 'aysongsudkhaen khaothaengsudkhon',
   },
   {
     input: 'เปลี่ยนทำไมก่อน',
-    romanized: 'peliynthammaikn',
+    romanized: 'peliyonthammaikon',
   },
   {
     input: 'มวย',
@@ -1719,11 +1719,11 @@ export const successTests = [
   },
   {
     input: 'โน่ ท้ายอโรสม่า',
-    romanized: 'no thoayorosma',
+    romanized: 'no thayorosma',
   },
   {
     input: 'โอ่งตูมต้าม',
-    romanized: 'ongtumtoam',
+    romanized: 'ongtumtam',
   },
   {
     input: '30 สิงหา',
@@ -1739,7 +1739,7 @@ export const successTests = [
   },
   {
     input: 'กินท่อม ไปค่อมเธอ',
-    romanized: 'kinthm paikhmthoe',
+    romanized: 'kinthom paikhomthoe',
   },
   {
     input: 'meow - อ่าน berserk',
@@ -1751,11 +1751,11 @@ export const successTests = [
   },
   {
     input: 'กุยช่าย',
-    romanized: 'kuichay',
+    romanized: 'kuichai',
   },
   {
     input: 'กาหนกวัน',
-    romanized: 'kahnkwan',
+    romanized: 'kahnokwan',
   },
   {
     input: 'โอปอ',
@@ -1763,7 +1763,7 @@ export const successTests = [
   },
   {
     input: 'กูจะบ้า',
-    romanized: 'kuchaboa',
+    romanized: 'kuchaba',
   },
   {
     input: 'มุดสังกำลังทำวิจัย',
@@ -1783,7 +1783,7 @@ export const successTests = [
   },
   {
     input: 'ต๋อง',
-    romanized: 'tng',
+    romanized: 'tong',
   },
   {
     input: 'สยามเดม',
@@ -1791,7 +1791,7 @@ export const successTests = [
   },
   {
     input: 'ค๊อก ค๊อก',
-    romanized: 'khk khk',
+    romanized: 'khok khok',
   },
   {
     input: 'ไม่รู้ไม่บอก',
@@ -1823,7 +1823,7 @@ export const successTests = [
   },
   {
     input: 'โหมดไม่ระบุตัวตน',
-    romanized: 'homdmairabutuatn',
+    romanized: 'modemairabutuaton',
   },
   {
     input: 'แมวเด๋อ',
@@ -1835,7 +1835,7 @@ export const successTests = [
   },
   {
     input: 'ย้ายดิส',
-    romanized: 'yoaydis',
+    romanized: 'yaydis',
   },
   {
     input: 'น้องออนิว',
@@ -1851,7 +1851,7 @@ export const successTests = [
   },
   {
     input: 'เป็นผง',
-    romanized: 'punphng',
+    romanized: 'punphong',
   },
   {
     input: 'บีม.',
@@ -1895,7 +1895,7 @@ export const successTests = [
   },
   {
     input: 'ข้าวเกรียบกุ้ง',
-    romanized: 'khoawkeriybkung',
+    romanized: 'khawkriapkung',
   },
   {
     input: 'สะม๋อยต๋อย',
@@ -1911,7 +1911,7 @@ export const successTests = [
   },
   {
     input: 'ตบขยะ',
-    romanized: 'tbkhya',
+    romanized: 'tobkhya',
   },
   {
     input: 'โก๋ยโต๋ยเรือ',
@@ -1927,7 +1927,7 @@ export const successTests = [
   },
   {
     input: 'หน้าไม่ผ่านเขาเลยอ่านไม่ตอบ',
-    romanized: 'hnoamaiphankhaoloeianmaitob',
+    romanized: 'namaiphankhaoloeianmaitob',
   },
   {
     input: 'ผัดไทยใส่เป็ด',
@@ -1935,7 +1935,7 @@ export const successTests = [
   },
   {
     input: 'นปนปนปนปนป',
-    romanized: 'npnpnpnpnp',
+    romanized: 'nponponponponp',
   },
   {
     input: 'เอมมี่เองคะบ',
@@ -1963,7 +1963,7 @@ export const successTests = [
   },
   {
     input: 'งดเกมครับ หมดสภาพ',
-    romanized: 'ngdkemkhrab hmdsphaph',
+    romanized: 'ngodkemkhrab modsphaph',
   },
   {
     input: 'สับปะโร้ด🤩',
@@ -1971,11 +1971,11 @@ export const successTests = [
   },
   {
     input: 'ฮัลโล้วมายเฟร้นน',
-    romanized: 'hallowmaiferonn',
+    romanized: 'hallowmaifernn',
   },
   {
     input: '★  ไม่มีตัวตน ★',
-    romanized: '★  maimituatn ★',
+    romanized: '★  maimituaton ★',
   },
   {
     input: 'เจนนวย',
@@ -2035,7 +2035,7 @@ export const successTests = [
   },
   {
     input: 'ถง',
-    romanized: 'thng',
+    romanized: 'thong',
   },
   {
     input: 'โอ้',
@@ -2047,7 +2047,7 @@ export const successTests = [
   },
   {
     input: 'จุ๊บเหม่ง',
-    romanized: 'chubhemng',
+    romanized: 'chubhemong',
   },
   {
     input: 'จจ',
@@ -2055,7 +2055,7 @@ export const successTests = [
   },
   {
     input: 'มอเต็มกระด๋อย',
-    romanized: 'motumkradoi',
+    romanized: 'motemkradoi',
   },
   {
     input: 'แมวชุบแป้งทอด🐾',
@@ -2063,7 +2063,7 @@ export const successTests = [
   },
   {
     input: 'ชะม้อย 🐌🌼',
-    romanized: 'chamooi 🐌🌼',
+    romanized: 'chamoi 🐌🌼',
   },
   {
     input: 'เกินปุยมุ้ย',
@@ -2075,7 +2075,7 @@ export const successTests = [
   },
   {
     input: 'ง่วงนอน',
-    romanized: 'ngwngnon',
+    romanized: 'nguangnon',
   },
   {
     input: 'วาววาว',
@@ -2087,7 +2087,7 @@ export const successTests = [
   },
   {
     input: 'สุดหล่อออ',
-    romanized: 'sudhlo',
+    romanized: 'sudloo',
   },
   {
     input: 'อิน',
@@ -2107,7 +2107,7 @@ export const successTests = [
   },
   {
     input: 'ฟ่งTepซ่า007',
-    romanized: 'fngTepsa007',
+    romanized: 'fongTepsa007',
   },
   {
     input: 'ฮายย~',
@@ -2119,7 +2119,7 @@ export const successTests = [
   },
   {
     input: 'หา AK ยิงเด็กแว้นแถวบ้าน',
-    romanized: 'ha AK yingdukwaentaeoboan',
+    romanized: 'ha AK yingdukwaentaeoban',
   },
   {
     input: 'ครับ',
@@ -2143,7 +2143,7 @@ export const successTests = [
   },
   {
     input: 'อย่ากด กูโดนแฮค',
-    romanized: 'oiakd kudonhaekh',
+    romanized: 'yakod kudonhaekh',
   },
   {
     input: 'นายโต้',
@@ -2151,11 +2151,11 @@ export const successTests = [
   },
   {
     input: 'มือเปล่าให้สอง มีของให้หมด',
-    romanized: 'muepelahaisong mikhonghaihmd',
+    romanized: 'muepelahaisong mikhonghaimod',
   },
   {
     input: 'นอนค้าบบบนอนนน',
-    romanized: 'nonkhoabbbnonnn',
+    romanized: 'nonkhabbbnonnn',
   },
   {
     input: 'หมา',
@@ -2171,11 +2171,11 @@ export const successTests = [
   },
   {
     input: 'โรนัลโด้บ้านร่องฟอง',
-    romanized: 'ronaldoboanrngfong',
+    romanized: 'ronaldobanrongfong',
   },
   {
     input: 'น้องเพลงมูฮาฮาฮา',
-    romanized: 'nongphelngmuhahaha',
+    romanized: 'nongphelongmuhahaha',
   },
   {
     input: 'คิคุ',
@@ -2203,7 +2203,7 @@ export const successTests = [
   },
   {
     input: 'หิวข้าว24ชม.',
-    romanized: 'hiokhoaw24chm.',
+    romanized: 'hiokhaw24chom.',
   },
   {
     input: 'ขี้',
@@ -2235,7 +2235,7 @@ export const successTests = [
   },
   {
     input: 'เด็กน้อย9ตวบบ',
-    romanized: 'duknooi9tuabb',
+    romanized: 'duknoi9tuabb',
   },
   {
     input: 'ตาย',
@@ -2259,7 +2259,7 @@ export const successTests = [
   },
   {
     input: 'ไม่มีไรป่าว',
-    romanized: 'maimiraipaw',
+    romanized: 'maimiraipao',
   },
   {
     input: 'กองมี',
@@ -2287,7 +2287,7 @@ export const successTests = [
   },
   {
     input: 'สหายใบขม',
-    romanized: 'shaibaikhm',
+    romanized: 'shaibaikhom',
   },
   {
     input: 'มิจิ',
@@ -2315,11 +2315,11 @@ export const successTests = [
   },
   {
     input: 'Tea ธีฮ้าฟฟู้',
-    romanized: 'Tea thihoaffu',
+    romanized: 'Tea thihaffu',
   },
   {
     input: 'สวัสดีครับผมผี',
-    romanized: 'swasdikhrabphmphi',
+    romanized: 'swasdikhrabphomphi',
   },
   {
     input: 'พอ.',
@@ -2367,7 +2367,7 @@ export const successTests = [
   },
   {
     input: 'lทพซ่าหมาเห่า',
-    romanized: 'lthphsahmahea',
+    romanized: 'lthphsahmahao',
   },
   {
     input: 'สวัสดีครับ',
@@ -2375,7 +2375,7 @@ export const successTests = [
   },
   {
     input: 'ข้าวมันไก่',
-    romanized: 'khoawmankai',
+    romanized: 'khawmankai',
   },
   {
     input: 'กากีนัง',
@@ -2423,7 +2423,7 @@ export const successTests = [
   },
   {
     input: 'ملاحظة 🥀(เนซึเกะหน้าม่วง)',
-    romanized: 'ملاحظة 🥀(nesuekuhnoamwng)',
+    romanized: 'ملاحظة 🥀(nesuekunamuang)',
   },
   {
     input: 'โลกมันเหลี่ยมมมม',
@@ -2431,7 +2431,7 @@ export const successTests = [
   },
   {
     input: 'หยกซี่',
-    romanized: 'hyksi',
+    romanized: 'yoksi',
   },
   {
     input: 'ผัวเผลอแล้วเจอกัน',
@@ -2463,7 +2463,7 @@ export const successTests = [
   },
   {
     input: 'ต้าทั่วเท่อชั่วปู๋ย้าหลาย',
-    romanized: 'toathawthechawpuyoahlai',
+    romanized: 'tathuathoechuapuyahlai',
   },
   {
     input: 'พิซซ่า',
@@ -2475,15 +2475,15 @@ export const successTests = [
   },
   {
     input: 'โดนดักช่วยที',
-    romanized: 'dondakchwythi',
+    romanized: 'dondakchuaithi',
   },
   {
     input: 'นิคสุดหล่อ',
-    romanized: 'nikhsudhl',
+    romanized: 'nikhsudlo',
   },
   {
     input: 'หัวหน้าเผ่า',
-    romanized: 'huahnoaphea',
+    romanized: 'huanaphao',
   },
   {
     input: '＜๑ⵗⵗ﹒﹙`🎹`﹚﹒𝙱𝚎𝚛𝚛𝚢𝟺𝚛 ﹒ ᥪꪫ⌣',
