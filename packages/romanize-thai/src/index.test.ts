@@ -1,21 +1,14 @@
 import { describe, it } from 'vitest'
-import { THAI_REGEX, failingTests, successTests } from './mocks/testData.js'
+import { THAI_REGEX, successTests } from './mocks/testData.js'
 
 import { romanize } from './index.js'
 
 describe('romanize-thai', () => {
-  it('should romanize thai text', async ({ expect }) => {
-    for (const { input, romanized } of successTests) {
+  it('should romanize thai text', ({ expect }) => {
+    for (const [input, output] of successTests) {
       const result = romanize(input)
       expect(result).not.toMatch(THAI_REGEX)
-      expect(result).toBe(romanized)
-    }
-
-    for (const { input } of failingTests) {
-      const result = romanize(input)
-      if (result.match(THAI_REGEX)) {
-        expect.fail(`Expected ${input} to be romanized but got ${result}`)
-      }
+      expect(result).toBe(output)
     }
   })
 

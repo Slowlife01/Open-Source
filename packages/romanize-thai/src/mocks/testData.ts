@@ -1,3539 +1,3536 @@
 export const THAI_REGEX = /[\u0E00-\u0E7F]/
 
 export const successTests = [
-  {
-    input: 'อยากจะเจอเธอทุกวัน',
-    romanized: 'yakchachoethoethukwan',
-  },
-  {
-    input: 'คนไทยไม่รักกันใครจะร้องเพลงชาติ',
-    romanized: 'khonthaimairakkankhaircharongphelngchat',
-  },
-  {
-    input: 'สมจวย',
-    romanized: 'somchuai',
-  },
-  {
-    input: 'ไข่ดิบ (nama tamago)',
-    romanized: 'khaidib (nama tamago)',
-  },
-  {
-    input: 'แฟนน่ารักจังเลยยย',
-    romanized: 'faennarakchangloeiyy',
-  },
-  {
-    input: 'เติมมาเยอะ',
-    romanized: 'toemmayoe',
-  },
-  {
-    input: 'ตะวัน',
-    romanized: 'tawan',
-  },
-  {
-    input: 'อยากกินข้าวหมูกรอบ',
-    romanized: 'yakkinkhawhmukrob',
-  },
-  {
-    input: 'ทุกคนเรียกผมว่าแมว',
-    romanized: 'thukkhonriakphmuaamaeo',
-  },
-  {
-    input: 'ไก่อยู่ในไข่',
-    romanized: 'kaiyunaikhai',
-  },
-  {
-    input: 'รอคิวอิสเวรี่กู้ด',
-    romanized: 'rokhioiswerikud',
-  },
-  {
-    input: 'ทำทรงไม่ทำงาน',
-    romanized: 'thamthrongmaithamngan',
-  },
-  {
-    input: 'ไม่ต้องเช็คไม่ใช่เด็กใคร',
-    romanized: 'maitongchukhmaichaidukkhair',
-  },
-  {
-    input: 'หนุ่มข้าวผัด',
-    romanized: 'hnumkhawphad',
-  },
-  {
-    input: 'ลูซี่บอย',
-    romanized: 'lusiboi',
-  },
-  {
-    input: 'อ้ายเหนียว',
-    romanized: 'ayheniyua',
-  },
-  {
-    input: 'ออมมี่โยคีในรัศมีวงกลม',
-    romanized: 'ommiyokhinairasmiwongklom',
-  },
-  {
-    input: 'ปะกาสิด',
-    romanized: 'pakasid',
-  },
-  {
-    input: 'เด็กชายชาตรี  สีสดใส',
-    romanized: 'dukchaichatri  sisodsai',
-  },
-  {
-    input: 'วัยรุ่นหมากเก็บ',
-    romanized: 'wairunhmakkeb',
-  },
-  {
-    input: 'โซเองนั้น',
-    romanized: 'soengnan',
-  },
-  {
-    input: 'อาตอมมมมมมมมมมมมมม',
-    romanized: 'atommmmmmmmmmmmmm',
-  },
-  {
-    input: 'มุแง',
-    romanized: 'mungae',
-  },
-  {
-    input: 'อยากมัดใจแต่ได้แค่มัดจำ',
-    romanized: 'yakmadchaitaedaikhaemadcham',
-  },
-  {
-    input: 'ไข่ดาวต้ม',
-    romanized: 'khaidaotom',
-  },
-  {
-    input: 'ฉันพบเจอไก่',
-    romanized: 'chanphobchoekai',
-  },
-  {
-    input: 'จองกุกbts',
-    romanized: 'chongkukbts',
-  },
-  {
-    input: 'เจ๋ง',
-    romanized: 'cheng',
-  },
-  {
-    input: 'เรนนี่เรนโน่นเรนไหนกันแน่',
-    romanized: 'rennirennonrenhainkannae',
-  },
-  {
-    input: 'ทำใจ',
-    romanized: 'thamchai',
-  },
-  {
-    input: 'มาคับ',
-    romanized: 'makhab',
-  },
-  {
-    input: 'จำเราไม่ได้หรอ เราส้มเอง',
-    romanized: 'chamraomaidaihro raosomeng',
-  },
-  {
-    input: 'หลอน',
-    romanized: 'hlon',
-  },
-  {
-    input: 'บูบู้',
-    romanized: 'bubu',
-  },
-  {
-    input: '𖤐⭒๋࣭ ⭑ ꋫ꒒꒐',
-    romanized: '𖤐⭒࣭ ⭑ ꋫ꒒꒐',
-  },
-  {
-    input: 'จ้างวาดได้นะฮ้าบ',
-    romanized: 'changuaaddainahab',
-  },
-  {
-    input: 'หนีฮ่าว',
-    romanized: 'hnihaw',
-  },
-  {
-    input: 'อึ่ง',
-    romanized: 'ueng',
-  },
-  {
-    input: 'กลับบ้านไม่ถามแม่มึงดูว่ากูใคร',
-    romanized: 'klabbanmaithammaemuengduwakukhair',
-  },
-  {
-    input: 'นินะน่ารักจริงนะ',
-    romanized: 'ninanarakchringna',
-  },
-  {
-    input: 'เลิกเล่น',
-    romanized: 'loeklen',
-  },
-  {
-    input: 'คุณอันกุ่น',
-    romanized: 'khunankun',
-  },
-  {
-    input: 'โง่นัก - ZENTYARB',
-    romanized: 'ngonak - ZENTYARB',
-  },
-  {
-    input: 'อ้วน',
-    romanized: 'on',
-  },
-  {
-    input: 'ดำดีสีไม่ตก🦄',
-    romanized: 'damdisimaitok🦄',
-  },
-  {
-    input: 'Sky(เถียงทันหน่วง)',
-    romanized: 'Sky(thiangthanhnuang)',
-  },
-  {
-    input: 'จ้าวเซ็น✨',
-    romanized: 'chawsun✨',
-  },
-  {
-    input: 'วุ้นบูด🤞',
-    romanized: 'wunbud🤞',
-  },
-  {
-    input: 'เจ้ามันม่วง',
-    romanized: 'cheamanmuang',
-  },
-  {
-    input: 'ซี-วิท',
-    romanized: 'si-with',
-  },
-  {
-    input: 'ออม',
-    romanized: 'om',
-  },
-  {
-    input: 'วอว',
-    romanized: 'wow',
-  },
-  {
-    input: 'FC "โอน"',
-    romanized: 'FC "on"',
-  },
-  {
-    input: 'หมูปิ้ง',
-    romanized: 'hmuping',
-  },
-  {
-    input: 'ปีโป้',
-    romanized: 'pipo',
-  },
-  {
-    input: 'ไม่มีอะไรทำ',
-    romanized: 'maimiaraitham',
-  },
-  {
-    input: 'เต้าหู้ form China',
-    romanized: 'teahu form China',
-  },
-  {
-    input: 'งุงิ',
-    romanized: 'ngungi',
-  },
-  {
-    input: 'บะล๊กบะลั๊กกั๊กกะกกกอกอ๊อคออค',
-    romanized: 'balkbalakkakkakkkokokhokh',
-  },
-  {
-    input: 'วน',
-    romanized: 'won',
-  },
-  {
-    input: 'วอกน้อย',
-    romanized: 'woknoi',
-  },
-  {
-    input: 'ไข่เจียวของออมเล็ต',
-    romanized: 'khaichiaokhongoomlut',
-  },
-  {
-    input: 'อซฮ \'ㅅ\'',
-    romanized: 'sh \'ㅅ\'',
-  },
-  {
-    input: 'ก',
-    romanized: 'k',
-  },
-  {
-    input: 'รєє๔',
-    romanized: 'rєє4',
-  },
-  {
-    input: 'กนกก้อง',
-    romanized: 'kanokkong',
-  },
-  {
-    input: 'Ariøภ',
-    romanized: 'Ariøph',
-  },
-  {
-    input: 'หายตัว',
-    romanized: 'haitua',
-  },
-  {
-    input: 'หยั้ยไหยหยั๊ยยาา',
-    romanized: 'hyayhaihyayyaa',
-  },
-  {
-    input: 'ชิก้ามารุ',
-    romanized: 'chikamaru',
-  },
-  {
-    input: 'โฮ่งเหมียว',
-    romanized: 'honghemiyua',
-  },
-  {
-    input: 'วัยรุ่นขอบตาดำ',
-    romanized: 'wairunkhobtadam',
-  },
-  {
-    input: 'แมวเรืองแสง',
-    romanized: 'maeoruangsaeng',
-  },
-  {
-    input: 'แมรี่มี้',
-    romanized: 'maerimi',
-  },
-  {
-    input: 'น้องปลาเก๋า',
-    romanized: 'nongplakea',
-  },
-  {
-    input: 'มิว. ✈',
-    romanized: 'mio. ✈',
-  },
-  {
-    input: 'ϟ ๖  Duda 愛 ᴬᴷᵀ',
-    romanized: 'ϟ 6  Duda 愛 ᴬᴷᵀ',
-  },
-  {
-    input: 'หน่องเอฟฟี่',
-    romanized: 'nongeffi',
-  },
-  {
-    input: 'Miเคิล',
-    romanized: 'Mikhoel',
-  },
-  {
-    input: 'บู้บินได้ บินแบบไม่มีอะไรมากั้น',
-    romanized: 'bubindai binbaebmaimiaraimakan',
-  },
-  {
-    input: 'บะบะบิ',
-    romanized: 'bababi',
-  },
-  {
-    input: '๖̶̶̶ζ͜͡Demonikunꡳ҉̶͢͝ꦘ꦳ꦌ꦳',
-    romanized: '6̶̶̶ζ͜͡Demonikunꡳ҉̶͢͝ꦘ꦳ꦌ꦳',
-  },
-  {
-    input: 'หลับตลอดไป',
-    romanized: 'hlabtlodpai',
-  },
-  {
-    input: 'Ŧєคгɭאรร',
-    romanized: 'Ŧєkhгɭאrr',
-  },
-  {
-    input: 'ขาดเธอทำผมเบลอเหมือนขาดหุ้น',
-    romanized: 'khadthoethamphombelohemuenkhadhun',
-  },
-  {
-    input: 'ดูดม้าฟันหลอหรอ',
-    romanized: 'dudmafanhlohro',
-  },
-  {
-    input: 'ไอว้อนทูสะเตอะเวอจิ้น',
-    romanized: 'aiwonthusatoewoechin',
-  },
-  {
-    input: 'หนองโพ',
-    romanized: 'nongpho',
-  },
-  {
-    input: 'งั่มมม !!',
-    romanized: 'ngammm !!',
-  },
-  {
-    input: 'ηαчтσкร',
-    romanized: 'ηαчтσкr',
-  },
-  {
-    input: 'มา3อย่าถาม4',
-    romanized: 'ma3yatham4',
-  },
-  {
-    input: 'สมหมายชายแท้',
-    romanized: 'somhmaichaithae',
-  },
-  {
-    input: '! 𝔅𝔢𝔫𝔦𝔱𝔞๖ۣۜᴳᵒ',
-    romanized: '! 𝔅𝔢𝔫𝔦𝔱𝔞6ۣۜᴳᵒ',
-  },
-  {
-    input: 'บิ๊กจง',
-    romanized: 'bikchong',
-  },
-  {
-    input: 'empty คาเฟ่',
-    romanized: 'empty khafe',
-  },
-  {
-    input: 'จองลิซ',
-    romanized: 'chonglis',
-  },
-  {
-    input: 'อแปม',
-    romanized: 'paem',
-  },
-  {
-    input: 'ชีวิตอยากมี.....................',
-    romanized: 'chiwitoiakmi.....................',
-  },
-  {
-    input: 'เราเก่งมาก',
-    romanized: 'raokengmak',
-  },
-  {
-    input: 'รำคาญ?',
-    romanized: 'ramkhay?',
-  },
-  {
-    input: 'จี๊ดเลอ',
-    romanized: 'chidloe',
-  },
-  {
-    input: 'ระบบเติม Valorant โคตรซิ่ง',
-    romanized: 'rabbtoem Valorant khotrsing',
-  },
-  {
-    input: 'อะจึ้กกึ๋ยยยยยยยยยย',
-    romanized: 'achuekkueyyyyyyyyyy',
-  },
-  {
-    input: 'อ้นเทพซ่า 007',
-    romanized: 'onthephsa 007',
-  },
-  {
-    input: '🌈โนนา',
-    romanized: '🌈nona',
-  },
-  {
-    input: 'P\'parn NaJa  ป่าน(2)/25',
-    romanized: 'P\'parn NaJa  pan(2)/25',
-  },
-  {
-    input: 'ไม่มีตังค่าาาาา``',
-    romanized: 'maimitangkhaaaaa``',
-  },
-  {
-    input: 'ปะเย้',
-    romanized: 'paye',
-  },
-  {
-    input: 'ยูมิ',
-    romanized: 'yumi',
-  },
-  {
-    input: 'หมาหนม',
-    romanized: 'hmahnom',
-  },
-  {
-    input: 'สวัสดีท่านผู้เจริญ',
-    romanized: 'swasdithanphucheriy',
-  },
-  {
-    input: 'ยูกิ',
-    romanized: 'yuki',
-  },
-  {
-    input: '! √૯ทѳʍ !',
-    romanized: '! √૯thѳʍ !',
-  },
-  {
-    input: 'กวิน',
-    romanized: 'kwin',
-  },
-  {
-    input: 'เจ้าเคออ',
-    romanized: 'cheakhoe',
-  },
-  {
-    input: '🌸นุ่มนิ่ม.🌸',
-    romanized: '🌸numnim.🌸',
-  },
-  {
-    input: 'มาตามหาไก่ทอด',
-    romanized: 'matamahakaithod',
-  },
-  {
-    input: '!τнєυsiทнσ ࣪ ࣪ ࣪',
-    romanized: '!τнєυsithнσ ࣪ ࣪ ࣪',
-  },
-  {
-    input: 'บี เอ เอส',
-    romanized: 'bi e es',
-  },
-  {
-    input: '🐳แฟนแม่บ้าน',
-    romanized: '🐳faenmaeban',
-  },
-  {
-    input: 'นายเกิอดใหม่มารวยแน่',
-    romanized: 'naikoeodhaimmaruainae',
-  },
-  {
-    input: 'หัวดอ',
-    romanized: 'huado',
-  },
-  {
-    input: 'ชินจัง',
-    romanized: 'chinchang',
-  },
-  {
-    input: 'ฟดหดเห้ห้ห',
-    romanized: 'fodhdhehh',
-  },
-  {
-    input: 'ยิ้มม เธอทำได้อยู่แล้ว',
-    romanized: 'yimm thoethamdaiyulaew',
-  },
-  {
-    input: 'ชาเหมียว',
-    romanized: 'chahemiyua',
-  },
-  {
-    input: 'พี่เขาสุดเท่่',
-    romanized: 'phikhaosudthe',
-  },
-  {
-    input: 'มะลิ',
-    romanized: 'mali',
-  },
-  {
-    input: 'นุ้งมิ้ว',
-    romanized: 'nungmiw',
-  },
-  {
-    input: '๖̶̶̶ζ͜ᴍᴀɴɢᴇᴋʏᴏuჯ',
-    romanized: '6̶̶̶ζ͜ᴍᴀɴɢᴇᴋʏᴏuჯ',
-  },
-  {
-    input: 'จัดจ่าดดด',
-    romanized: 'chadchaddd',
-  },
-  {
-    input: 'มาจากสีเขียว🈯',
-    romanized: 'machaksikhiao🈯',
-  },
-  {
-    input: 'อันดา',
-    romanized: 'anda',
-  },
-  {
-    input: 'น๋องมอล',
-    romanized: 'nongmol',
-  },
-  {
-    input: '★꧁๖ۣۣۜ𝓓𝖆𝖗ҟ꧂★',
-    romanized: '★꧁6ۣۣۜ𝓓𝖆𝖗ҟ꧂★',
-  },
-  {
-    input: 'KUMAʕ•ᴥ•ʔ เด็กดีค้าบบบบบบบ',
-    romanized: 'KUMAʕ•ᴥ•ʔ dukdikhabbbbbbb',
-  },
-  {
-    input: 'ดูควยหน่อย',
-    romanized: 'dukhuaihnoi',
-  },
-  {
-    input: 'ชลบุรี สายซิ่ง',
-    romanized: 'chlburi saising',
-  },
-  {
-    input: 'ศิลปะ ไร้ขอบเขต',
-    romanized: 'silpa raikhobkhet',
-  },
-  {
-    input: 'ครับ',
-    romanized: 'khrab',
-  },
-  {
-    input: 'สวัสดีค้าบ',
-    romanized: 'swasdikhab',
-  },
-  {
-    input: 'โลมา',
-    romanized: 'loma',
-  },
-  {
-    input: 'ไอเวร',
-    romanized: 'aiwer',
-  },
-  {
-    input: 'บังจู งูนิดเดียว',
-    romanized: 'bangchu nguniddiao',
-  },
-  {
-    input: 'ผมง่วงครับ',
-    romanized: 'phomnguangkhrab',
-  },
-  {
-    input: 'คุณส้มส้ม',
-    romanized: 'khunsomsom',
-  },
-  {
-    input: 'ไข่ดาวเจียว',
-    romanized: 'khaidaochiao',
-  },
-  {
-    input: 'จะไปเดินเล่นบนดาวไม้ไผ่',
-    romanized: 'chapaidoenlenbondaomaiphai',
-  },
-  {
-    input: '⚡๖ۣۜ㉺DEMIﾂ⚡',
-    romanized: '⚡6ۣۜ㉺DEMIﾂ⚡',
-  },
-  {
-    input: 'ฮีโร่บาย ร่างโกรธสุดขีด',
-    romanized: 'hirobai rangkorthsudkhid',
-  },
-  {
-    input: 'คาโมโนฮาชิ รอน',
-    romanized: 'khamonohachi ron',
-  },
-  {
-    input: 'ประธานเบล',
-    romanized: 'prathanbel',
-  },
-  {
-    input: 'ด.ช.______________',
-    romanized: 'd.ch.______________',
-  },
-  {
-    input: 'หมู',
-    romanized: 'hmu',
-  },
-  {
-    input: 'น้องเกมตัวร้ายย',
-    romanized: 'nongkemtuarayy',
-  },
-  {
-    input: 'ฟิวน้อย',
-    romanized: 'fuainoi',
-  },
-  {
-    input: 'กระบี่คู่ ผู้พิชิต',
-    romanized: 'krabikhu phuphichit',
-  },
-  {
-    input: 'ฮัมตี้ดัมตี้',
-    romanized: 'hamtidamti',
-  },
-  {
-    input: 'โล้นซ่า',
-    romanized: 'lonsa',
-  },
-  {
-    input: 'แทนแท้น',
-    romanized: 'thaenthaen',
-  },
-  {
-    input: 'สยอง',
-    romanized: 'syong',
-  },
-  {
-    input: 'มองหา',
-    romanized: 'mongha',
-  },
-  {
-    input: 'หอดูดาวโฮชิมาจิ 💫',
-    romanized: 'hodudaohochimachi 💫',
-  },
-  {
-    input: 'ครูมอส',
-    romanized: 'khrumos',
-  },
-  {
-    input: 'เจ้าหนูจำไม🐭',
-    romanized: 'cheahnuchammai🐭',
-  },
-  {
-    input: 'ขี้ค่าคาราบาว',
-    romanized: 'khikhakharabao',
-  },
-  {
-    input: 'ตะแน่ว',
-    romanized: 'tanaew',
-  },
-  {
-    input: 'สุดคับรีให้',
-    romanized: 'sudkhabrihai',
-  },
-  {
-    input: 'พูล',
-    romanized: 'phul',
-  },
-  {
-    input: 'แซน :3',
-    romanized: 'saen :3',
-  },
-  {
-    input: 'นู๋โมโน ฮาทาริ',
-    romanized: 'numono hathari',
-  },
-  {
-    input: '๖ۣۜAntinonymous',
-    romanized: '6ۣۜAntinonymous',
-  },
-  {
-    input: 'คิม จุ๊กกุ้',
-    romanized: 'khim chukku',
-  },
-  {
-    input: 'น้องเก๋า',
-    romanized: 'nongkea',
-  },
-  {
-    input: 'Z\'Gok II ตัวจริง',
-    romanized: 'Z\'Gok II tuachring',
-  },
-  {
-    input: 'พาลอยมีอัลลัย',
-    romanized: 'phaloimiallai',
-  },
-  {
-    input: '๋࣭⋆⁺₊𝖑𝖎𝖓𝖆',
-    romanized: '࣭⋆⁺₊𝖑𝖎𝖓𝖆',
-  },
-  {
-    input: 'เข้าสู่ห้วงนิทรา 🌙✨',
-    romanized: 'kheasuhwongnithra 🌙✨',
-  },
-  {
-    input: 'เด็กเอ๋อ',
-    romanized: 'duke',
-  },
-  {
-    input: 'วาโรมั้ยอ้าย',
-    romanized: 'waromayoay',
-  },
-  {
-    input: 'กุอะรุ่นเก้า',
-    romanized: 'kuarunkea',
-  },
-  {
-    input: '่Cyas.74',
-    romanized: 'Cyas.74',
-  },
-  {
-    input: 'มัมหมีน้อนหมีเนย🐻',
-    romanized: 'mamhminonhminoei🐻',
-  },
-  {
-    input: 'หรอยเลยเจ้า',
-    romanized: 'hroiloeichea',
-  },
-  {
-    input: 'พีน้อย1มิล',
-    romanized: 'phinoi1mil',
-  },
-  {
-    input: 'นกพิราบ',
-    romanized: 'nokphirab',
-  },
-  {
-    input: 'ฟอฟอ',
-    romanized: 'fofo',
-  },
-  {
-    input: 'ตัวผมไร้ขนมคงหิว',
-    romanized: 'tuaphomraikhnomkhonghio',
-  },
-  {
-    input: 'โคโคมิยะ',
-    romanized: 'khokhomiya',
-  },
-  {
-    input: 'โจรบราซิล',
-    romanized: 'chobrasil',
-  },
-  {
-    input: 'กล้วยหอมจอมซน',
-    romanized: 'klwyhomchomson',
-  },
-  {
-    input: 'สามหก',
-    romanized: 'samhok',
-  },
-  {
-    input: 'อ้ายอวบบ',
-    romanized: 'ayowbb',
-  },
-  {
-    input: 'ไททันปอ',
-    romanized: 'thaithanpo',
-  },
-  {
-    input: 'เอ่าเห้ย',
-    romanized: 'ahey',
-  },
-  {
-    input: 'ოﻨĸձﻨl  |  սռսรεժռεժ',
-    romanized: 'ოﻨĸձﻨl  |  սռսrεժռεժ',
-  },
-  {
-    input: '🧁 ꜜ ᎒ ๑₍ᐢ..ᐢ₎',
-    romanized: '🧁 ꜜ ᎒ 1₍ᐢ..ᐢ₎',
-  },
-  {
-    input: 'นายสะเหล่อ',
-    romanized: 'naisale',
-  },
-  {
-    input: 'ɱ૯ςคՐ੮Һɿɱ-ც',
-    romanized: 'ɱ૯ςkhՐ੮Һɿɱ-ც',
-  },
-  {
-    input: 'น้อนหมูหยอง',
-    romanized: 'nonhmuhyong',
-  },
-  {
-    input: 'โต้โฟ',
-    romanized: 'tofo',
-  },
-  {
-    input: 'ﮩ٨ـﮩﮩ٨ـᘜส𝔟𝓻ḭᶓ𝙡𝙡ﮩ٨ـﮩﮩ٨ـ',
-    romanized: 'ﮩ٨ـﮩﮩ٨ـᘜs𝔟𝓻ḭᶓ𝙡𝙡ﮩ٨ـﮩﮩ٨ـ',
-  },
-  {
-    input: 'ป่านมีพฤติกรรมลอกเลียนแบบ',
-    romanized: 'panmiphruetikamloklianbaeb',
-  },
-  {
-    input: '✎☣♕ώA ҉ しじ✥Є ❧ วี♚☬㎯',
-    romanized: '✎☣♕ώA ҉ しじ✥Є ❧ wi♚☬㎯',
-  },
-  {
-    input: 'แม่มึงเก่งสุด',
-    romanized: 'maemuengkengsud',
-  },
-  {
-    input: 'ดิวดิ่วดิ้วดิ๊วดิ๋ว',
-    romanized: 'diwdiwdiwdiwdiw',
-  },
-  {
-    input: 'สิงหา.',
-    romanized: 'singha.',
-  },
-  {
-    input: 'ควยเคริง',
-    romanized: 'khuaikhering',
-  },
-  {
-    input: '﹆ ⁺₊ ลูกแพร ˎˊ˗',
-    romanized: '﹆ ⁺₊ lukphaer ˎˊ˗',
-  },
-  {
-    input: '❥๖Capitão๖',
-    romanized: '❥6Capitão6',
-  },
-  {
-    input: 'ดิสโดนhack',
-    romanized: 'disdonhack',
-  },
-  {
-    input: 'Zaberคุง',
-    romanized: 'Zaberkhung',
-  },
-  {
-    input: 'Asst. Prof. Dr. หม่า',
-    romanized: 'Asst. Prof. Dr. hma',
-  },
-  {
-    input: 'ชีแก๊ก',
-    romanized: 'chikaek',
-  },
-  {
-    input: '⋆ มู้ววว ♡̶',
-    romanized: '⋆ muwuaw ♡̶',
-  },
-  {
-    input: 'หวาดดีฮ้าฟ',
-    romanized: 'hwaddihaf',
-  },
-  {
-    input: 'เด้น',
-    romanized: 'den',
-  },
-  {
-    input: 'ฅᨐฅ',
-    romanized: 'khᨐkh',
-  },
-  {
-    input: 'ขันที ที่ไม่ขัน',
-    romanized: 'khanthi thimaikhan',
-  },
-  {
-    input: 'คำคมบาดแผล',
-    romanized: 'khamkhombadphael',
-  },
-  {
-    input: 'น้องเจนดึกกี้',
-    romanized: 'nongchenduekki',
-  },
-  {
-    input: 'ยุงบินหรือยุงเดิน?',
-    romanized: 'yungbinhrueyungdoen?',
-  },
-  {
-    input: 'แว ยู ฟันปลอม?',
-    romanized: 'wae yu fanplom?',
-  },
-  {
-    input: 'Hauru (๑• . •๑)',
-    romanized: 'Hauru (1• . •1)',
-  },
-  {
-    input: 'จ้อน',
-    romanized: 'chon',
-  },
-  {
-    input: 'กูว่าแล้วมึงต้องอ่าน',
-    romanized: 'kuwalaewmuengtongan',
-  },
-  {
-    input: 'เซฟ',
-    romanized: 'sef',
-  },
-  {
-    input: 'แมวง่วง',
-    romanized: 'maeonguang',
-  },
-  {
-    input: 'งูงุ้ยฮุยจุยงาา',
-    romanized: 'ngunguyhuichuingaa',
-  },
-  {
-    input: '๖̶̶̶ζ͜͡ᴍᴀᴅᴀʀᴀ 天',
-    romanized: '6̶̶̶ζ͜͡ᴍᴀᴅᴀʀᴀ 天',
-  },
-  {
-    input: 'เกลเดซิบ้อง',
-    romanized: 'keldesibong',
-  },
-  {
-    input: '悲しみ [คะนะชิมิ] ความเศร้าโศก',
-    romanized: '悲しみ [khanachimi] khwamsaosok',
-  },
-  {
-    input: 'หนุ่มรูปงาม',
-    romanized: 'hnumrupngam',
-  },
-  {
-    input: 'เลิกบูลลี่แก้มฉัน !!!!!',
-    romanized: 'loekbullikaemchan !!!!!',
-  },
-  {
-    input: 'บาบูด',
-    romanized: 'babud',
-  },
-  {
-    input: 'อย่าทำให้ผมโกด',
-    romanized: 'yathamhaiphomkod',
-  },
-  {
-    input: 'เซียนไพ่ที่แพ้ริสุครั้งที่ 3',
-    romanized: 'sianphaithiphaerisukhrangthi 3',
-  },
-  {
-    input: 'Luภα❥',
-    romanized: 'Luphα❥',
-  },
-  {
-    input: 'หมาเฉิน',
-    romanized: 'hmachoen',
-  },
-  {
-    input: 'มุแง้༼ つ ◕_◕ ༽つ',
-    romanized: 'mungae༼ つ ◕_◕ ༽つ',
-  },
-  {
-    input: 'ไอน้อง',
-    romanized: 'ainong',
-  },
-  {
-    input: 'เจ',
-    romanized: 'che',
-  },
-  {
-    input: 'น้อนบู้บี้',
-    romanized: 'nonbubi',
-  },
-  {
-    input: 'กระผมนายวรชาน วงชายชานชัยช่งชัน',
-    romanized: 'kraphomnaiwrchan wongchaichanchaichngchan',
-  },
-  {
-    input: '蝴蝶忍(๑• . •๑)',
-    romanized: '蝴蝶忍(1• . •1)',
-  },
-  {
-    input: 'เปิ้ล',
-    romanized: 'poel',
-  },
-  {
-    input: 'เธอ',
-    romanized: 'thoe',
-  },
-  {
-    input: 'แซ่มแล่ม',
-    romanized: 'saemlaem',
-  },
-  {
-    input: 'อาโมจินเยลล',
-    romanized: 'amochinyell',
-  },
-  {
-    input: 'PoroTHEPSSA007 (Poroเทพซ่า007)',
-    romanized: 'PoroTHEPSSA007 (Porothephsa007)',
-  },
-  {
-    input: 'แกงพะแนง',
-    romanized: 'kaengphanaeng',
-  },
-  {
-    input: 'ออซอ',
-    romanized: 'oso',
-  },
-  {
-    input: 'พี่หมี🐻',
-    romanized: 'phihmi🐻',
-  },
-  {
-    input: 'น้องปลาเค็มของพี่',
-    romanized: 'nongplakhumkhongphi',
-  },
-  {
-    input: 'ตกจนท้อขอนอนต่อดีกว่าไหม',
-    romanized: 'tokchonthkhonontodikwahaim',
-  },
-  {
-    input: 'เต็มสิบหักหมด',
-    romanized: 'temsibhakmod',
-  },
-  {
-    input: 'ทาด๊าาาาาาาาาา',
-    romanized: 'thadaaaaaaaaaa',
-  },
-  {
-    input: 'กิโรโระ',
-    romanized: 'kiroro',
-  },
-  {
-    input: 'ไมกั่น',
-    romanized: 'maikan',
-  },
-  {
-    input: 'Suiinetaihennゞ💐(ตุ้ยนุ้ย)',
-    romanized: 'Suiinetaihennゞ💐(tuynuy)',
-  },
-  {
-    input: 'มะวิ้งมะแว๊บ',
-    romanized: 'mawingmawaeb',
-  },
-  {
-    input: 'โกโก้กล้วย_🍌',
-    romanized: 'kokoklwy_🍌',
-  },
-  {
-    input: 'กัร',
-    romanized: 'kar',
-  },
-  {
-    input: 'ผมคือผู้วิเศษ',
-    romanized: 'phomkhuephuwises',
-  },
-  {
-    input: 'ค้าน',
-    romanized: 'khan',
-  },
-  {
-    input: 'รantymïg_ 🏰',
-    romanized: 'rantymïg_ 🏰',
-  },
-  {
-    input: 'ฝุ่นมันเข้าตา',
-    romanized: 'funmankheata',
-  },
-  {
-    input: 'พนักงานขายประกัน',
-    romanized: 'phnakngankhaiprakan',
-  },
-  {
-    input: 'ดีงับ',
-    romanized: 'dingab',
-  },
-  {
-    input: 'ทีมมี่',
-    romanized: 'thimmi',
-  },
-  {
-    input: 'อ๋วง',
-    romanized: 'uang',
-  },
-  {
-    input: 'นายปากกา',
-    romanized: 'naipakka',
-  },
-  {
-    input: 'เชเช่',
-    romanized: 'cheche',
-  },
-  {
-    input: 'ตอนู',
-    romanized: 'tonu',
-  },
-  {
-    input: 'อีห่านี่  ปากน่าโดนตีนปุดปุดกั๊บ',
-    romanized: 'ihani  paknadontinpudpudkab',
-  },
-  {
-    input: 'หนู',
-    romanized: 'hnu',
-  },
-  {
-    input: 'สมิตรา',
-    romanized: 'smitra',
-  },
-  {
-    input: 'Kunกัน',
-    romanized: 'Kunkan',
-  },
-  {
-    input: 'คุ คี คัง คาม',
-    romanized: 'khu khi khang kham',
-  },
-  {
-    input: 'นกเดินดิน',
-    romanized: 'nokdoendin',
-  },
-  {
-    input: 'ธรรมะกระตุกจิตกระชากใจ',
-    romanized: 'thamakratukchitokrachakchai',
-  },
-  {
-    input: 'คิดเชิงทดลอง',
-    romanized: 'khidchoengthodlong',
-  },
-  {
-    input: 'โต้',
-    romanized: 'to',
-  },
-  {
-    input: 'มาโร',
-    romanized: 'maro',
-  },
-  {
-    input: 'หัวใจของเธอมิกิขอนะ💙',
-    romanized: 'huachaikhongthoemikikhona💙',
-  },
-  {
-    input: 'คุณท่านขนมต้มโอบทหารราบ',
-    romanized: 'khunthankhnomtomobthahanrab',
-  },
-  {
-    input: 'น้องดัง',
-    romanized: 'nongdang',
-  },
-  {
-    input: 'แบดบอย',
-    romanized: 'baedboi',
-  },
-  {
-    input: 'โอเคร สุดหล่อ',
-    romanized: 'okher sudlo',
-  },
-  {
-    input: 'ใข่เจียว',
-    romanized: 'khaichiao',
-  },
-  {
-    input: 'kikค',
-    romanized: 'kikkh',
-  },
-  {
-    input: 'อ้อมกอด<3',
-    romanized: 'omkod<3',
-  },
-  {
-    input: 'มุแง้ด',
-    romanized: 'mungaed',
-  },
-  {
-    input: 'ของแบบนี้นี่รักเลย',
-    romanized: 'khongbaebninirakloei',
-  },
-  {
-    input: 'ઝ¡ทg -૮ѳѳℓ_gαʍ૯૨54',
-    romanized: 'ઝ¡thg -૮ѳѳℓ_gαʍ૯૨54',
-  },
-  {
-    input: 'ไม่ใช่หนาาา',
-    romanized: 'maichaihnaaa',
-  },
-  {
-    input: 'บุ้งกี๋',
-    romanized: 'bungki',
-  },
-  {
-    input: 'พ่อบ้าน切妻・ファン🥀',
-    romanized: 'phoban切妻・ファン🥀',
-  },
-  {
-    input: 'กัปตัน โดนแบน',
-    romanized: 'kaptan donbaen',
-  },
-  {
-    input: 'มันคือแป้ง',
-    romanized: 'mankhuepaeng',
-  },
-  {
-    input: 'โก๋ยโต๋ย',
-    romanized: 'koytoy',
-  },
-  {
-    input: 'โต้เทพในเงา ราชามังกรบนมือขวา',
-    romanized: 'tothephnaingao rachamangokrbonmuekhuaa',
-  },
-  {
-    input: 'โฮกปิป',
-    romanized: 'hokpip',
-  },
-  {
-    input: 'โลมา',
-    romanized: 'loma',
-  },
-  {
-    input: 'ชัคกี้เด็กดี',
-    romanized: 'chakhkidukdi',
-  },
-  {
-    input: 'นอยwa',
-    romanized: 'noiwa',
-  },
-  {
-    input: 'อาฉิงชี่',
-    romanized: 'achingchi',
-  },
-  {
-    input: 'พิกกี้บู้',
-    romanized: 'phikkibu',
-  },
-  {
-    input: '่่๋Jane Janebhop',
-    romanized: 'Jane Janebhop',
-  },
-  {
-    input: 'ฉันนินิว',
-    romanized: 'channinio',
-  },
-  {
-    input: 'ยู มัง กะ ซอ',
-    romanized: 'yu mang ka so',
-  },
-  {
-    input: 'พายมึงต้อ',
-    romanized: 'phaimuengt',
-  },
-  {
-    input: 'กินนมก่อนนอนนะ!',
-    romanized: 'kinnomkonnonna!',
-  },
-  {
-    input: '£₹💷❄🧊🧋ไอ้เจv1🌠❗',
-    romanized: '£₹💷❄🧊🧋aichev1🌠❗',
-  },
-  {
-    input: 'ไอลาา',
-    romanized: 'ailaa',
-  },
-  {
-    input: 'ชินาม่อนนนน',
-    romanized: 'chinamonnnn',
-  },
-  {
-    input: 'ขจร',
-    romanized: 'khchr',
-  },
-  {
-    input: 'บริกรชาย',
-    romanized: 'brikrchai',
-  },
-  {
-    input: 'อย่ามาอยู่กับกุ้ง',
-    romanized: 'yamayukabkung',
-  },
-  {
-    input: 'สมดุ๋ย',
-    romanized: 'somduy',
-  },
-  {
-    input: 'รู้อยู้สบู่ไทย',
-    romanized: 'ruyusbuthai',
-  },
-  {
-    input: 'อัยแม้ว',
-    romanized: 'aymaew',
-  },
-  {
-    input: 'คุณกิตติ',
-    romanized: 'khunkitti',
-  },
-  {
-    input: 'มอเฟียส',
-    romanized: 'mofias',
-  },
-  {
-    input: 'ฉันคืออาตี๋',
-    romanized: 'chankhueati',
-  },
-  {
-    input: 'คุณบอล',
-    romanized: 'khunbol',
-  },
-  {
-    input: 'ชาไทยขลั่ยหมาสำหรับน้องมุก',
-    romanized: 'chathaikhlaihmasamhrabnongmuk',
-  },
-  {
-    input: 'เห็ดหอมแมวเป้า',
-    romanized: 'hedhommaeopea',
-  },
-  {
-    input: 'หมูทอดlover',
-    romanized: 'hmuthodlover',
-  },
-  {
-    input: 'มัมมามี่ย่าาาาา',
-    romanized: 'mammamiyaaaaa',
-  },
-  {
-    input: 'ตุ๋ยเอง',
-    romanized: 'tuyeng',
-  },
-  {
-    input: 'พี่หน่วง',
-    romanized: 'phihnuang',
-  },
-  {
-    input: 'จิตปล่อยวาง',
-    romanized: 'chitploiwang',
-  },
-  {
-    input: 'คɭєรเคシ',
-    romanized: 'khɭєrkheシ',
-  },
-  {
-    input: 'ส้มส้ม',
-    romanized: 'somsom',
-  },
-  {
-    input: 'ปลาทูหาย',
-    romanized: 'plathuhai',
-  },
-  {
-    input: 'CQC อวกาศไม้ตียุง',
-    romanized: 'CQC uakasmaitiyung',
-  },
-  {
-    input: 'นอนได้แล้ว',
-    romanized: 'nondailaew',
-  },
-  {
-    input: '29วันลาบ',
-    romanized: '29wanlab',
-  },
-  {
-    input: 'ช่องคลอด',
-    romanized: 'chongkhlod',
-  },
-  {
-    input: 'ซึม:7',
-    romanized: 'suem:7',
-  },
-  {
-    input: 'น้องแพรพีพีพีอาเอ้ก',
-    romanized: 'nongphaerphiphiphiaek',
-  },
-  {
-    input: 'สนองยุพิณ',
-    romanized: 'snongyuphin',
-  },
-  {
-    input: 'ข้าวเหนียวข้าวเหนียว',
-    romanized: 'khawheniyuakhawheniyua',
-  },
-  {
-    input: 'ตวย',
-    romanized: 'tuai',
-  },
-  {
-    input: 'ร𝒽∂ค𝐍ч𝓏Đ',
-    romanized: 'r𝒽∂kh𝐍ч𝓏Đ',
-  },
-  {
-    input: 'Maka (มากะ)',
-    romanized: 'Maka (maka)',
-  },
-  {
-    input: 'nymph 𓏲๋',
-    romanized: 'nymph 𓏲',
-  },
-  {
-    input: 'ชีวิต❤',
-    romanized: 'chiwit❤',
-  },
-  {
-    input: 'สว่างแดนดิน',
-    romanized: 'swangdaendin',
-  },
-  {
-    input: 'มุซาชิ#6666',
-    romanized: 'musachi#6666',
-  },
-  {
-    input: 'ความรักมันคืออะไร',
-    romanized: 'khwamrakmankhuearai',
-  },
-  {
-    input: 'ไอ้กล้วย',
-    romanized: 'aiklwy',
-  },
-  {
-    input: 'กล้วยอบเนยโรยเกลือ',
-    romanized: 'klwyobnoeiroikelue',
-  },
-  {
-    input: 'ปิ้งไก่',
-    romanized: 'pingkai',
-  },
-  {
-    input: '₊˚ ᨳ ୨`🍯`୧ Mew ๑₊˚',
-    romanized: '₊˚ ᨳ ୨`🍯`୧ Mew 1₊˚',
-  },
-  {
-    input: 'ฟ้ารักพ่อ',
-    romanized: 'farakpho',
-  },
-  {
-    input: 'เพ็ดดีกรีอร่อยดี',
-    romanized: 'phuddikriroidi',
-  },
-  {
-    input: 'สม.ที่แปลว่าสัดมีน',
-    romanized: 'som.thipaeluaasadmin',
-  },
-  {
-    input: 'ฮา เดส.',
-    romanized: 'ha des.',
-  },
-  {
-    input: 'ดำเดิง',
-    romanized: 'damdoeng',
-  },
-  {
-    input: 'อยากติดจุฬา',
-    romanized: 'yaktidchula',
-  },
-  {
-    input: 'เอราบาบี',
-    romanized: 'erababi',
-  },
-  {
-    input: 'ซง จุงกิต',
-    romanized: 'song chungkit',
-  },
-  {
-    input: 'นิติง่ายกี่โมง',
-    romanized: 'nitingaikimong',
-  },
-  {
-    input: 'ฮัมตี้ดัมตี้',
-    romanized: 'hamtidamti',
-  },
-  {
-    input: 'โกโก้ปั่นตราตุ๊กแก',
-    romanized: 'kokopantratukkae',
-  },
-  {
-    input: 'ใข่มุก....อิอิ',
-    romanized: 'khaimuk....ii',
-  },
-  {
-    input: 'SoDiumเองงับ',
-    romanized: 'SoDiumengngab',
-  },
-  {
-    input: 'เบนจี สมีทาว',
-    romanized: 'benchi smithao',
-  },
-  {
-    input: 'หยักกินป๋องแป๋ง~~',
-    romanized: 'hyakkinpongpaeng~~',
-  },
-  {
-    input: 'ปิงราชานรก',
-    romanized: 'pingrachanrok',
-  },
-  {
-    input: 'รินรักท่านนายพลเฟยเซียว',
-    romanized: 'rinrakthannaiphlfaoeisiao',
-  },
-  {
-    input: 'พวกกุเด็กพระนคร Underground',
-    romanized: 'phuakkudukphrankhr Underground',
-  },
-  {
-    input: 'ก๋าตุ๋ย🐰',
-    romanized: 'katuy🐰',
-  },
-  {
-    input: 'ร้อยคนทักผมรักพ่อหลวง',
-    romanized: 'roikhonthakphomrakphohluang',
-  },
-  {
-    input: 'ไม่รู้อะไร',
-    romanized: 'mairuarai',
-  },
-  {
-    input: 'ขนม มี รู',
-    romanized: 'khnom mi ru',
-  },
-  {
-    input: 'อะตี๋',
-    romanized: 'ati',
-  },
-  {
-    input: 'ขอยาดดAxe,nA.',
-    romanized: 'khoiaddAxe,nA.',
-  },
-  {
-    input: 'นอย',
-    romanized: 'noi',
-  },
-  {
-    input: 'จ้า',
-    romanized: 'cha',
-  },
-  {
-    input: 'ปลิดปลิวดั่งใบไม้ร่วง',
-    romanized: 'plidpliodangbaimairuang',
-  },
-  {
-    input: 'ชอบกินมิ้นช้อค',
-    romanized: 'chobkinminchkh',
-  },
-  {
-    input: 'ยโสdo not eat',
-    romanized: 'ysodo not eat',
-  },
-  {
-    input: 'ดุ๋ย',
-    romanized: 'duy',
-  },
-  {
-    input: 'มะม๋า',
-    romanized: 'mama',
-  },
-  {
-    input: 'อาบูดดาบี้',
-    romanized: 'abuddabi',
-  },
-  {
-    input: '【✨⋆≽ᕕทᴛ҈ᴴδภყ≼⋆⚡】',
-    romanized: '【✨⋆≽ᕕthᴛ҈ᴴδphყ≼⋆⚡】',
-  },
-  {
-    input: 'เมฆ',
-    romanized: 'mekh',
-  },
-  {
-    input: 'แล้วแต่ชอบ',
-    romanized: 'laewtaechob',
-  },
-  {
-    input: '💗(/◕ヮ◕)/💗✦(โม)✦',
-    romanized: '💗(/◕ヮ◕)/💗✦(mo)✦',
-  },
-  {
-    input: 'ปุ๊กปิ๊ก',
-    romanized: 'pukpik',
-  },
-  {
-    input: 'ผีหลอกวิญญาณหลอน',
-    romanized: 'phihlokwiyyanhlon',
-  },
-  {
-    input: 'ไอฟิ้ดเกตูด',
-    romanized: 'aifidketud',
-  },
-  {
-    input: 'อ้นนนนนน~~~~~',
-    romanized: 'nnnnnn~~~~~',
-  },
-  {
-    input: 'กระต่ายหูตก ! ୨ৎ',
-    romanized: 'krataihutok ! ୨ৎ',
-  },
-  {
-    input: 'MUTUKEK ชายที่กลับมาจากนรก',
-    romanized: 'MUTUKEK chaithiklabmachakonrok',
-  },
-  {
-    input: 'ข้าวต้มปลาวาฬ',
-    romanized: 'khawtomplaoal',
-  },
-  {
-    input: 'Arm ลูคีเมีย',
-    romanized: 'Arm lukhimia',
-  },
-  {
-    input: 'เจ็บจากเขา โทรหาเราได้',
-    romanized: 'chubchakkhao thorharaodai',
-  },
-  {
-    input: 'หวาย',
-    romanized: 'hwai',
-  },
-  {
-    input: 'พีเองไอ้น้อง',
-    romanized: 'phiengainong',
-  },
-  {
-    input: 'อร่อย',
-    romanized: 'roi',
-  },
-  {
-    input: 'มะหมวย',
-    romanized: 'mahmuai',
-  },
-  {
-    input: 'ต้นสน',
-    romanized: 'tonsn',
-  },
-  {
-    input: 'ถถถถถถ',
-    romanized: 'thththththth',
-  },
-  {
-    input: 'อรุ้ยจร้าา 👌😍',
-    romanized: 'ruychraa 👌😍',
-  },
-  {
-    input: 'กูจะบ้า',
-    romanized: 'kuchaba',
-  },
-  {
-    input: 'แอ๋ว',
-    romanized: 'aew',
-  },
-  {
-    input: 'แมวฟ้า',
-    romanized: 'maeofa',
-  },
-  {
-    input: 'ไอ้ดุ่ย',
-    romanized: 'aidui',
-  },
-  {
-    input: 'ลูกพระเจ้าตาก',
-    romanized: 'lukphracheatak',
-  },
-  {
-    input: 'ญาญ่าญ้าญ๊าญ๋า',
-    romanized: 'yayayayaya',
-  },
-  {
-    input: 'ไอ่แพร',
-    romanized: 'aiphaer',
-  },
-  {
-    input: 'อย่ายุ่งดิ้!!!',
-    romanized: 'yaingdi!!!',
-  },
-  {
-    input: 'ข้าวจ่าว',
-    romanized: 'khawchao',
-  },
-  {
-    input: 'ปลุกกู',
-    romanized: 'plukku',
-  },
-  {
-    input: 'ต้าวหมาส้ม',
-    romanized: 'tawhmasom',
-  },
-  {
-    input: 'นักเล่านิทาน',
-    romanized: 'naklaonithan',
-  },
-  {
-    input: 'น้องมี่',
-    romanized: 'nongmi',
-  },
-  {
-    input: 'อ้ายส่งสุดแขน เขาแทงสุดโคน',
-    romanized: 'aysongsudkhaen khaothaengsudkhon',
-  },
-  {
-    input: 'เปลี่ยนทำไมก่อน',
-    romanized: 'peliyonthammaikon',
-  },
-  {
-    input: 'มวย',
-    romanized: 'muai',
-  },
-  {
-    input: 'ตี๋ใหญ่',
-    romanized: 'tihaiy',
-  },
-  {
-    input: 'รุ้',
-    romanized: 'ru',
-  },
-  {
-    input: 'อีกานdekhere',
-    romanized: 'ikandekhere',
-  },
-  {
-    input: 'แพนนี่ขยี้ใบ',
-    romanized: 'phaennikhyibai',
-  },
-  {
-    input: 'แบทแมน',
-    romanized: 'baethmaen',
-  },
-  {
-    input: 'โน่ ท้ายอโรสม่า',
-    romanized: 'no thayorosma',
-  },
-  {
-    input: 'โอ่งตูมต้าม',
-    romanized: 'ongtumtam',
-  },
-  {
-    input: '30 สิงหา',
-    romanized: '30 singha',
-  },
-  {
-    input: 'แบทแมว',
-    romanized: 'baethmaeo',
-  },
-  {
-    input: 'มอลานะมาลีก',
-    romanized: 'molanamalik',
-  },
-  {
-    input: 'กินท่อม ไปค่อมเธอ',
-    romanized: 'kinthom paikhomthoe',
-  },
-  {
-    input: 'meow - อ่าน berserk',
-    romanized: 'meow - an berserk',
-  },
-  {
-    input: 'ป๋าโลมา',
-    romanized: 'paloma',
-  },
-  {
-    input: 'กุยช่าย',
-    romanized: 'kuichai',
-  },
-  {
-    input: 'กาหนกวัน',
-    romanized: 'kahnokwan',
-  },
-  {
-    input: 'โอปอ',
-    romanized: 'opo',
-  },
-  {
-    input: 'กูจะบ้า',
-    romanized: 'kuchaba',
-  },
-  {
-    input: 'มุดสังกำลังทำวิจัย',
-    romanized: 'mudsangkamlangthamwichai',
-  },
-  {
-    input: 'หมูหมึกกุ้ง',
-    romanized: 'hmuhmuekkung',
-  },
-  {
-    input: 'มันอร่อยมากกกกกกก',
-    romanized: 'manoroimakkkkkkk',
-  },
-  {
-    input: 'ไก๋ไก่',
-    romanized: 'kaikai',
-  },
-  {
-    input: 'ต๋อง',
-    romanized: 'tong',
-  },
-  {
-    input: 'สยามเดม',
-    romanized: 'syamdem',
-  },
-  {
-    input: 'ค๊อก ค๊อก',
-    romanized: 'khok khok',
-  },
-  {
-    input: 'ไม่รู้ไม่บอก',
-    romanized: 'mairumaibok',
-  },
-  {
-    input: 'พอจอ',
-    romanized: 'phocho',
-  },
-  {
-    input: '۞𝕐𝕒𝕟۞ฅ^•ﻌ•^ฅ',
-    romanized: '۞𝕐𝕒𝕟۞kh^•ﻌ•^kh',
-  },
-  {
-    input: 'จุ๋มจิ๋ม',
-    romanized: 'chumchim',
-  },
-  {
-    input: 'ไร้นาม',
-    romanized: 'rainam',
-  },
-  {
-    input: 'บังเอง',
-    romanized: 'bangeng',
-  },
-  {
-    input: 'I have แม่ลิง',
-    romanized: 'I have maeling',
-  },
-  {
-    input: 'โหมดไม่ระบุตัวตน',
-    romanized: 'modemairabutuaton',
-  },
-  {
-    input: 'แมวเด๋อ',
-    romanized: 'maeode',
-  },
-  {
-    input: 'แมวส๊มมมมม',
-    romanized: 'maeosmmmmm',
-  },
-  {
-    input: 'ย้ายดิส',
-    romanized: 'yaydis',
-  },
-  {
-    input: 'น้องออนิว',
-    romanized: 'nongonio',
-  },
-  {
-    input: 'ยาหยี',
-    romanized: 'yahyi',
-  },
-  {
-    input: 'เลิกเล่นละ',
-    romanized: 'loeklenla',
-  },
-  {
-    input: 'เป็นผง',
-    romanized: 'punphong',
-  },
-  {
-    input: 'บีม.',
-    romanized: 'bim.',
-  },
-  {
-    input: 'วิปครีม',
-    romanized: 'wipkhrim',
-  },
-  {
-    input: 'ฮีฮี่~~~~',
-    romanized: 'hihi~~~~',
-  },
-  {
-    input: 'นิสิต',
-    romanized: 'nisit',
-  },
-  {
-    input: 'ติ๋ม',
-    romanized: 'tim',
-  },
-  {
-    input: 'จอจิ๊บ',
-    romanized: 'chochib',
-  },
-  {
-    input: 'ททชชชชชชช',
-    romanized: 'ththchchchchchchch',
-  },
-  {
-    input: 'มาเฟียไดโน',
-    romanized: 'mafiadaino',
-  },
-  {
-    input: 'หลวงพี่ลีจัดให้',
-    romanized: 'hluangphilichadhai',
-  },
-  {
-    input: 'เจเจเจ',
-    romanized: 'checheche',
-  },
-  {
-    input: 'ข้าวเกรียบกุ้ง',
-    romanized: 'khawkriapkung',
-  },
-  {
-    input: 'สะม๋อยต๋อย',
-    romanized: 'samoitoi',
-  },
-  {
-    input: 'แป๋ว',
-    romanized: 'paew',
-  },
-  {
-    input: 'เลิกปากหมาไอ้ควาย',
-    romanized: 'loekpakhmaaikhwai',
-  },
-  {
-    input: 'ตบขยะ',
-    romanized: 'tobkhya',
-  },
-  {
-    input: 'โก๋ยโต๋ยเรือ',
-    romanized: 'koytoyrua',
-  },
-  {
-    input: 'นอยเองหายเอง',
-    romanized: 'noienghaieng',
-  },
-  {
-    input: 'Dia ฅ^•ﻌ•^ฅ',
-    romanized: 'Dia kh^•ﻌ•^kh',
-  },
-  {
-    input: 'หน้าไม่ผ่านเขาเลยอ่านไม่ตอบ',
-    romanized: 'namaiphankhaoloeianmaitob',
-  },
-  {
-    input: 'ผัดไทยใส่เป็ด',
-    romanized: 'phadthaisaipud',
-  },
-  {
-    input: 'นปนปนปนปนป',
-    romanized: 'nponponponponp',
-  },
-  {
-    input: 'เอมมี่เองคะบ',
-    romanized: 'emmiengkhab',
-  },
-  {
-    input: 'มาเฟียหาดใหญ่',
-    romanized: 'mafiahadhaiy',
-  },
-  {
-    input: 'เอลซ่า',
-    romanized: 'elsa',
-  },
-  {
-    input: 'ต้น',
-    romanized: 'ton',
-  },
-  {
-    input: 'เกินปุ้ยมุ้ย',
-    romanized: 'koenpuymuy',
-  },
-  {
-    input: 'มุแง',
-    romanized: 'mungae',
-  },
-  {
-    input: 'งดเกมครับ หมดสภาพ',
-    romanized: 'ngodkemkhrab modsphaph',
-  },
-  {
-    input: 'สับปะโร้ด🤩',
-    romanized: 'sabparod🤩',
-  },
-  {
-    input: 'ฮัลโล้วมายเฟร้นน',
-    romanized: 'hallowmaifernn',
-  },
-  {
-    input: '★  ไม่มีตัวตน ★',
-    romanized: '★  maimituaton ★',
-  },
-  {
-    input: 'เจนนวย',
-    romanized: 'chennuai',
-  },
-  {
-    input: 'น้งมอนนี่!',
-    romanized: 'nongmonni!',
-  },
-  {
-    input: 'เจ้าตูบ',
-    romanized: 'cheatub',
-  },
-  {
-    input: 'คิมคิม',
-    romanized: 'khimkhim',
-  },
-  {
-    input: 'ชาน',
-    romanized: 'chan',
-  },
-  {
-    input: 'ปอฟอคอบอ',
-    romanized: 'pofokhobo',
-  },
-  {
-    input: 'เด็กชายลาพีด',
-    romanized: 'dukchailaphid',
-  },
-  {
-    input: 'ตันเอง',
-    romanized: 'taneng',
-  },
-  {
-    input: 'นิคกี้',
-    romanized: 'nikhki',
-  },
-  {
-    input: 'อนาคตจะเป็นทหารครับ',
-    romanized: 'nakhtchapunthahankhrab',
-  },
-  {
-    input: 'โอย',
-    romanized: 'oy',
-  },
-  {
-    input: 'มองไรคะ',
-    romanized: 'mongraikha',
-  },
-  {
-    input: 'เบ้บ',
-    romanized: 'beb',
-  },
-  {
-    input: 'Babeนม',
-    romanized: 'Babenom',
-  },
-  {
-    input: 'ถง',
-    romanized: 'thong',
-  },
-  {
-    input: 'โอ้',
-    romanized: 'o',
-  },
-  {
-    input: '˚ ༘♡ฮันนี่ยากิ❀⋆₊˚',
-    romanized: '˚ ༘♡hanniyaki❀⋆₊˚',
-  },
-  {
-    input: 'จุ๊บเหม่ง',
-    romanized: 'chubhemong',
-  },
-  {
-    input: 'จจ',
-    romanized: 'chch',
-  },
-  {
-    input: 'มอเต็มกระด๋อย',
-    romanized: 'motemkradoi',
-  },
-  {
-    input: 'แมวชุบแป้งทอด🐾',
-    romanized: 'maeochubpaengthod🐾',
-  },
-  {
-    input: 'ชะม้อย 🐌🌼',
-    romanized: 'chamoi 🐌🌼',
-  },
-  {
-    input: 'เกินปุยมุ้ย',
-    romanized: 'koenpuimuy',
-  },
-  {
-    input: 'โคตะมีใจ',
-    romanized: 'khotamichai',
-  },
-  {
-    input: 'ง่วงนอน',
-    romanized: 'nguangnon',
-  },
-  {
-    input: 'วาววาว',
-    romanized: 'waowao',
-  },
-  {
-    input: '𝗠_𝘅𝗻.𖥔 ݁ ˖๋ ࣭ ⭑',
-    romanized: '𝗠_𝘅𝗻.𖥔 ݁ ˖ ࣭ ⭑',
-  },
-  {
-    input: 'สุดหล่อออ',
-    romanized: 'sudloo',
-  },
-  {
-    input: 'อิน',
-    romanized: 'in',
-  },
-  {
-    input: 'โคตรซิ่ง',
-    romanized: 'khotrsing',
-  },
-  {
-    input: '๑ᵒᯅᵒ๑',
-    romanized: '1ᵒᯅᵒ1',
-  },
-  {
-    input: 'กูนอนแต่ออนดิส',
-    romanized: 'kunontaeondis',
-  },
-  {
-    input: 'ฟ่งTepซ่า007',
-    romanized: 'fongTepsa007',
-  },
-  {
-    input: 'ฮายย~',
-    romanized: 'haiy~',
-  },
-  {
-    input: 'โจ',
-    romanized: 'cho',
-  },
-  {
-    input: 'หา AK ยิงเด็กแว้นแถวบ้าน',
-    romanized: 'ha AK yingdukwaentaeoban',
-  },
-  {
-    input: 'ครับ',
-    romanized: 'khrab',
-  },
-  {
-    input: 'คิม',
-    romanized: 'khim',
-  },
-  {
-    input: 'ไก่งวงควงไข่',
-    romanized: 'kainguangkhuangkhai',
-  },
-  {
-    input: '๖̶ζ͜͡ND Nxmi',
-    romanized: '6̶ζ͜͡ND Nxmi',
-  },
-  {
-    input: 'กูวินเว้ย',
-    romanized: 'kuwinwey',
-  },
-  {
-    input: 'อย่ากด กูโดนแฮค',
-    romanized: 'yakod kudonhaekh',
-  },
-  {
-    input: 'นายโต้',
-    romanized: 'naito',
-  },
-  {
-    input: 'มือเปล่าให้สอง มีของให้หมด',
-    romanized: 'muepelahaisong mikhonghaimod',
-  },
-  {
-    input: 'นอนค้าบบบนอนนน',
-    romanized: 'nonkhabbbnonnn',
-  },
-  {
-    input: 'หมา',
-    romanized: 'hma',
-  },
-  {
-    input: 'ตัวตึงเมากาว',
-    romanized: 'tuatuengmaokao',
-  },
-  {
-    input: '╰┈➤คrคtค-໓คi-໓คiki-kนຖ˚ ༘ ♡ ⋆.˚',
-    romanized: '╰┈➤khrkhtkh-໓khi-໓khiki-knຖ˚ ༘ ♡ ⋆.˚',
-  },
-  {
-    input: 'โรนัลโด้บ้านร่องฟอง',
-    romanized: 'ronaldobanrongfong',
-  },
-  {
-    input: 'น้องเพลงมูฮาฮาฮา',
-    romanized: 'nongphelongmuhahaha',
-  },
-  {
-    input: 'คิคุ',
-    romanized: 'khikhu',
-  },
-  {
-    input: 'Juliaฅ^•ﻌ•^ฅ',
-    romanized: 'Juliakh^•ﻌ•^kh',
-  },
-  {
-    input: 'อยากเล่นฟีฟาย',
-    romanized: 'yaklenfifai',
-  },
-  {
-    input: 'โจเซฟ',
-    romanized: 'chosef',
-  },
-  {
-    input: 'mkkkkkkkkkkkkสุกี้',
-    romanized: 'mkkkkkkkkkkkksuki',
-  },
-  {
-    input: 'นักปราบผู้มีความใจเกเร',
-    romanized: 'nakprabphumikhwamchaikere',
-  },
-  {
-    input: 'หิวข้าว24ชม.',
-    romanized: 'hiokhaw24chom.',
-  },
-  {
-    input: 'ขี้',
-    romanized: 'khi',
-  },
-  {
-    input: 'เด็กดี',
-    romanized: 'dukdi',
-  },
-  {
-    input: '๖ۣۜDᴀᴇᴍᴏɴLᴏʀᴅ_Nᴏᴍɪ༻࿌𖣘',
-    romanized: '6ۣۜDᴀᴇᴍᴏɴLᴏʀᴅ_Nᴏᴍɪ༻࿌𖣘',
-  },
-  {
-    input: 'Mr. Best จะพาเธอลอย',
-    romanized: 'Mr. Best chaphathoeloi',
-  },
-  {
-    input: 'ตังครับ',
-    romanized: 'tangkhrab',
-  },
-  {
-    input: 'กอกิตสกิดไข่',
-    romanized: 'kokitskidkhai',
-  },
-  {
-    input: 'แมวโง่',
-    romanized: 'maeongo',
-  },
-  {
-    input: 'เด็กน้อย9ตวบบ',
-    romanized: 'duknoi9tuabb',
-  },
-  {
-    input: 'ตาย',
-    romanized: 'tai',
-  },
-  {
-    input: 'ห๊าา',
-    romanized: 'haa',
-  },
-  {
-    input: 'คิว',
-    romanized: 'khio',
-  },
-  {
-    input: 'ไอโล้นซ่า007',
-    romanized: 'ailonsa007',
-  },
-  {
-    input: 'ไก่เล้ง ต้มแซ่บ',
-    romanized: 'kaileng tomsaeb',
-  },
-  {
-    input: 'ไม่มีไรป่าว',
-    romanized: 'maimiraipao',
-  },
-  {
-    input: 'กองมี',
-    romanized: 'kongmi',
-  },
-  {
-    input: 'ฟอตอมอ',
-    romanized: 'fotomo',
-  },
-  {
-    input: 'ขวยขิง',
-    romanized: 'khuaikhing',
-  },
-  {
-    input: 'วุ้นบูด!',
-    romanized: 'wunbud!',
-  },
-  {
-    input: 'ไม่ใช่ละมุดแต่เป็นลำไยนิ',
-    romanized: 'maichailamudtaepunlamyaini',
-  },
-  {
-    input: 'โบโบ้เอง',
-    romanized: 'boboeng',
-  },
-  {
-    input: 'สหายใบขม',
-    romanized: 'shaibaikhom',
-  },
-  {
-    input: 'มิจิ',
-    romanized: 'michi',
-  },
-  {
-    input: 'เอล',
-    romanized: 'el',
-  },
-  {
-    input: 'ตัวร้อนไข้สูง😷🤒',
-    romanized: 'tuaronkhaisung😷🤒',
-  },
-  {
-    input: 'จีจี้ ฟอจูน',
-    romanized: 'chichi fochun',
-  },
-  {
-    input: '๖ζ͜͡Mikey Sano',
-    romanized: '6ζ͜͡Mikey Sano',
-  },
-  {
-    input: '₊🌸❜ ⋮ Arisa ๑˚₊',
-    romanized: '₊🌸❜ ⋮ Arisa 1˚₊',
-  },
-  {
-    input: 'Tea ธีฮ้าฟฟู้',
-    romanized: 'Tea thihaffu',
-  },
-  {
-    input: 'สวัสดีครับผมผี',
-    romanized: 'swasdikhrabphomphi',
-  },
-  {
-    input: 'พอ.',
-    romanized: 'pho.',
-  },
-  {
-    input: 'ยิ้มหวาน✨',
-    romanized: 'yimhwan✨',
-  },
-  {
-    input: 'สุกี้ยากี้',
-    romanized: 'sukiyaki',
-  },
-  {
-    input: 'พาคินนาคี.com',
-    romanized: 'phakhinnakhi.com',
-  },
-  {
-    input: 'ควยnether',
-    romanized: 'khuainether',
-  },
-  {
-    input: 'ลูน่าตูดหมึก',
-    romanized: 'lunatudhmuek',
-  },
-  {
-    input: '₊˚๑ ଘ🩰ഒ 𝐚𝐩𝐡𝐫𝐨𝐝𝐢𝐭𝐞 ❜₊✧',
-    romanized: '₊˚1 ଘ🩰ഒ 𝐚𝐩𝐡𝐫𝐨𝐝𝐢𝐭𝐞 ❜₊✧',
-  },
-  {
-    input: 'ซอยจุ',
-    romanized: 'soichu',
-  },
-  {
-    input: 'จะรีบไปไนหทำไมไม่นอนนี่',
-    romanized: 'charibpainaihthammaimainonni',
-  },
-  {
-    input: 'นอน',
-    romanized: 'non',
-  },
-  {
-    input: 'น้อนน่ารัก',
-    romanized: 'nonnarak',
-  },
-  {
-    input: 'lทพซ่าหมาเห่า',
-    romanized: 'lthphsahmahao',
-  },
-  {
-    input: 'สวัสดีครับ',
-    romanized: 'swasdikhrab',
-  },
-  {
-    input: 'ข้าวมันไก่',
-    romanized: 'khawmankai',
-  },
-  {
-    input: 'กากีนัง',
-    romanized: 'kakinang',
-  },
-  {
-    input: 'อยากกินปลาย่าง',
-    romanized: 'yakkinplaiang',
-  },
-  {
-    input: 'พระยาพิชัยดาบหัก',
-    romanized: 'phrayaphichaidabhak',
-  },
-  {
-    input: 'หาไรกินดีกว่า',
-    romanized: 'haraikindikwa',
-  },
-  {
-    input: 'ยินดี',
-    romanized: 'yindi',
-  },
-  {
-    input: 'ไปครับเมีย',
-    romanized: 'paikhrabmia',
-  },
-  {
-    input: 'เดสคุงง',
-    romanized: 'deskhungng',
-  },
-  {
-    input: 'เทอมีABCแต่เทอไม่มีD',
-    romanized: 'thoemiABCtaethoemaimiD',
-  },
-  {
-    input: 'หมาป่าขี้เซา',
-    romanized: 'hmapakhisao',
-  },
-  {
-    input: 'โดนัทนัทโดโดเนทเนทนัท',
-    romanized: 'donathnathdodonethnethnath',
-  },
-  {
-    input: 'ทาจิบานะ',
-    romanized: 'thachibana',
-  },
-  {
-    input: 'ملاحظة 🥀(เนซึเกะหน้าม่วง)',
-    romanized: 'ملاحظة 🥀(nesuekunamuang)',
-  },
-  {
-    input: 'โลกมันเหลี่ยมมมม',
-    romanized: 'lokmanheliymmmm',
-  },
-  {
-    input: 'หยกซี่',
-    romanized: 'yoksi',
-  },
-  {
-    input: 'ผัวเผลอแล้วเจอกัน',
-    romanized: 'phuaphelolaewchoekan',
-  },
-  {
-    input: 'Guมาลีเอง',
-    romanized: 'Gumalieng',
-  },
-  {
-    input: 'เกทอด',
-    romanized: 'kethod',
-  },
-  {
-    input: 'sparkle ⭑๋܂෨',
-    romanized: 'sparkle ⭑܂෨',
-  },
-  {
-    input: 'ครีมมี่',
-    romanized: 'khrimmi',
-  },
-  {
-    input: 'สิฮิน้องบ่',
-    romanized: 'sihinongb',
-  },
-  {
-    input: 'พีพีพีพีพีพีพีพีพีพีพีพีพีพีพีพี',
-    romanized: 'phiphiphiphiphiphiphiphiphiphiphiphiphiphiphiphi',
-  },
-  {
-    input: 'ต้าทั่วเท่อชั่วปู๋ย้าหลาย',
-    romanized: 'tathuathoechuapuyahlai',
-  },
-  {
-    input: 'พิซซ่า',
-    romanized: 'phissa',
-  },
-  {
-    input: 'รักพี่เรน♥',
-    romanized: 'rakphiren♥',
-  },
-  {
-    input: 'โดนดักช่วยที',
-    romanized: 'dondakchuaithi',
-  },
-  {
-    input: 'นิคสุดหล่อ',
-    romanized: 'nikhsudlo',
-  },
-  {
-    input: 'หัวหน้าเผ่า',
-    romanized: 'huanaphao',
-  },
-  {
-    input: '＜๑ⵗⵗ﹒﹙`🎹`﹚﹒𝙱𝚎𝚛𝚛𝚢𝟺𝚛 ﹒ ᥪꪫ⌣',
-    romanized: '＜1ⵗⵗ﹒﹙`🎹`﹚﹒𝙱𝚎𝚛𝚛𝚢𝟺𝚛 ﹒ ᥪꪫ⌣',
-  },
-  {
-    input: 'รักน้องชา😘',
-    romanized: 'raknongcha😘',
-  },
-  {
-    input: 'popcatสุดepic',
-    romanized: 'popcatsudepic',
-  },
-  {
-    input: 'ได้เวลาออกล่า',
-    romanized: 'daiwelaokla',
-  },
-  {
-    input: 'Rov กัน',
-    romanized: 'Rov kan',
-  },
-]
-
-export const failingTests = [
-  {
-    input: 'วิบวูบ',
-    romanized: 'wibuaูb',
-  },
-  {
-    input: 'บนบ้านมีอะไรว่ะ',
-    romanized: 'bnboanmiaไruaะ',
-  },
-  {
-    input: 'แจ้มๆ',
-    romanized: 'chaemๆ',
-  },
-  {
-    input: 'ผมอยากเป็นสตรีมเมอร์',
-    romanized: 'phmoiakpunstrimmoer์',
-  },
-  {
-    input: 'ทีนี้ก็ว้าวุ่นเลย',
-    romanized: 'thinik็woawunloei',
-  },
-  {
-    input: 'ไวท์',
-    romanized: 'waith์',
-  },
-  {
-    input: 'แพะบุญชื่น',
-    romanized: 'phaebuychืn',
-  },
-  {
-    input: 'ใส่สบงเเล้วทรงเเรปเปอร์',
-    romanized: 'saisbngเlewthrngเreppoer์',
-  },
-  {
-    input: 'คิดชื่อ ไม่ออก',
-    romanized: 'khidchื maiok',
-  },
-  {
-    input: 'คิดถึงพี่มี้',
-    romanized: 'khidthึngphimi',
-  },
-  {
-    input: 'มะคำพรื่อหนิ',
-    romanized: 'makhamphrืhni',
-  },
-  {
-    input: 'น้องนํ้าตาล',
-    romanized: 'nongnํatal',
-  },
-  {
-    input: 'ไฟต์ ราฟาเอล.',
-    romanized: 'fait์ rafael.',
-  },
-  {
-    input: 'เศร้าว่ะ',
-    romanized: 'seroawะ',
-  },
-  {
-    input: 'วันนี้กูชนหมาวันหน้ากูจะชนมึง',
-    romanized: 'wannikuchnhmaoัnhnoakuchachnmueng',
-  },
-  {
-    input: 'ไม่หล่อเท่าเขาแต่เราเท่าแขน',
-    romanized: 'maihlเthakhaotaeraoเthakhaen',
-  },
-  {
-    input: 'แกออกจากเซฟโซนเมื่อไหร่แกเจอแน่',
-    romanized: 'แkokchaksefsonmeืhairkaechoenae',
-  },
-  {
-    input: 'ด.ญ. สไปเดอร์แมน',
-    romanized: 'd.y. spaidoer์maen',
-  },
-  {
-    input: 'นอร์ท (North)',
-    romanized: 'nor์th (North)',
-  },
-  {
-    input: 'น้องคานะน่ารักนะะะ',
-    romanized: 'nongkhananaraknaะะ',
-  },
-  {
-    input: 'ก๋วยเตี๋ยว~',
-    romanized: 'kwyเtiyua~',
-  },
-  {
-    input: 'ก๋วยเตี๋ยว',
-    romanized: 'kwyเtiyua',
-  },
-  {
-    input: 'SZ-★Takumi★สไปร์ท',
-    romanized: 'SZ-★Takumi★spair์th',
-  },
-  {
-    input: 'ซุปค้างคาวไม่ค้างคืน',
-    romanized: 'supkhoangkhaomaikhoangkhืn',
-  },
-  {
-    input: 'บะ..บัดสีที่สุดค่ะ!!!',
-    romanized: 'ba..badsithisudkhะ!!!',
-  },
-  {
-    input: 'เจ๊สี่น้ำหดอดล้างตูด',
-    romanized: 'chesinoำhdodloangtud',
-  },
-  {
-    input: 'ก็เขียวเเหละ',
-    romanized: 'k็khiaoเhela',
-  },
-  {
-    input: 'มองหน้าหาเรื่อง',
-    romanized: 'monghnoahareืng',
-  },
-  {
-    input: 'ผมทำเพื่อพ่อ แต่ผมโดนงอน',
-    romanized: 'phmthampheืph taephmdonngon',
-  },
-  {
-    input: 'NOoๅเอน',
-    romanized: 'NOoๅen',
-  },
-  {
-    input: 'เสือ',
-    romanized: 'เsue',
-  },
-  {
-    input: 'DANGแดงวิไรรัตน์Vilairat',
-    romanized: 'DANGdaenguaิrairatn์Vilairat',
-  },
-  {
-    input: 'บล็อคเคอรี่บ๋อย',
-    romanized: 'bl็khkhoeriboi',
-  },
-  {
-    input: 'ฟอร์ด เรนเจอร์ แร็พเตอร์',
-    romanized: 'for์d renchoer์ rae็phtoer์',
-  },
-  {
-    input: '๋ซอซองอึน',
-    romanized: 'sosongoึn',
-  },
-  {
-    input: 'สตอร์เบอรี่มรกต',
-    romanized: 'stor์boerimrkt',
-  },
-  {
-    input: 'ศุภวิชญ์แก๊งโตเกียวมันจิไค',
-    romanized: 'suphwichy์kaengtokiaomanchikhai',
-  },
-  {
-    input: 'แม่มึงอะโดนกูตุ๋ย',
-    romanized: 'maemuengoะdonkutuy',
-  },
-  {
-    input: '! ด.ช.สมเย็ด เอียงซ้ายแม่ยายรัก',
-    romanized: '! d.ch.smyud เiyngsoaymaeyairak',
-  },
-  {
-    input: 'เชฟเอียน',
-    romanized: 'chefเiyn',
-  },
-  {
-    input: 'พ่ำ เพ่ง โพ่ง',
-    romanized: 'phำ pheng phong',
-  },
-  {
-    input: 'ไม่เคยลืมเลือน',
-    romanized: 'maikhoeilืmเluen',
-  },
-  {
-    input: 'ฝนตกฟ้ามันฮึมๆ',
-    romanized: 'fntkfoamanhuemๆ',
-  },
-  {
-    input: 'เกมเมอร์โตนสเลง',
-    romanized: 'kemmoer์tonsleng',
-  },
-  {
-    input: 'พระนครอยู่บนเเมพ',
-    romanized: 'phrankhroiูbnเmeph',
-  },
-  {
-    input: 'กบิลพัสดุ์คุง',
-    romanized: 'kbilphasdu์khung',
-  },
-  {
-    input: 'ง่วงนอนเเต่ไม่นอน',
-    romanized: 'ngwngnonเtemainon',
-  },
-  {
-    input: 'ผู้ที่ก้าวไปบนวิถีแห่งสวรรค์',
-    romanized: 'phuthikoawpaibnuaิthีhaengswakh์',
-  },
-  {
-    input: 'บาราเอียเอ',
-    romanized: 'baraเiye',
-  },
-  {
-    input: 'มีหัวใจไว้รักก๋วยเตี๋ยว',
-    romanized: 'mihuachaiwairakkwyเtiyua',
-  },
-  {
-    input: 'ถึงจะเตี้ยแต่ก็เหยียบตีนมึงได้นะ',
-    romanized: 'thึngchaเtiytaek็hoeiีybtinmuengdaina',
-  },
-  {
-    input: 'ไาดไ่ดไยดยสไท',
-    romanized: 'ไadไdyaidysthai',
-  },
-  {
-    input: 'ปัสสาวะ',
-    romanized: 'passaoะ',
-  },
-  {
-    input: 'น้ำปลาจืด',
-    romanized: 'noำplachืd',
-  },
-  {
-    input: 'พ้คข้ขรเีขเรขเขอ',
-    romanized: 'phokhkhokhrเีkhrekhkhoe',
-  },
-  {
-    input: 'ไวรุ่นไหวชิว',
-    romanized: 'wairunไhuachio',
-  },
-  {
-    input: 'ไม่สนิทบิดหมดไม่สลดบิดอีก',
-    romanized: 'maisnithbidhmdmaisldbidoีk',
-  },
-  {
-    input: 'ฤฆ๐ฎกไกแ',
-    romanized: 'ruekh0dkkaiแ',
-  },
-  {
-    input: 'ตะแมะแอ๊ะะะ',
-    romanized: 'tamaeaeะะะ',
-  },
-  {
-    input: 'เบื่อมึง',
-    romanized: 'beืmueng',
-  },
-  {
-    input: 'เล่นให้ดีเหมือนปากก็พอ',
-    romanized: 'lenhaidihemuenpakk็pho',
-  },
-  {
-    input: 'Bank จะเอา GTR อะ',
-    romanized: 'Bank chaเa GTR a',
-  },
-  {
-    input: 'ผู้หมวดกิบส์เจ๋ง',
-    romanized: 'phuhmuadkibs์cheng',
-  },
-  {
-    input: 'ตัวแสบแถบอีสาน',
-    romanized: 'tuasaebแthboีsan',
-  },
-  {
-    input: 'จักเถื่อเเน่',
-    romanized: 'chakเthืเne',
-  },
-  {
-    input: 'เพื่อนๆอย่าร้อนเงินกัน',
-    romanized: 'pheืnๆoiaronngoenkan',
-  },
-  {
-    input: 'ดอร็อค',
-    romanized: 'dor็kh',
-  },
-  {
-    input: 'ยัตล็อค8',
-    romanized: 'yatl็kh8',
-  },
-  {
-    input: 'กูชื่อ \'Kailek โว้ยยย!',
-    romanized: 'kuchื \'Kailek woyyy!',
-  },
-  {
-    input: 'เหวย',
-    romanized: 'เhuai',
-  },
-  {
-    input: 'นนท์',
-    romanized: 'nnth์',
-  },
-  {
-    input: '✦ ผู้ใช้บัญชีนี้ถูกแบน !!!',
-    romanized: '✦ phuchaibaychinithูkbaen !!!',
-  },
-  {
-    input: 'เตงโย๊ะ',
-    romanized: 'tengyoะ',
-  },
-  {
-    input: 'พรี่แซมเองน่ะเออ  /-.-.-/',
-    romanized: 'phrisaemengnะe  /-.-.-/',
-  },
-  {
-    input: 'ถุงพิหิตให',
-    romanized: 'thุngphihithai',
-  },
-  {
-    input: 'เฟรชไงที่ยิ้มหวานๆッ',
-    romanized: 'ferchngaithiyimhwanๆッ',
-  },
-  {
-    input: 'แมวดีย์🔧',
-    romanized: 'maeodiy์🔧',
-  },
-  {
-    input: 'หมอลำเอาให้',
-    romanized: 'hmolamเahai',
-  },
-  {
-    input: 'พี่ยงจะเฟี้ยวและเลี้ยวไปไหนอยูปะ',
-    romanized: 'phiyngchaเfiyualaeเliyuapaihainoiูpa',
-  },
-  {
-    input: 'เบื่อว้อยยยยยย',
-    romanized: 'beืuaoiyyyyy',
-  },
-  {
-    input: 'พันตรี ทาเนีย เดอกูเรเชฟฟ์ 💢',
-    romanized: 'phantri thania doekurecheff์ 💢',
-  },
-  {
-    input: 'ทายเอา',
-    romanized: 'thaiเa',
-  },
-  {
-    input: 'เธอๆชื่อไรอะ',
-    romanized: 'thoeๆchืไroะ',
-  },
-  {
-    input: 'ไหวป่าวลุงงงงงงงงงงงงงงงงงง',
-    romanized: 'ไhuapawlungngngngngngngngngngngngngngngngngng',
-  },
-  {
-    input: 'คุณชายลืม นอน',
-    romanized: 'khunchailืm non',
-  },
-  {
-    input: 'มาร์ติน',
-    romanized: 'mar์tin',
-  },
-  {
-    input: 'น่าเบื่อจังเลย!!!!!!!!',
-    romanized: 'nabeืchangloei!!!!!!!!',
-  },
-  {
-    input: 'แม็ก',
-    romanized: 'mae็k',
-  },
-  {
-    input: 'ชี้นกชี้ไม้ชี้พ่อมึงก็ตายนะไอสัส',
-    romanized: 'chinkchimaichiphmuengk็tainaaisas',
-  },
-  {
-    input: 'เอ็กซ์',
-    romanized: 'e็ks์',
-  },
-  {
-    input: 'เจ็บจี๊ด! หวานเจี๊ยบ!',
-    romanized: 'chubchid! hwanเchiyb!',
-  },
-  {
-    input: 'เคาะงวย',
-    romanized: 'khaoะnguai',
-  },
-  {
-    input: 'ม่วงชิงทรัพย์',
-    romanized: 'mwngchingthraphy์',
-  },
-  {
-    input: 'อ.น้องไอซ์',
-    romanized: '.nongais์',
-  },
-  {
-    input: 'เรียลมั้ยล่ะ',
-    romanized: 'rialmaylะ',
-  },
-  {
-    input: 'ภะวะรัน',
-    romanized: 'phะwaran',
-  },
-  {
-    input: 'โอ็ตแหละ',
-    romanized: 'o็thaela',
-  },
-  {
-    input: 'สระไอไม้มะลายอออ่างซอโซ่การันต์',
-    romanized: 'sraaimaimalaioangsosokanัnt์',
-  },
-  {
-    input: 'แฮ่มๆ ツ',
-    romanized: 'haemๆ ツ',
-  },
-  {
-    input: 'มุ้บมิ้บอุอิอุอิ',
-    romanized: 'mubmiboุiui',
-  },
-  {
-    input: 'ซันเงาะ',
-    romanized: 'sanngaoะ',
-  },
-  {
-    input: 'จบละะ',
-    romanized: 'chblaะ',
-  },
-  {
-    input: 'เบื่อด้วย',
-    romanized: 'beืdowy',
-  },
-  {
-    input: 'เรียลเบียวเบื่อ',
-    romanized: 'rialbiaobeื',
-  },
-  {
-    input: 'ไก่เหี่ยว',
-    romanized: 'kaiเhiyua',
-  },
-  {
-    input: 'กระหนูยทมๆ',
-    romanized: 'krahnuythmๆ',
-  },
-  {
-    input: 'ขอเผือกหน่อยครับ 😏หุ้หิ...',
-    romanized: 'khoเphuekhnoikhrab 😏huhi...',
-  },
-  {
-    input: 'สารวัตรแจ๊ะ',
-    romanized: 'saruaัtrchaeะ',
-  },
-  {
-    input: 'สมองดีเท่าปากก็น่าจะฉลาดเป็นอสต.',
-    romanized: 'smongdiเthapakk็nachachladpunost.',
-  },
-  {
-    input: 'ตัวร้ายฝั่งธนล่ารอยยิ้มวันเพ็ญ',
-    romanized: 'tuaroayfangthnlaroiyimuaัnphuy',
-  },
-  {
-    input: 'น้องภาระ',
-    romanized: 'nongphanะ',
-  },
-  {
-    input: 'เจมส์ ชาวไร่',
-    romanized: 'chems์ chaorai',
-  },
-  {
-    input: 'มะแงวมีอาไย',
-    romanized: 'maแnguamiayai',
-  },
-  {
-    input: 'บันนี่บุ๋ยๆ🫧',
-    romanized: 'bannibuyๆ🫧',
-  },
-  {
-    input: 'สมศักดิ์ จู๋ยืนยง',
-    romanized: 'smsakdi์ chuyืnyng',
-  },
-  {
-    input: 'มะเขือเทศ',
-    romanized: 'maเkhuethes',
-  },
-  {
-    input: '1%ก็ถือว่าเป็นโอกาส',
-    romanized: '1%k็thืuaapunokas',
-  },
-  {
-    input: 'อ า ซ้ อ K̶ G̶ ( หั ว แ ค ล น )',
-    romanized: ' a so  K̶ G̶ ( ha w แ kh l n )',
-  },
-  {
-    input: 'นปโปะหม่ำๆ',
-    romanized: 'nppohmำๆ',
-  },
-  {
-    input: 'ดางหางฮัลเลย์',
-    romanized: 'danghanghalloei์',
-  },
-  {
-    input: 'เจนที่ชื่อว่าเจน',
-    romanized: 'chenthichืuaachen',
-  },
-  {
-    input: 'สวัสดีครับคุณอาธรรมมรงค์',
-    romanized: 'swasdikhrabkhunathammrngkh์',
-  },
-  {
-    input: 'ดริปๆ',
-    romanized: 'dripๆ',
-  },
-  {
-    input: 'รק๏t.',
-    romanized: 'rק๏t.',
-  },
-  {
-    input: 'ซอยๆนกคุ้มหลี่',
-    romanized: 'soiๆnkkhumhli',
-  },
-  {
-    input: '🤤น้ำลายไหลย้อน',
-    romanized: '🤤noำlaihailyon',
-  },
-  {
-    input: 'เลือนลางจางหาย',
-    romanized: 'เluenlangchanghai',
-  },
-  {
-    input: 'ไม่ใหญ่ไม่โต๋เลยไม่โก้ไม่เฟี้ยว',
-    romanized: 'maihaiymaitoloeimaikomaiเfiyua',
-  },
-  {
-    input: 'น้องนอร์ทเอง',
-    romanized: 'nongnor์theng',
-  },
-  {
-    input: 'แงว',
-    romanized: 'แngua',
-  },
-  {
-    input: 'ชานมวันมอ☕',
-    romanized: 'chanmuaัnmo☕',
-  },
-  {
-    input: 'ภาวิณี',
-    romanized: 'phawinี',
-  },
-  {
-    input: 'มู มินฯ.',
-    romanized: 'mu minฯ.',
-  },
-  {
-    input: 'บริษัท กำจัดเรื้อน',
-    romanized: 'brisath kamchadreืn',
-  },
-  {
-    input: 'เเมวเมี๊ยวจะรับฟังคุณเอง',
-    romanized: 'เเmuaเmiyuacharabfangkhuneng',
-  },
-  {
-    input: 'ธรรมนัสพงษ์เผ่า',
-    romanized: 'thamnasphngs์phea',
-  },
-  {
-    input: 'รคlคzคг ภเl๏',
-    romanized: 'rkhlkhzkhг phเl๏',
-  },
-  {
-    input: 'ไซส์โล',
-    romanized: 'sais์lo',
-  },
-  {
-    input: 'ชื่อยูครับ',
-    romanized: 'chืyukhrab',
-  },
-  {
-    input: 'คิงส์แลนด์',
-    romanized: 'khings์laend์',
-  },
-  {
-    input: 'เภง',
-    romanized: 'เphng',
-  },
-  {
-    input: 'จตุรงค์ เสาเวียง',
-    romanized: 'chturngkh์ saowiang',
-  },
-  {
-    input: 'โก๊ะโจ',
-    romanized: 'koะcho',
-  },
-  {
-    input: 'เอ๊ะ?!',
-    romanized: 'eะ?!',
-  },
-  {
-    input: 'ฉันหน่ะเป็นนึ่งเดี๋ยวกับความือ',
-    romanized: 'chanhnะpunnuengเdiyuakabkhwamื',
-  },
-  {
-    input: 'มนต์รักน้องอึนแช',
-    romanized: 'mnt์raknongoึnchae',
-  },
-  {
-    input: 'ม้าเบอร์ตอง888',
-    romanized: 'moaboer์tong888',
-  },
-  {
-    input: 'แล้วพี่ทำไรเธอยัง',
-    romanized: 'laewphithamraiเthoiัng',
-  },
-  {
-    input: 'มองดาวในถุงกาว',
-    romanized: 'mongdaonaithุngkao',
-  },
-  {
-    input: 'ฟู่่ๆๆๆๆๆๆๆๆๆ',
-    romanized: 'fuๆๆๆๆๆๆๆๆๆ',
-  },
-  {
-    input: 'อู้ดๆ',
-    romanized: 'udๆ',
-  },
-  {
-    input: 'คุณหนูฟอร์ด',
-    romanized: 'khunhnufor์d',
-  },
-  {
-    input: 'อิฐจะเอาGTR',
-    romanized: 'ithchaเaGTR',
-  },
-  {
-    input: 'น้องเดียร์',
-    romanized: 'nongdiar์',
-  },
-  {
-    input: 'ควยไรไอสัสห๊ะ',
-    romanized: 'khuairaiaisashะ',
-  },
-  {
-    input: 'ฮุสซาซ่า บัทเตอร์ฟาย',
-    romanized: 'hussasa bathtoer์fai',
-  },
-  {
-    input: 'น้ำดื่มสิงโตนำโชครถแห่',
-    romanized: 'noำdืmsingtonamchokhrthhae',
-  },
-  {
-    input: 'กันตพัฒน์',
-    romanized: 'kantphathn์',
-  },
-  {
-    input: 'เบืิอพวกอ่อร',
-    romanized: 'beืิphuakor',
-  },
-  {
-    input: 'คิดถึงนะครับคนเก่งของพี่',
-    romanized: 'khidthึngnakhrabkhnkengkhongphi',
-  },
-  {
-    input: 'ชื่อหัวกล้วย',
-    romanized: 'chืhuaklowy',
-  },
-  {
-    input: 'ประมาณนี้ๆ',
-    romanized: 'pramanniๆ',
-  },
-  {
-    input: 'Iแอมยัวfาเฐ้อ',
-    romanized: 'Iaemyuafaเth',
-  },
-  {
-    input: 'กุ๊กละกุ๊กละอู๊ดๆๆ',
-    romanized: 'kuklakuklaudๆๆ',
-  },
-  {
-    input: 'เหนื่อย',
-    romanized: 'henืoi',
-  },
-  {
-    input: 'ควายไไไ',
-    romanized: 'khwaiไไไ',
-  },
-  {
-    input: 'จั๊กส์',
-    romanized: 'chaks์',
-  },
-  {
-    input: 'บอมเงี่ยน',
-    romanized: 'bomเngiyn',
-  },
-  {
-    input: 'เฌอแตม<3',
-    romanized: 'เchtaem<3',
-  },
-  {
-    input: 'อยากกินเค้กสกู้ปี้ดูในวันเกิด',
-    romanized: 'yakkinkhekskupiduใnuaัnkoed',
-  },
-  {
-    input: 'หมาป่าในเงามืด',
-    romanized: 'hmapanaingaomืd',
-  },
-  {
-    input: 'หนูอ้วนนักแร็ป',
-    romanized: 'hnuwnnakrae็p',
-  },
-  {
-    input: 'เอิ๊ก',
-    romanized: 'เik',
-  },
-  {
-    input: 'ประตู4หมี่เกี้ยว',
-    romanized: 'pratu4hmiเkiyua',
-  },
-  {
-    input: 'กูอะเตอร์มึงควยไร',
-    romanized: 'kuatoer์muengkhuairai',
-  },
-  {
-    input: 'จ้วบวัดดอน',
-    romanized: 'chowbuaัddon',
-  },
-  {
-    input: 'หวังปี้เจ้า ฟ้าแว็ปๆ',
-    romanized: 'hwangpichea foawae็pๆ',
-  },
-  {
-    input: 'จอนๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆ',
-    romanized: 'chonๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆ',
-  },
-  {
-    input: '🇹🇭นัחบุ₪เລืටดເઈ็थ🇹🇭',
-    romanized: '🇹🇭naחbu₪เລืටdເઈ็थ🇹🇭',
-  },
-  {
-    input: 'หมาลืมไข่',
-    romanized: 'hmalืmkhai',
-  },
-  {
-    input: 'กลมกล่อมแต่ไม่เอามะขาม',
-    romanized: 'klmklmtaemaiเamakham',
-  },
-  {
-    input: 'หัวเกรียนมีสิทธิ์ไร',
-    romanized: 'huakeriynmisiththิ์rai',
-  },
-  {
-    input: 'สิทธิทัต เอมเมอรัล',
-    romanized: 'siththิthat emmoeral',
-  },
-  {
-    input: 'มาเบวว',
-    romanized: 'maเbuaw',
-  },
-  {
-    input: 'งั่มๆๆ',
-    romanized: 'ngamๆๆ',
-  },
-  {
-    input: 'ชิงกะเบว',
-    romanized: 'chingkaเbua',
-  },
-  {
-    input: 'สะเง๊าะสะแง๊ะ',
-    romanized: 'sangeaะsangaeะ',
-  },
-  {
-    input: 'ศูนย์เทพศิรินทร์โหดๆ',
-    romanized: 'suny์thephsirinthr์hodๆ',
-  },
-  {
-    input: 'อ้วนเทพประสิทธิ์',
-    romanized: 'wnthephprasiththิ์',
-  },
-  {
-    input: 'ผมชื่อ ปอนด์ ไม่ใช่ ปอน',
-    romanized: 'phmchื pond์ maichai pon',
-  },
-  {
-    input: 'ใครปิดไมค์กู',
-    romanized: 'khairpidmaikh์ku',
-  },
-  {
-    input: 'เหงาๆ',
-    romanized: 'hengaๆ',
-  },
-  {
-    input: 'อยากเสียวเลี้ยวมา',
-    romanized: 'yaksiaoเliyuama',
-  },
-  {
-    input: 'เฟิร์นเฟิน',
-    romanized: 'foer์nfoen',
-  },
-  {
-    input: 'ร่างแยกของจอห์นชาวไร่',
-    romanized: 'rangyaekkhongchoh์nchaorai',
-  },
-  {
-    input: 'ลูกอีเสี่ยว',
-    romanized: 'lukoีเsiyua',
-  },
-  {
-    input: 'ไน๋ไหนไนท์',
-    romanized: 'naihainnaith์',
-  },
-  {
-    input: 'ม า ย ด์ ยู ☁',
-    romanized: 'm a y d์ yu ☁',
-  },
-  {
-    input: 'ฟันเหล้กเด้กเเนว',
-    romanized: 'fanhelokdekเเnua',
-  },
-  {
-    input: 'เหงาตุ่ยยยย',
-    romanized: 'hengatุyyyy',
-  },
-  {
-    input: 'เพื่อแม่แพ้บ่ได้',
-    romanized: 'pheืmaephaebdai',
-  },
-  {
-    input: 'เฮีนจินแฟนแก้ว',
-    romanized: 'เhinchinfaenkaew',
-  },
-  {
-    input: 'ร่างทรงนนท์นี่',
-    romanized: 'rangthrngnnth์ni',
-  },
-  {
-    input: 'ไม่ถึงกับแย่แค่แม่ไม่ปลิ้ม',
-    romanized: 'maithึngkabyaekhaemaemaiplim',
-  },
-  {
-    input: 'ไล่ฆ่าพวกเรื้อน',
-    romanized: 'laikhaphuakreืn',
-  },
-  {
-    input: 'ลืมกันแล้วหรือยัง',
-    romanized: 'lืmkanlaewhrueyang',
-  },
-  {
-    input: 'พอเเล้วกูกลัว',
-    romanized: 'phoเlewkuklua',
-  },
-  {
-    input: 'น้องแม็กงุงิ',
-    romanized: 'nongmae็kngungi',
-  },
-  {
-    input: 'แมวอ้วนชาร์จแบต',
-    romanized: 'maeownchar์chbaet',
-  },
-  {
-    input: 'แล้วเองคิดถึงข้าบ้างปร้าาา',
-    romanized: 'laewengkhidthึngkhoaboangproaaa',
-  },
-  {
-    input: 'ตัวเหล็ก><',
-    romanized: 'tuahel็k><',
-  },
-  {
-    input: 'เครรรรรรรรรรร',
-    romanized: 'เkhararara',
-  },
-  {
-    input: 'นป หม่ำๆ',
-    romanized: 'np hmำๆ',
-  },
-  {
-    input: 'เมี๊ยววววววว',
-    romanized: 'เmiyuawuawuawua',
-  },
-  {
-    input: 'ไไผ',
-    romanized: 'ไphai',
-  },
-  {
-    input: 'รีเฟ็กซ์เอ็กทรู',
-    romanized: 'rifuks์e็kthru',
-  },
-  {
-    input: 'หนุ่มเมืองดาวมีใจให้สาวเมืองร้อน',
-    romanized: 'hnumเmuengdaomichaihaisaoเmuengron',
-  },
-  {
-    input: 'เจ้าก็อต',
-    romanized: 'cheak็t',
-  },
-  {
-    input: 'หื้ม',
-    romanized: 'hืm',
-  },
-  {
-    input: 'อีหยังวะทำไมยังไม่นอน',
-    romanized: 'ihyanguaะthammaiัngmainon',
-  },
-  {
-    input: 'ไม่ลืมๆ',
-    romanized: 'mailืmๆ',
-  },
-  {
-    input: 'เตยจาเรื้อน!',
-    romanized: 'toeichareืn!',
-  },
-  {
-    input: 'แล้วเธอแม่งเป็นเกือบทุกอย่าง',
-    romanized: 'laewthoemaengpunเkuebthukoiang',
-  },
-  {
-    input: '⇝Uภkภ๏wภ gสmΐήg⇜',
-    romanized: '⇝Uphkph๏wph gsmΐήg⇜',
-  },
-  {
-    input: 'ไอ้ทีอยากโซโล่เก่งๆ TT',
-    romanized: 'aithiyaksolokengๆ TT',
-  },
-  {
-    input: 'มูฮัมหมัด ซะเดาะกอน',
-    romanized: 'muhamhmad sadaoะkon',
-  },
-  {
-    input: 'อ้ายยังอยู่ม่งเก่า',
-    romanized: 'ayyangoiูmngkea',
-  },
-  {
-    input: 'กูชื่อข้าวมึงเห็นป่ะเนี่ยไอตาบอด',
-    romanized: 'kuchืkhoawmuenghenpะเniyaitabod',
-  },
-  {
-    input: 'ระวังเมียคุณดีๆนะครับ',
-    romanized: 'rawangmiakhundiๆnakhrab',
-  },
-  {
-    input: 'ภ๏гเ ☆',
-    romanized: 'ph๏гเ ☆',
-  },
-  {
-    input: 'кเllยค',
-    romanized: 'кเllykh',
-  },
-  {
-    input: 'แมวเรื้อน',
-    romanized: 'maeoreืn',
-  },
-  {
-    input: 'ว่าแต่กูชื่ออะไรนะ',
-    romanized: 'wataekuchืoะraina',
-  },
-  {
-    input: 'อู๊ดอู๊ด',
-    romanized: 'udoูd',
-  },
-  {
-    input: 'กูบีมีไรป่ะ',
-    romanized: 'kubimiraipะ',
-  },
-  {
-    input: 'เเบงค์ 47',
-    romanized: 'เbengkh์ 47',
-  },
-  {
-    input: 'ลูกฉันเป็นคนดีย์!',
-    romanized: 'lukchanpunkhndiy์!',
-  },
-  {
-    input: 'แง่งแง่งแง่งแ่วงง',
-    romanized: 'ngaengngaengngaengแwngng',
-  },
-  {
-    input: 'ไกรวิชญ์ฯ',
-    romanized: 'kairuaิchy์ฯ',
-  },
-  {
-    input: 'ซาร่าห์',
-    romanized: 'sarah์',
-  },
-  {
-    input: 'นํ้ากับเต้เรื้อนจาด',
-    romanized: 'nํakabtereืnchad',
-  },
-  {
-    input: 'ซุปเปอร์ตุ๋ย',
-    romanized: 'suppoer์tuy',
-  },
-  {
-    input: 'เด็กเอ็นงับบบ',
-    romanized: 'duke็nngabbb',
-  },
-  {
-    input: 'ไม่เสือกนะคับสุดหล่อ',
-    romanized: 'maiเsueknakhabsudhl',
-  },
-  {
-    input: 'ไม่รู้ลืม\'ม เมื่อคืนหลับฯ',
-    romanized: 'mairulืm\'m meืkhืnhlabฯ',
-  },
-  {
-    input: 'แม่ชื่อติ๋ม',
-    romanized: 'maechืtim',
-  },
-  {
-    input: 'เสี่ยเต้',
-    romanized: 'เsiyte',
-  },
-  {
-    input: 'อย่าเสือก เดี๋ยวเงือกสั่น',
-    romanized: 'oiaเsuek เdiyuaเngueksan',
-  },
-  {
-    input: 'เรื่องมันยาว',
-    romanized: 'reืngmanyao',
-  },
-  {
-    input: 'หลุดเดี่ยวโรนัลโด้',
-    romanized: 'hludเdiyuaronaldo',
-  },
-  {
-    input: 'เปี๊ยก',
-    romanized: 'เpiyk',
-  },
-  {
-    input: 'ตัวเบี๋ยว',
-    romanized: 'tuaเbiyua',
-  },
-  {
-    input: 'ข้าวมันไก่ ใส่น้ำจิ้ม',
-    romanized: 'khoawmankai sainoำchim',
-  },
-  {
-    input: 'า้ดเดเ',
-    romanized: 'addeเ',
-  },
-  {
-    input: 'โย้วๆๆ',
-    romanized: 'yowๆๆ',
-  },
-  {
-    input: 'มิโอะ',
-    romanized: 'mioะ',
-  },
-  {
-    input: 'จิ๋มโบ๋ชื่อนี้เสียไม่ได้😝',
-    romanized: 'chimbochืnisiamaidai😝',
-  },
+  [
+    'อยากจะเจอเธอทุกวัน',
+    'yakchachoethoethukwan',
+  ],
+  [
+    'คนไทยไม่รักกันใครจะร้องเพลงชาติ',
+    'khonthaimairakkankhaircharongphelngchat',
+  ],
+  [
+    'สมจวย',
+    'somchuai',
+  ],
+  [
+    'ไข่ดิบ (nama tamago)',
+    'khaidib (nama tamago)',
+  ],
+  [
+    'แฟนน่ารักจังเลยยย',
+    'faennarakchangloeiyy',
+  ],
+  [
+    'เติมมาเยอะ',
+    'toemmayoe',
+  ],
+  [
+    'ตะวัน',
+    'tawan',
+  ],
+  [
+    'อยากกินข้าวหมูกรอบ',
+    'yakkinkhawhmukrob',
+  ],
+  [
+    'ทุกคนเรียกผมว่าแมว',
+    'thukkhonriakphmuaamaeo',
+  ],
+  [
+    'ไก่อยู่ในไข่',
+    'kaiyunaikhai',
+  ],
+  [
+    'รอคิวอิสเวรี่กู้ด',
+    'rokhioiswerikud',
+  ],
+  [
+    'ทำทรงไม่ทำงาน',
+    'thamthrongmaithamngan',
+  ],
+  [
+    'ไม่ต้องเช็คไม่ใช่เด็กใคร',
+    'maitongchukhmaichaidukkhair',
+  ],
+  [
+    'หนุ่มข้าวผัด',
+    'hnumkhawphad',
+  ],
+  [
+    'ลูซี่บอย',
+    'lusiboi',
+  ],
+  [
+    'อ้ายเหนียว',
+    'ayheniyua',
+  ],
+  [
+    'ออมมี่โยคีในรัศมีวงกลม',
+    'ommiyokhinairasmiwongklom',
+  ],
+  [
+    'ปะกาสิด',
+    'pakasid',
+  ],
+  [
+    'เด็กชายชาตรี  สีสดใส',
+    'dukchaichatri  sisodsai',
+  ],
+  [
+    'วัยรุ่นหมากเก็บ',
+    'wairunhmakkeb',
+  ],
+  [
+    'โซเองนั้น',
+    'soengnan',
+  ],
+  [
+    'อาตอมมมมมมมมมมมมมม',
+    'atommmmmmmmmmmmmm',
+  ],
+  [
+    'มุแง',
+    'mungae',
+  ],
+  [
+    'อยากมัดใจแต่ได้แค่มัดจำ',
+    'yakmadchaitaedaikhaemadcham',
+  ],
+  [
+    'ไข่ดาวต้ม',
+    'khaidaotom',
+  ],
+  [
+    'ฉันพบเจอไก่',
+    'chanphobchoekai',
+  ],
+  [
+    'จองกุกbts',
+    'chongkukbts',
+  ],
+  [
+    'เจ๋ง',
+    'cheng',
+  ],
+  [
+    'เรนนี่เรนโน่นเรนไหนกันแน่',
+    'rennirennonrenhainkannae',
+  ],
+  [
+    'ทำใจ',
+    'thamchai',
+  ],
+  [
+    'มาคับ',
+    'makhab',
+  ],
+  [
+    'จำเราไม่ได้หรอ เราส้มเอง',
+    'chamraomaidaihro raosomeng',
+  ],
+  [
+    'หลอน',
+    'hlon',
+  ],
+  [
+    'บูบู้',
+    'bubu',
+  ],
+  [
+    '𖤐⭒๋࣭ ⭑ ꋫ꒒꒐',
+    '𖤐⭒࣭ ⭑ ꋫ꒒꒐',
+  ],
+  [
+    'จ้างวาดได้นะฮ้าบ',
+    'changuaaddainahab',
+  ],
+  [
+    'หนีฮ่าว',
+    'hnihaw',
+  ],
+  [
+    'อึ่ง',
+    'ueng',
+  ],
+  [
+    'กลับบ้านไม่ถามแม่มึงดูว่ากูใคร',
+    'klabbanmaithammaemuengduwakukhair',
+  ],
+  [
+    'นินะน่ารักจริงนะ',
+    'ninanarakchringna',
+  ],
+  [
+    'เลิกเล่น',
+    'loeklen',
+  ],
+  [
+    'คุณอันกุ่น',
+    'khunankun',
+  ],
+  [
+    'โง่นัก - ZENTYARB',
+    'ngonak - ZENTYARB',
+  ],
+  [
+    'อ้วน',
+    'on',
+  ],
+  [
+    'ดำดีสีไม่ตก🦄',
+    'damdisimaitok🦄',
+  ],
+  [
+    'Sky(เถียงทันหน่วง)',
+    'Sky(thiangthanhnuang)',
+  ],
+  [
+    'จ้าวเซ็น✨',
+    'chawsun✨',
+  ],
+  [
+    'วุ้นบูด🤞',
+    'wunbud🤞',
+  ],
+  [
+    'เจ้ามันม่วง',
+    'cheamanmuang',
+  ],
+  [
+    'ซี-วิท',
+    'si-with',
+  ],
+  [
+    'ออม',
+    'om',
+  ],
+  [
+    'วอว',
+    'wow',
+  ],
+  [
+    'FC "โอน"',
+    'FC "on"',
+  ],
+  [
+    'หมูปิ้ง',
+    'hmuping',
+  ],
+  [
+    'ปีโป้',
+    'pipo',
+  ],
+  [
+    'ไม่มีอะไรทำ',
+    'maimiaraitham',
+  ],
+  [
+    'เต้าหู้ form China',
+    'teahu form China',
+  ],
+  [
+    'งุงิ',
+    'ngungi',
+  ],
+  [
+    'บะล๊กบะลั๊กกั๊กกะกกกอกอ๊อคออค',
+    'balkbalakkakkakkkokokhokh',
+  ],
+  [
+    'วน',
+    'won',
+  ],
+  [
+    'วอกน้อย',
+    'woknoi',
+  ],
+  [
+    'ไข่เจียวของออมเล็ต',
+    'khaichiaokhongoomlut',
+  ],
+  [
+    'อซฮ \'ㅅ\'',
+    'sh \'ㅅ\'',
+  ],
+  [
+    'ก',
+    'k',
+  ],
+  [
+    'รєє๔',
+    'rєє4',
+  ],
+  [
+    'กนกก้อง',
+    'kanokkong',
+  ],
+  [
+    'Ariøภ',
+    'Ariøph',
+  ],
+  [
+    'หายตัว',
+    'haitua',
+  ],
+  [
+    'หยั้ยไหยหยั๊ยยาา',
+    'hyayhaihyayyaa',
+  ],
+  [
+    'ชิก้ามารุ',
+    'chikamaru',
+  ],
+  [
+    'โฮ่งเหมียว',
+    'honghemiyua',
+  ],
+  [
+    'วัยรุ่นขอบตาดำ',
+    'wairunkhobtadam',
+  ],
+  [
+    'แมวเรืองแสง',
+    'maeoruangsaeng',
+  ],
+  [
+    'แมรี่มี้',
+    'maerimi',
+  ],
+  [
+    'น้องปลาเก๋า',
+    'nongplakea',
+  ],
+  [
+    'มิว. ✈',
+    'mio. ✈',
+  ],
+  [
+    'ϟ ๖  Duda 愛 ᴬᴷᵀ',
+    'ϟ 6  Duda 愛 ᴬᴷᵀ',
+  ],
+  [
+    'หน่องเอฟฟี่',
+    'nongeffi',
+  ],
+  [
+    'Miเคิล',
+    'Mikhoel',
+  ],
+  [
+    'บู้บินได้ บินแบบไม่มีอะไรมากั้น',
+    'bubindai binbaebmaimiaraimakan',
+  ],
+  [
+    'บะบะบิ',
+    'bababi',
+  ],
+  [
+    '๖̶̶̶ζ͜͡Demonikunꡳ҉̶͢͝ꦘ꦳ꦌ꦳',
+    '6̶̶̶ζ͜͡Demonikunꡳ҉̶͢͝ꦘ꦳ꦌ꦳',
+  ],
+  [
+    'หลับตลอดไป',
+    'hlabtlodpai',
+  ],
+  [
+    'Ŧєคгɭאรร',
+    'Ŧєkhгɭאrr',
+  ],
+  [
+    'ขาดเธอทำผมเบลอเหมือนขาดหุ้น',
+    'khadthoethamphombelohemuenkhadhun',
+  ],
+  [
+    'ดูดม้าฟันหลอหรอ',
+    'dudmafanhlohro',
+  ],
+  [
+    'ไอว้อนทูสะเตอะเวอจิ้น',
+    'aiwonthusatoewoechin',
+  ],
+  [
+    'หนองโพ',
+    'nongpho',
+  ],
+  [
+    'งั่มมม !!',
+    'ngammm !!',
+  ],
+  [
+    'ηαчтσкร',
+    'ηαчтσкr',
+  ],
+  [
+    'มา3อย่าถาม4',
+    'ma3yatham4',
+  ],
+  [
+    'สมหมายชายแท้',
+    'somhmaichaithae',
+  ],
+  [
+    '! 𝔅𝔢𝔫𝔦𝔱𝔞๖ۣۜᴳᵒ',
+    '! 𝔅𝔢𝔫𝔦𝔱𝔞6ۣۜᴳᵒ',
+  ],
+  [
+    'บิ๊กจง',
+    'bikchong',
+  ],
+  [
+    'empty คาเฟ่',
+    'empty khafe',
+  ],
+  [
+    'จองลิซ',
+    'chonglis',
+  ],
+  [
+    'อแปม',
+    'paem',
+  ],
+  [
+    'ชีวิตอยากมี.....................',
+    'chiwitoiakmi.....................',
+  ],
+  [
+    'เราเก่งมาก',
+    'raokengmak',
+  ],
+  [
+    'รำคาญ?',
+    'ramkhay?',
+  ],
+  [
+    'จี๊ดเลอ',
+    'chidloe',
+  ],
+  [
+    'ระบบเติม Valorant โคตรซิ่ง',
+    'rabbtoem Valorant khotrsing',
+  ],
+  [
+    'อะจึ้กกึ๋ยยยยยยยยยย',
+    'achuekkueyyyyyyyyyy',
+  ],
+  [
+    'อ้นเทพซ่า 007',
+    'onthephsa 007',
+  ],
+  [
+    '🌈โนนา',
+    '🌈nona',
+  ],
+  [
+    'P\'parn NaJa  ป่าน(2)/25',
+    'P\'parn NaJa  pan(2)/25',
+  ],
+  [
+    'ไม่มีตังค่าาาาา``',
+    'maimitangkhaaaaa``',
+  ],
+  [
+    'ปะเย้',
+    'paye',
+  ],
+  [
+    'ยูมิ',
+    'yumi',
+  ],
+  [
+    'หมาหนม',
+    'hmahnom',
+  ],
+  [
+    'สวัสดีท่านผู้เจริญ',
+    'swasdithanphucheriy',
+  ],
+  [
+    'ยูกิ',
+    'yuki',
+  ],
+  [
+    '! √૯ทѳʍ !',
+    '! √૯thѳʍ !',
+  ],
+  [
+    'กวิน',
+    'kwin',
+  ],
+  [
+    'เจ้าเคออ',
+    'cheakhoe',
+  ],
+  [
+    '🌸นุ่มนิ่ม.🌸',
+    '🌸numnim.🌸',
+  ],
+  [
+    'มาตามหาไก่ทอด',
+    'matamahakaithod',
+  ],
+  [
+    '!τнєυsiทнσ ࣪ ࣪ ࣪',
+    '!τнєυsithнσ ࣪ ࣪ ࣪',
+  ],
+  [
+    'บี เอ เอส',
+    'bi e es',
+  ],
+  [
+    '🐳แฟนแม่บ้าน',
+    '🐳faenmaeban',
+  ],
+  [
+    'นายเกิอดใหม่มารวยแน่',
+    'naikoeodhaimmaruainae',
+  ],
+  [
+    'หัวดอ',
+    'huado',
+  ],
+  [
+    'ชินจัง',
+    'chinchang',
+  ],
+  [
+    'ฟดหดเห้ห้ห',
+    'fodhdhehh',
+  ],
+  [
+    'ยิ้มม เธอทำได้อยู่แล้ว',
+    'yimm thoethamdaiyulaew',
+  ],
+  [
+    'ชาเหมียว',
+    'chahemiyua',
+  ],
+  [
+    'พี่เขาสุดเท่่',
+    'phikhaosudthe',
+  ],
+  [
+    'มะลิ',
+    'mali',
+  ],
+  [
+    'นุ้งมิ้ว',
+    'nungmiw',
+  ],
+  [
+    '๖̶̶̶ζ͜ᴍᴀɴɢᴇᴋʏᴏuჯ',
+    '6̶̶̶ζ͜ᴍᴀɴɢᴇᴋʏᴏuჯ',
+  ],
+  [
+    'จัดจ่าดดด',
+    'chadchaddd',
+  ],
+  [
+    'มาจากสีเขียว🈯',
+    'machaksikhiao🈯',
+  ],
+  [
+    'อันดา',
+    'anda',
+  ],
+  [
+    'น๋องมอล',
+    'nongmol',
+  ],
+  [
+    '★꧁๖ۣۣۜ𝓓𝖆𝖗ҟ꧂★',
+    '★꧁6ۣۣۜ𝓓𝖆𝖗ҟ꧂★',
+  ],
+  [
+    'KUMAʕ•ᴥ•ʔ เด็กดีค้าบบบบบบบ',
+    'KUMAʕ•ᴥ•ʔ dukdikhabbbbbbb',
+  ],
+  [
+    'ดูควยหน่อย',
+    'dukhuaihnoi',
+  ],
+  [
+    'ชลบุรี สายซิ่ง',
+    'chlburi saising',
+  ],
+  [
+    'ศิลปะ ไร้ขอบเขต',
+    'silpa raikhobkhet',
+  ],
+  [
+    'ครับ',
+    'khrab',
+  ],
+  [
+    'สวัสดีค้าบ',
+    'swasdikhab',
+  ],
+  [
+    'โลมา',
+    'loma',
+  ],
+  [
+    'ไอเวร',
+    'aiwer',
+  ],
+  [
+    'บังจู งูนิดเดียว',
+    'bangchu nguniddiao',
+  ],
+  [
+    'ผมง่วงครับ',
+    'phomnguangkhrab',
+  ],
+  [
+    'คุณส้มส้ม',
+    'khunsomsom',
+  ],
+  [
+    'ไข่ดาวเจียว',
+    'khaidaochiao',
+  ],
+  [
+    'จะไปเดินเล่นบนดาวไม้ไผ่',
+    'chapaidoenlenbondaomaiphai',
+  ],
+  [
+    '⚡๖ۣۜ㉺DEMIﾂ⚡',
+    '⚡6ۣۜ㉺DEMIﾂ⚡',
+  ],
+  [
+    'ฮีโร่บาย ร่างโกรธสุดขีด',
+    'hirobai rangkorthsudkhid',
+  ],
+  [
+    'คาโมโนฮาชิ รอน',
+    'khamonohachi ron',
+  ],
+  [
+    'ประธานเบล',
+    'prathanbel',
+  ],
+  [
+    'ด.ช.______________',
+    'd.ch.______________',
+  ],
+  [
+    'หมู',
+    'hmu',
+  ],
+  [
+    'น้องเกมตัวร้ายย',
+    'nongkemtuarayy',
+  ],
+  [
+    'ฟิวน้อย',
+    'fuainoi',
+  ],
+  [
+    'กระบี่คู่ ผู้พิชิต',
+    'krabikhu phuphichit',
+  ],
+  [
+    'ฮัมตี้ดัมตี้',
+    'hamtidamti',
+  ],
+  [
+    'โล้นซ่า',
+    'lonsa',
+  ],
+  [
+    'แทนแท้น',
+    'thaenthaen',
+  ],
+  [
+    'สยอง',
+    'syong',
+  ],
+  [
+    'มองหา',
+    'mongha',
+  ],
+  [
+    'หอดูดาวโฮชิมาจิ 💫',
+    'hodudaohochimachi 💫',
+  ],
+  [
+    'ครูมอส',
+    'khrumos',
+  ],
+  [
+    'เจ้าหนูจำไม🐭',
+    'cheahnuchammai🐭',
+  ],
+  [
+    'ขี้ค่าคาราบาว',
+    'khikhakharabao',
+  ],
+  [
+    'ตะแน่ว',
+    'tanaew',
+  ],
+  [
+    'สุดคับรีให้',
+    'sudkhabrihai',
+  ],
+  [
+    'พูล',
+    'phul',
+  ],
+  [
+    'แซน :3',
+    'saen :3',
+  ],
+  [
+    'นู๋โมโน ฮาทาริ',
+    'numono hathari',
+  ],
+  [
+    '๖ۣۜAntinonymous',
+    '6ۣۜAntinonymous',
+  ],
+  [
+    'คิม จุ๊กกุ้',
+    'khim chukku',
+  ],
+  [
+    'น้องเก๋า',
+    'nongkea',
+  ],
+  [
+    'Z\'Gok II ตัวจริง',
+    'Z\'Gok II tuachring',
+  ],
+  [
+    'พาลอยมีอัลลัย',
+    'phaloimiallai',
+  ],
+  [
+    '๋࣭⋆⁺₊𝖑𝖎𝖓𝖆',
+    '࣭⋆⁺₊𝖑𝖎𝖓𝖆',
+  ],
+  [
+    'เข้าสู่ห้วงนิทรา 🌙✨',
+    'kheasuhwongnithra 🌙✨',
+  ],
+  [
+    'เด็กเอ๋อ',
+    'duke',
+  ],
+  [
+    'วาโรมั้ยอ้าย',
+    'waromayoay',
+  ],
+  [
+    'กุอะรุ่นเก้า',
+    'kuarunkea',
+  ],
+  [
+    '่Cyas.74',
+    'Cyas.74',
+  ],
+  [
+    'มัมหมีน้อนหมีเนย🐻',
+    'mamhminonhminoei🐻',
+  ],
+  [
+    'หรอยเลยเจ้า',
+    'hroiloeichea',
+  ],
+  [
+    'พีน้อย1มิล',
+    'phinoi1mil',
+  ],
+  [
+    'นกพิราบ',
+    'nokphirab',
+  ],
+  [
+    'ฟอฟอ',
+    'fofo',
+  ],
+  [
+    'ตัวผมไร้ขนมคงหิว',
+    'tuaphomraikhnomkhonghio',
+  ],
+  [
+    'โคโคมิยะ',
+    'khokhomiya',
+  ],
+  [
+    'โจรบราซิล',
+    'chobrasil',
+  ],
+  [
+    'กล้วยหอมจอมซน',
+    'klwyhomchomson',
+  ],
+  [
+    'สามหก',
+    'samhok',
+  ],
+  [
+    'อ้ายอวบบ',
+    'ayowbb',
+  ],
+  [
+    'ไททันปอ',
+    'thaithanpo',
+  ],
+  [
+    'เอ่าเห้ย',
+    'ahey',
+  ],
+  [
+    'ოﻨĸձﻨl  |  սռսรεժռεժ',
+    'ოﻨĸձﻨl  |  սռսrεժռεժ',
+  ],
+  [
+    '🧁 ꜜ ᎒ ๑₍ᐢ..ᐢ₎',
+    '🧁 ꜜ ᎒ 1₍ᐢ..ᐢ₎',
+  ],
+  [
+    'นายสะเหล่อ',
+    'naisale',
+  ],
+  [
+    'ɱ૯ςคՐ੮Һɿɱ-ც',
+    'ɱ૯ςkhՐ੮Һɿɱ-ც',
+  ],
+  [
+    'น้อนหมูหยอง',
+    'nonhmuhyong',
+  ],
+  [
+    'โต้โฟ',
+    'tofo',
+  ],
+  [
+    'ﮩ٨ـﮩﮩ٨ـᘜส𝔟𝓻ḭᶓ𝙡𝙡ﮩ٨ـﮩﮩ٨ـ',
+    'ﮩ٨ـﮩﮩ٨ـᘜs𝔟𝓻ḭᶓ𝙡𝙡ﮩ٨ـﮩﮩ٨ـ',
+  ],
+  [
+    'ป่านมีพฤติกรรมลอกเลียนแบบ',
+    'panmiphruetikamloklianbaeb',
+  ],
+  [
+    '✎☣♕ώA ҉ しじ✥Є ❧ วี♚☬㎯',
+    '✎☣♕ώA ҉ しじ✥Є ❧ wi♚☬㎯',
+  ],
+  [
+    'แม่มึงเก่งสุด',
+    'maemuengkengsud',
+  ],
+  [
+    'ดิวดิ่วดิ้วดิ๊วดิ๋ว',
+    'diwdiwdiwdiwdiw',
+  ],
+  [
+    'สิงหา.',
+    'singha.',
+  ],
+  [
+    'ควยเคริง',
+    'khuaikhering',
+  ],
+  [
+    '﹆ ⁺₊ ลูกแพร ˎˊ˗',
+    '﹆ ⁺₊ lukphaer ˎˊ˗',
+  ],
+  [
+    '❥๖Capitão๖',
+    '❥6Capitão6',
+  ],
+  [
+    'ดิสโดนhack',
+    'disdonhack',
+  ],
+  [
+    'Zaberคุง',
+    'Zaberkhung',
+  ],
+  [
+    'Asst. Prof. Dr. หม่า',
+    'Asst. Prof. Dr. hma',
+  ],
+  [
+    'ชีแก๊ก',
+    'chikaek',
+  ],
+  [
+    '⋆ มู้ววว ♡̶',
+    '⋆ muwuaw ♡̶',
+  ],
+  [
+    'หวาดดีฮ้าฟ',
+    'hwaddihaf',
+  ],
+  [
+    'เด้น',
+    'den',
+  ],
+  [
+    'ฅᨐฅ',
+    'khᨐkh',
+  ],
+  [
+    'ขันที ที่ไม่ขัน',
+    'khanthi thimaikhan',
+  ],
+  [
+    'คำคมบาดแผล',
+    'khamkhombadphael',
+  ],
+  [
+    'น้องเจนดึกกี้',
+    'nongchenduekki',
+  ],
+  [
+    'ยุงบินหรือยุงเดิน?',
+    'yungbinhrueyungdoen?',
+  ],
+  [
+    'แว ยู ฟันปลอม?',
+    'wae yu fanplom?',
+  ],
+  [
+    'Hauru (๑• . •๑)',
+    'Hauru (1• . •1)',
+  ],
+  [
+    'จ้อน',
+    'chon',
+  ],
+  [
+    'กูว่าแล้วมึงต้องอ่าน',
+    'kuwalaewmuengtongan',
+  ],
+  [
+    'เซฟ',
+    'sef',
+  ],
+  [
+    'แมวง่วง',
+    'maeonguang',
+  ],
+  [
+    'งูงุ้ยฮุยจุยงาา',
+    'ngunguyhuichuingaa',
+  ],
+  [
+    '๖̶̶̶ζ͜͡ᴍᴀᴅᴀʀᴀ 天',
+    '6̶̶̶ζ͜͡ᴍᴀᴅᴀʀᴀ 天',
+  ],
+  [
+    'เกลเดซิบ้อง',
+    'keldesibong',
+  ],
+  [
+    '悲しみ [คะนะชิมิ] ความเศร้าโศก',
+    '悲しみ [khanachimi] khwamsaosok',
+  ],
+  [
+    'หนุ่มรูปงาม',
+    'hnumrupngam',
+  ],
+  [
+    'เลิกบูลลี่แก้มฉัน !!!!!',
+    'loekbullikaemchan !!!!!',
+  ],
+  [
+    'บาบูด',
+    'babud',
+  ],
+  [
+    'อย่าทำให้ผมโกด',
+    'yathamhaiphomkod',
+  ],
+  [
+    'เซียนไพ่ที่แพ้ริสุครั้งที่ 3',
+    'sianphaithiphaerisukhrangthi 3',
+  ],
+  [
+    'Luภα❥',
+    'Luphα❥',
+  ],
+  [
+    'หมาเฉิน',
+    'hmachoen',
+  ],
+  [
+    'มุแง้༼ つ ◕_◕ ༽つ',
+    'mungae༼ つ ◕_◕ ༽つ',
+  ],
+  [
+    'ไอน้อง',
+    'ainong',
+  ],
+  [
+    'เจ',
+    'che',
+  ],
+  [
+    'น้อนบู้บี้',
+    'nonbubi',
+  ],
+  [
+    'กระผมนายวรชาน วงชายชานชัยช่งชัน',
+    'kraphomnaiwrchan wongchaichanchaichngchan',
+  ],
+  [
+    '蝴蝶忍(๑• . •๑)',
+    '蝴蝶忍(1• . •1)',
+  ],
+  [
+    'เปิ้ล',
+    'poel',
+  ],
+  [
+    'เธอ',
+    'thoe',
+  ],
+  [
+    'แซ่มแล่ม',
+    'saemlaem',
+  ],
+  [
+    'อาโมจินเยลล',
+    'amochinyell',
+  ],
+  [
+    'PoroTHEPSSA007 (Poroเทพซ่า007)',
+    'PoroTHEPSSA007 (Porothephsa007)',
+  ],
+  [
+    'แกงพะแนง',
+    'kaengphanaeng',
+  ],
+  [
+    'ออซอ',
+    'oso',
+  ],
+  [
+    'พี่หมี🐻',
+    'phihmi🐻',
+  ],
+  [
+    'น้องปลาเค็มของพี่',
+    'nongplakhumkhongphi',
+  ],
+  [
+    'ตกจนท้อขอนอนต่อดีกว่าไหม',
+    'tokchonthkhonontodikwahaim',
+  ],
+  [
+    'เต็มสิบหักหมด',
+    'temsibhakmod',
+  ],
+  [
+    'ทาด๊าาาาาาาาาา',
+    'thadaaaaaaaaaa',
+  ],
+  [
+    'กิโรโระ',
+    'kiroro',
+  ],
+  [
+    'ไมกั่น',
+    'maikan',
+  ],
+  [
+    'Suiinetaihennゞ💐(ตุ้ยนุ้ย)',
+    'Suiinetaihennゞ💐(tuynuy)',
+  ],
+  [
+    'มะวิ้งมะแว๊บ',
+    'mawingmawaeb',
+  ],
+  [
+    'โกโก้กล้วย_🍌',
+    'kokoklwy_🍌',
+  ],
+  [
+    'กัร',
+    'kar',
+  ],
+  [
+    'ผมคือผู้วิเศษ',
+    'phomkhuephuwises',
+  ],
+  [
+    'ค้าน',
+    'khan',
+  ],
+  [
+    'รantymïg_ 🏰',
+    'rantymïg_ 🏰',
+  ],
+  [
+    'ฝุ่นมันเข้าตา',
+    'funmankheata',
+  ],
+  [
+    'พนักงานขายประกัน',
+    'phnakngankhaiprakan',
+  ],
+  [
+    'ดีงับ',
+    'dingab',
+  ],
+  [
+    'ทีมมี่',
+    'thimmi',
+  ],
+  [
+    'อ๋วง',
+    'uang',
+  ],
+  [
+    'นายปากกา',
+    'naipakka',
+  ],
+  [
+    'เชเช่',
+    'cheche',
+  ],
+  [
+    'ตอนู',
+    'tonu',
+  ],
+  [
+    'อีห่านี่  ปากน่าโดนตีนปุดปุดกั๊บ',
+    'ihani  paknadontinpudpudkab',
+  ],
+  [
+    'หนู',
+    'hnu',
+  ],
+  [
+    'สมิตรา',
+    'smitra',
+  ],
+  [
+    'Kunกัน',
+    'Kunkan',
+  ],
+  [
+    'คุ คี คัง คาม',
+    'khu khi khang kham',
+  ],
+  [
+    'นกเดินดิน',
+    'nokdoendin',
+  ],
+  [
+    'ธรรมะกระตุกจิตกระชากใจ',
+    'thamakratukchitokrachakchai',
+  ],
+  [
+    'คิดเชิงทดลอง',
+    'khidchoengthodlong',
+  ],
+  [
+    'โต้',
+    'to',
+  ],
+  [
+    'มาโร',
+    'maro',
+  ],
+  [
+    'หัวใจของเธอมิกิขอนะ💙',
+    'huachaikhongthoemikikhona💙',
+  ],
+  [
+    'คุณท่านขนมต้มโอบทหารราบ',
+    'khunthankhnomtomobthahanrab',
+  ],
+  [
+    'น้องดัง',
+    'nongdang',
+  ],
+  [
+    'แบดบอย',
+    'baedboi',
+  ],
+  [
+    'โอเคร สุดหล่อ',
+    'okher sudlo',
+  ],
+  [
+    'ใข่เจียว',
+    'khaichiao',
+  ],
+  [
+    'kikค',
+    'kikkh',
+  ],
+  [
+    'อ้อมกอด<3',
+    'omkod<3',
+  ],
+  [
+    'มุแง้ด',
+    'mungaed',
+  ],
+  [
+    'ของแบบนี้นี่รักเลย',
+    'khongbaebninirakloei',
+  ],
+  [
+    'ઝ¡ทg -૮ѳѳℓ_gαʍ૯૨54',
+    'ઝ¡thg -૮ѳѳℓ_gαʍ૯૨54',
+  ],
+  [
+    'ไม่ใช่หนาาา',
+    'maichaihnaaa',
+  ],
+  [
+    'บุ้งกี๋',
+    'bungki',
+  ],
+  [
+    'พ่อบ้าน切妻・ファン🥀',
+    'phoban切妻・ファン🥀',
+  ],
+  [
+    'กัปตัน โดนแบน',
+    'kaptan donbaen',
+  ],
+  [
+    'มันคือแป้ง',
+    'mankhuepaeng',
+  ],
+  [
+    'โก๋ยโต๋ย',
+    'koytoy',
+  ],
+  [
+    'โต้เทพในเงา ราชามังกรบนมือขวา',
+    'tothephnaingao rachamangokrbonmuekhuaa',
+  ],
+  [
+    'โฮกปิป',
+    'hokpip',
+  ],
+  [
+    'โลมา',
+    'loma',
+  ],
+  [
+    'ชัคกี้เด็กดี',
+    'chakhkidukdi',
+  ],
+  [
+    'นอยwa',
+    'noiwa',
+  ],
+  [
+    'อาฉิงชี่',
+    'achingchi',
+  ],
+  [
+    'พิกกี้บู้',
+    'phikkibu',
+  ],
+  [
+    '่่๋Jane Janebhop',
+    'Jane Janebhop',
+  ],
+  [
+    'ฉันนินิว',
+    'channinio',
+  ],
+  [
+    'ยู มัง กะ ซอ',
+    'yu mang ka so',
+  ],
+  [
+    'พายมึงต้อ',
+    'phaimuengt',
+  ],
+  [
+    'กินนมก่อนนอนนะ!',
+    'kinnomkonnonna!',
+  ],
+  [
+    '£₹💷❄🧊🧋ไอ้เจv1🌠❗',
+    '£₹💷❄🧊🧋aichev1🌠❗',
+  ],
+  [
+    'ไอลาา',
+    'ailaa',
+  ],
+  [
+    'ชินาม่อนนนน',
+    'chinamonnnn',
+  ],
+  [
+    'ขจร',
+    'khchr',
+  ],
+  [
+    'บริกรชาย',
+    'brikrchai',
+  ],
+  [
+    'อย่ามาอยู่กับกุ้ง',
+    'yamayukabkung',
+  ],
+  [
+    'สมดุ๋ย',
+    'somduy',
+  ],
+  [
+    'รู้อยู้สบู่ไทย',
+    'ruyusbuthai',
+  ],
+  [
+    'อัยแม้ว',
+    'aymaew',
+  ],
+  [
+    'คุณกิตติ',
+    'khunkitti',
+  ],
+  [
+    'มอเฟียส',
+    'mofias',
+  ],
+  [
+    'ฉันคืออาตี๋',
+    'chankhueati',
+  ],
+  [
+    'คุณบอล',
+    'khunbol',
+  ],
+  [
+    'ชาไทยขลั่ยหมาสำหรับน้องมุก',
+    'chathaikhlaihmasamhrabnongmuk',
+  ],
+  [
+    'เห็ดหอมแมวเป้า',
+    'hedhommaeopea',
+  ],
+  [
+    'หมูทอดlover',
+    'hmuthodlover',
+  ],
+  [
+    'มัมมามี่ย่าาาาา',
+    'mammamiyaaaaa',
+  ],
+  [
+    'ตุ๋ยเอง',
+    'tuyeng',
+  ],
+  [
+    'พี่หน่วง',
+    'phihnuang',
+  ],
+  [
+    'จิตปล่อยวาง',
+    'chitploiwang',
+  ],
+  [
+    'คɭєรเคシ',
+    'khɭєrkheシ',
+  ],
+  [
+    'ส้มส้ม',
+    'somsom',
+  ],
+  [
+    'ปลาทูหาย',
+    'plathuhai',
+  ],
+  [
+    'CQC อวกาศไม้ตียุง',
+    'CQC uakasmaitiyung',
+  ],
+  [
+    'นอนได้แล้ว',
+    'nondailaew',
+  ],
+  [
+    '29วันลาบ',
+    '29wanlab',
+  ],
+  [
+    'ช่องคลอด',
+    'chongkhlod',
+  ],
+  [
+    'ซึม:7',
+    'suem:7',
+  ],
+  [
+    'น้องแพรพีพีพีอาเอ้ก',
+    'nongphaerphiphiphiaek',
+  ],
+  [
+    'สนองยุพิณ',
+    'snongyuphin',
+  ],
+  [
+    'ข้าวเหนียวข้าวเหนียว',
+    'khawheniyuakhawheniyua',
+  ],
+  [
+    'ตวย',
+    'tuai',
+  ],
+  [
+    'ร𝒽∂ค𝐍ч𝓏Đ',
+    'r𝒽∂kh𝐍ч𝓏Đ',
+  ],
+  [
+    'Maka (มากะ)',
+    'Maka (maka)',
+  ],
+  [
+    'nymph 𓏲๋',
+    'nymph 𓏲',
+  ],
+  [
+    'ชีวิต❤',
+    'chiwit❤',
+  ],
+  [
+    'สว่างแดนดิน',
+    'swangdaendin',
+  ],
+  [
+    'มุซาชิ#6666',
+    'musachi#6666',
+  ],
+  [
+    'ความรักมันคืออะไร',
+    'khwamrakmankhuearai',
+  ],
+  [
+    'ไอ้กล้วย',
+    'aiklwy',
+  ],
+  [
+    'กล้วยอบเนยโรยเกลือ',
+    'klwyobnoeiroikelue',
+  ],
+  [
+    'ปิ้งไก่',
+    'pingkai',
+  ],
+  [
+    '₊˚ ᨳ ୨`🍯`୧ Mew ๑₊˚',
+    '₊˚ ᨳ ୨`🍯`୧ Mew 1₊˚',
+  ],
+  [
+    'ฟ้ารักพ่อ',
+    'farakpho',
+  ],
+  [
+    'เพ็ดดีกรีอร่อยดี',
+    'phuddikriroidi',
+  ],
+  [
+    'สม.ที่แปลว่าสัดมีน',
+    'som.thipaeluaasadmin',
+  ],
+  [
+    'ฮา เดส.',
+    'ha des.',
+  ],
+  [
+    'ดำเดิง',
+    'damdoeng',
+  ],
+  [
+    'อยากติดจุฬา',
+    'yaktidchula',
+  ],
+  [
+    'เอราบาบี',
+    'erababi',
+  ],
+  [
+    'ซง จุงกิต',
+    'song chungkit',
+  ],
+  [
+    'นิติง่ายกี่โมง',
+    'nitingaikimong',
+  ],
+  [
+    'ฮัมตี้ดัมตี้',
+    'hamtidamti',
+  ],
+  [
+    'โกโก้ปั่นตราตุ๊กแก',
+    'kokopantratukkae',
+  ],
+  [
+    'ใข่มุก....อิอิ',
+    'khaimuk....ii',
+  ],
+  [
+    'SoDiumเองงับ',
+    'SoDiumengngab',
+  ],
+  [
+    'เบนจี สมีทาว',
+    'benchi smithao',
+  ],
+  [
+    'หยักกินป๋องแป๋ง~~',
+    'hyakkinpongpaeng~~',
+  ],
+  [
+    'ปิงราชานรก',
+    'pingrachanrok',
+  ],
+  [
+    'รินรักท่านนายพลเฟยเซียว',
+    'rinrakthannaiphlfaoeisiao',
+  ],
+  [
+    'พวกกุเด็กพระนคร Underground',
+    'phuakkudukphrankhr Underground',
+  ],
+  [
+    'ก๋าตุ๋ย🐰',
+    'katuy🐰',
+  ],
+  [
+    'ร้อยคนทักผมรักพ่อหลวง',
+    'roikhonthakphomrakphohluang',
+  ],
+  [
+    'ไม่รู้อะไร',
+    'mairuarai',
+  ],
+  [
+    'ขนม มี รู',
+    'khnom mi ru',
+  ],
+  [
+    'อะตี๋',
+    'ati',
+  ],
+  [
+    'ขอยาดดAxe,nA.',
+    'khoiaddAxe,nA.',
+  ],
+  [
+    'นอย',
+    'noi',
+  ],
+  [
+    'จ้า',
+    'cha',
+  ],
+  [
+    'ปลิดปลิวดั่งใบไม้ร่วง',
+    'plidpliodangbaimairuang',
+  ],
+  [
+    'ชอบกินมิ้นช้อค',
+    'chobkinminchkh',
+  ],
+  [
+    'ยโสdo not eat',
+    'ysodo not eat',
+  ],
+  [
+    'ดุ๋ย',
+    'duy',
+  ],
+  [
+    'มะม๋า',
+    'mama',
+  ],
+  [
+    'อาบูดดาบี้',
+    'abuddabi',
+  ],
+  [
+    '【✨⋆≽ᕕทᴛ҈ᴴδภყ≼⋆⚡】',
+    '【✨⋆≽ᕕthᴛ҈ᴴδphყ≼⋆⚡】',
+  ],
+  [
+    'เมฆ',
+    'mekh',
+  ],
+  [
+    'แล้วแต่ชอบ',
+    'laewtaechob',
+  ],
+  [
+    '💗(/◕ヮ◕)/💗✦(โม)✦',
+    '💗(/◕ヮ◕)/💗✦(mo)✦',
+  ],
+  [
+    'ปุ๊กปิ๊ก',
+    'pukpik',
+  ],
+  [
+    'ผีหลอกวิญญาณหลอน',
+    'phihlokwiyyanhlon',
+  ],
+  [
+    'ไอฟิ้ดเกตูด',
+    'aifidketud',
+  ],
+  [
+    'อ้นนนนนน~~~~~',
+    'nnnnnn~~~~~',
+  ],
+  [
+    'กระต่ายหูตก ! ୨ৎ',
+    'krataihutok ! ୨ৎ',
+  ],
+  [
+    'MUTUKEK ชายที่กลับมาจากนรก',
+    'MUTUKEK chaithiklabmachakonrok',
+  ],
+  [
+    'ข้าวต้มปลาวาฬ',
+    'khawtomplaoal',
+  ],
+  [
+    'Arm ลูคีเมีย',
+    'Arm lukhimia',
+  ],
+  [
+    'เจ็บจากเขา โทรหาเราได้',
+    'chubchakkhao thorharaodai',
+  ],
+  [
+    'หวาย',
+    'hwai',
+  ],
+  [
+    'พีเองไอ้น้อง',
+    'phiengainong',
+  ],
+  [
+    'อร่อย',
+    'roi',
+  ],
+  [
+    'มะหมวย',
+    'mahmuai',
+  ],
+  [
+    'ต้นสน',
+    'tonsn',
+  ],
+  [
+    'ถถถถถถ',
+    'thththththth',
+  ],
+  [
+    'อรุ้ยจร้าา 👌😍',
+    'ruychraa 👌😍',
+  ],
+  [
+    'กูจะบ้า',
+    'kuchaba',
+  ],
+  [
+    'แอ๋ว',
+    'aew',
+  ],
+  [
+    'แมวฟ้า',
+    'maeofa',
+  ],
+  [
+    'ไอ้ดุ่ย',
+    'aidui',
+  ],
+  [
+    'ลูกพระเจ้าตาก',
+    'lukphracheatak',
+  ],
+  [
+    'ญาญ่าญ้าญ๊าญ๋า',
+    'yayayayaya',
+  ],
+  [
+    'ไอ่แพร',
+    'aiphaer',
+  ],
+  [
+    'อย่ายุ่งดิ้!!!',
+    'yaingdi!!!',
+  ],
+  [
+    'ข้าวจ่าว',
+    'khawchao',
+  ],
+  [
+    'ปลุกกู',
+    'plukku',
+  ],
+  [
+    'ต้าวหมาส้ม',
+    'tawhmasom',
+  ],
+  [
+    'นักเล่านิทาน',
+    'naklaonithan',
+  ],
+  [
+    'น้องมี่',
+    'nongmi',
+  ],
+  [
+    'อ้ายส่งสุดแขน เขาแทงสุดโคน',
+    'aysongsudkhaen khaothaengsudkhon',
+  ],
+  [
+    'เปลี่ยนทำไมก่อน',
+    'peliyonthammaikon',
+  ],
+  [
+    'มวย',
+    'muai',
+  ],
+  [
+    'ตี๋ใหญ่',
+    'tihaiy',
+  ],
+  [
+    'รุ้',
+    'ru',
+  ],
+  [
+    'อีกานdekhere',
+    'ikandekhere',
+  ],
+  [
+    'แพนนี่ขยี้ใบ',
+    'phaennikhyibai',
+  ],
+  [
+    'แบทแมน',
+    'baethmaen',
+  ],
+  [
+    'โน่ ท้ายอโรสม่า',
+    'no thayorosma',
+  ],
+  [
+    'โอ่งตูมต้าม',
+    'ongtumtam',
+  ],
+  [
+    '30 สิงหา',
+    '30 singha',
+  ],
+  [
+    'แบทแมว',
+    'baethmaeo',
+  ],
+  [
+    'มอลานะมาลีก',
+    'molanamalik',
+  ],
+  [
+    'กินท่อม ไปค่อมเธอ',
+    'kinthom paikhomthoe',
+  ],
+  [
+    'meow - อ่าน berserk',
+    'meow - an berserk',
+  ],
+  [
+    'ป๋าโลมา',
+    'paloma',
+  ],
+  [
+    'กุยช่าย',
+    'kuichai',
+  ],
+  [
+    'กาหนกวัน',
+    'kahnokwan',
+  ],
+  [
+    'โอปอ',
+    'opo',
+  ],
+  [
+    'กูจะบ้า',
+    'kuchaba',
+  ],
+  [
+    'มุดสังกำลังทำวิจัย',
+    'mudsangkamlangthamwichai',
+  ],
+  [
+    'หมูหมึกกุ้ง',
+    'hmuhmuekkung',
+  ],
+  [
+    'มันอร่อยมากกกกกกก',
+    'manoroimakkkkkkk',
+  ],
+  [
+    'ไก๋ไก่',
+    'kaikai',
+  ],
+  [
+    'ต๋อง',
+    'tong',
+  ],
+  [
+    'สยามเดม',
+    'syamdem',
+  ],
+  [
+    'ค๊อก ค๊อก',
+    'khok khok',
+  ],
+  [
+    'ไม่รู้ไม่บอก',
+    'mairumaibok',
+  ],
+  [
+    'พอจอ',
+    'phocho',
+  ],
+  [
+    '۞𝕐𝕒𝕟۞ฅ^•ﻌ•^ฅ',
+    '۞𝕐𝕒𝕟۞kh^•ﻌ•^kh',
+  ],
+  [
+    'จุ๋มจิ๋ม',
+    'chumchim',
+  ],
+  [
+    'ไร้นาม',
+    'rainam',
+  ],
+  [
+    'บังเอง',
+    'bangeng',
+  ],
+  [
+    'I have แม่ลิง',
+    'I have maeling',
+  ],
+  [
+    'โหมดไม่ระบุตัวตน',
+    'modemairabutuaton',
+  ],
+  [
+    'แมวเด๋อ',
+    'maeode',
+  ],
+  [
+    'แมวส๊มมมมม',
+    'maeosmmmmm',
+  ],
+  [
+    'ย้ายดิส',
+    'yaydis',
+  ],
+  [
+    'น้องออนิว',
+    'nongonio',
+  ],
+  [
+    'ยาหยี',
+    'yahyi',
+  ],
+  [
+    'เลิกเล่นละ',
+    'loeklenla',
+  ],
+  [
+    'เป็นผง',
+    'punphong',
+  ],
+  [
+    'บีม.',
+    'bim.',
+  ],
+  [
+    'วิปครีม',
+    'wipkhrim',
+  ],
+  [
+    'ฮีฮี่~~~~',
+    'hihi~~~~',
+  ],
+  [
+    'นิสิต',
+    'nisit',
+  ],
+  [
+    'ติ๋ม',
+    'tim',
+  ],
+  [
+    'จอจิ๊บ',
+    'chochib',
+  ],
+  [
+    'ททชชชชชชช',
+    'ththchchchchchchch',
+  ],
+  [
+    'มาเฟียไดโน',
+    'mafiadaino',
+  ],
+  [
+    'หลวงพี่ลีจัดให้',
+    'hluangphilichadhai',
+  ],
+  [
+    'เจเจเจ',
+    'checheche',
+  ],
+  [
+    'ข้าวเกรียบกุ้ง',
+    'khawkriapkung',
+  ],
+  [
+    'สะม๋อยต๋อย',
+    'samoitoi',
+  ],
+  [
+    'แป๋ว',
+    'paew',
+  ],
+  [
+    'เลิกปากหมาไอ้ควาย',
+    'loekpakhmaaikhwai',
+  ],
+  [
+    'ตบขยะ',
+    'tobkhya',
+  ],
+  [
+    'โก๋ยโต๋ยเรือ',
+    'koytoyrua',
+  ],
+  [
+    'นอยเองหายเอง',
+    'noienghaieng',
+  ],
+  [
+    'Dia ฅ^•ﻌ•^ฅ',
+    'Dia kh^•ﻌ•^kh',
+  ],
+  [
+    'หน้าไม่ผ่านเขาเลยอ่านไม่ตอบ',
+    'namaiphankhaoloeianmaitob',
+  ],
+  [
+    'ผัดไทยใส่เป็ด',
+    'phadthaisaipud',
+  ],
+  [
+    'นปนปนปนปนป',
+    'nponponponponp',
+  ],
+  [
+    'เอมมี่เองคะบ',
+    'emmiengkhab',
+  ],
+  [
+    'มาเฟียหาดใหญ่',
+    'mafiahadhaiy',
+  ],
+  [
+    'เอลซ่า',
+    'elsa',
+  ],
+  [
+    'ต้น',
+    'ton',
+  ],
+  [
+    'เกินปุ้ยมุ้ย',
+    'koenpuymuy',
+  ],
+  [
+    'มุแง',
+    'mungae',
+  ],
+  [
+    'งดเกมครับ หมดสภาพ',
+    'ngodkemkhrab modsphaph',
+  ],
+  [
+    'สับปะโร้ด🤩',
+    'sabparod🤩',
+  ],
+  [
+    'ฮัลโล้วมายเฟร้นน',
+    'hallowmaifernn',
+  ],
+  [
+    '★  ไม่มีตัวตน ★',
+    '★  maimituaton ★',
+  ],
+  [
+    'เจนนวย',
+    'chennuai',
+  ],
+  [
+    'น้งมอนนี่!',
+    'nongmonni!',
+  ],
+  [
+    'เจ้าตูบ',
+    'cheatub',
+  ],
+  [
+    'คิมคิม',
+    'khimkhim',
+  ],
+  [
+    'ชาน',
+    'chan',
+  ],
+  [
+    'ปอฟอคอบอ',
+    'pofokhobo',
+  ],
+  [
+    'เด็กชายลาพีด',
+    'dukchailaphid',
+  ],
+  [
+    'ตันเอง',
+    'taneng',
+  ],
+  [
+    'นิคกี้',
+    'nikhki',
+  ],
+  [
+    'อนาคตจะเป็นทหารครับ',
+    'nakhtchapunthahankhrab',
+  ],
+  [
+    'โอย',
+    'oy',
+  ],
+  [
+    'มองไรคะ',
+    'mongraikha',
+  ],
+  [
+    'เบ้บ',
+    'beb',
+  ],
+  [
+    'Babeนม',
+    'Babenom',
+  ],
+  [
+    'ถง',
+    'thong',
+  ],
+  [
+    'โอ้',
+    'o',
+  ],
+  [
+    '˚ ༘♡ฮันนี่ยากิ❀⋆₊˚',
+    '˚ ༘♡hanniyaki❀⋆₊˚',
+  ],
+  [
+    'จุ๊บเหม่ง',
+    'chubhemong',
+  ],
+  [
+    'จจ',
+    'chch',
+  ],
+  [
+    'มอเต็มกระด๋อย',
+    'motemkradoi',
+  ],
+  [
+    'แมวชุบแป้งทอด🐾',
+    'maeochubpaengthod🐾',
+  ],
+  [
+    'ชะม้อย 🐌🌼',
+    'chamoi 🐌🌼',
+  ],
+  [
+    'เกินปุยมุ้ย',
+    'koenpuimuy',
+  ],
+  [
+    'โคตะมีใจ',
+    'khotamichai',
+  ],
+  [
+    'ง่วงนอน',
+    'nguangnon',
+  ],
+  [
+    'วาววาว',
+    'waowao',
+  ],
+  [
+    '𝗠_𝘅𝗻.𖥔 ݁ ˖๋ ࣭ ⭑',
+    '𝗠_𝘅𝗻.𖥔 ݁ ˖ ࣭ ⭑',
+  ],
+  [
+    'สุดหล่อออ',
+    'sudloo',
+  ],
+  [
+    'อิน',
+    'in',
+  ],
+  [
+    'โคตรซิ่ง',
+    'khotrsing',
+  ],
+  [
+    '๑ᵒᯅᵒ๑',
+    '1ᵒᯅᵒ1',
+  ],
+  [
+    'กูนอนแต่ออนดิส',
+    'kunontaeondis',
+  ],
+  [
+    'ฟ่งTepซ่า007',
+    'fongTepsa007',
+  ],
+  [
+    'ฮายย~',
+    'haiy~',
+  ],
+  [
+    'โจ',
+    'cho',
+  ],
+  [
+    'หา AK ยิงเด็กแว้นแถวบ้าน',
+    'ha AK yingdukwaentaeoban',
+  ],
+  [
+    'ครับ',
+    'khrab',
+  ],
+  [
+    'คิม',
+    'khim',
+  ],
+  [
+    'ไก่งวงควงไข่',
+    'kainguangkhuangkhai',
+  ],
+  [
+    '๖̶ζ͜͡ND Nxmi',
+    '6̶ζ͜͡ND Nxmi',
+  ],
+  [
+    'กูวินเว้ย',
+    'kuwinwey',
+  ],
+  [
+    'อย่ากด กูโดนแฮค',
+    'yakod kudonhaekh',
+  ],
+  [
+    'นายโต้',
+    'naito',
+  ],
+  [
+    'มือเปล่าให้สอง มีของให้หมด',
+    'muepelahaisong mikhonghaimod',
+  ],
+  [
+    'นอนค้าบบบนอนนน',
+    'nonkhabbbnonnn',
+  ],
+  [
+    'หมา',
+    'hma',
+  ],
+  [
+    'ตัวตึงเมากาว',
+    'tuatuengmaokao',
+  ],
+  [
+    '╰┈➤คrคtค-໓คi-໓คiki-kนຖ˚ ༘ ♡ ⋆.˚',
+    '╰┈➤khrkhtkh-໓khi-໓khiki-knຖ˚ ༘ ♡ ⋆.˚',
+  ],
+  [
+    'โรนัลโด้บ้านร่องฟอง',
+    'ronaldobanrongfong',
+  ],
+  [
+    'น้องเพลงมูฮาฮาฮา',
+    'nongphelongmuhahaha',
+  ],
+  [
+    'คิคุ',
+    'khikhu',
+  ],
+  [
+    'Juliaฅ^•ﻌ•^ฅ',
+    'Juliakh^•ﻌ•^kh',
+  ],
+  [
+    'อยากเล่นฟีฟาย',
+    'yaklenfifai',
+  ],
+  [
+    'โจเซฟ',
+    'chosef',
+  ],
+  [
+    'mkkkkkkkkkkkkสุกี้',
+    'mkkkkkkkkkkkksuki',
+  ],
+  [
+    'นักปราบผู้มีความใจเกเร',
+    'nakprabphumikhwamchaikere',
+  ],
+  [
+    'หิวข้าว24ชม.',
+    'hiokhaw24chom.',
+  ],
+  [
+    'ขี้',
+    'khi',
+  ],
+  [
+    'เด็กดี',
+    'dukdi',
+  ],
+  [
+    '๖ۣۜDᴀᴇᴍᴏɴLᴏʀᴅ_Nᴏᴍɪ༻࿌𖣘',
+    '6ۣۜDᴀᴇᴍᴏɴLᴏʀᴅ_Nᴏᴍɪ༻࿌𖣘',
+  ],
+  [
+    'Mr. Best จะพาเธอลอย',
+    'Mr. Best chaphathoeloi',
+  ],
+  [
+    'ตังครับ',
+    'tangkhrab',
+  ],
+  [
+    'กอกิตสกิดไข่',
+    'kokitskidkhai',
+  ],
+  [
+    'แมวโง่',
+    'maeongo',
+  ],
+  [
+    'เด็กน้อย9ตวบบ',
+    'duknoi9tuabb',
+  ],
+  [
+    'ตาย',
+    'tai',
+  ],
+  [
+    'ห๊าา',
+    'haa',
+  ],
+  [
+    'คิว',
+    'khio',
+  ],
+  [
+    'ไอโล้นซ่า007',
+    'ailonsa007',
+  ],
+  [
+    'ไก่เล้ง ต้มแซ่บ',
+    'kaileng tomsaeb',
+  ],
+  [
+    'ไม่มีไรป่าว',
+    'maimiraipao',
+  ],
+  [
+    'กองมี',
+    'kongmi',
+  ],
+  [
+    'ฟอตอมอ',
+    'fotomo',
+  ],
+  [
+    'ขวยขิง',
+    'khuaikhing',
+  ],
+  [
+    'วุ้นบูด!',
+    'wunbud!',
+  ],
+  [
+    'ไม่ใช่ละมุดแต่เป็นลำไยนิ',
+    'maichailamudtaepunlamyaini',
+  ],
+  [
+    'โบโบ้เอง',
+    'boboeng',
+  ],
+  [
+    'สหายใบขม',
+    'shaibaikhom',
+  ],
+  [
+    'มิจิ',
+    'michi',
+  ],
+  [
+    'เอล',
+    'el',
+  ],
+  [
+    'ตัวร้อนไข้สูง😷🤒',
+    'tuaronkhaisung😷🤒',
+  ],
+  [
+    'จีจี้ ฟอจูน',
+    'chichi fochun',
+  ],
+  [
+    '๖ζ͜͡Mikey Sano',
+    '6ζ͜͡Mikey Sano',
+  ],
+  [
+    '₊🌸❜ ⋮ Arisa ๑˚₊',
+    '₊🌸❜ ⋮ Arisa 1˚₊',
+  ],
+  [
+    'Tea ธีฮ้าฟฟู้',
+    'Tea thihaffu',
+  ],
+  [
+    'สวัสดีครับผมผี',
+    'swasdikhrabphomphi',
+  ],
+  [
+    'พอ.',
+    'pho.',
+  ],
+  [
+    'ยิ้มหวาน✨',
+    'yimhwan✨',
+  ],
+  [
+    'สุกี้ยากี้',
+    'sukiyaki',
+  ],
+  [
+    'พาคินนาคี.com',
+    'phakhinnakhi.com',
+  ],
+  [
+    'ควยnether',
+    'khuainether',
+  ],
+  [
+    'ลูน่าตูดหมึก',
+    'lunatudhmuek',
+  ],
+  [
+    '₊˚๑ ଘ🩰ഒ 𝐚𝐩𝐡𝐫𝐨𝐝𝐢𝐭𝐞 ❜₊✧',
+    '₊˚1 ଘ🩰ഒ 𝐚𝐩𝐡𝐫𝐨𝐝𝐢𝐭𝐞 ❜₊✧',
+  ],
+  [
+    'ซอยจุ',
+    'soichu',
+  ],
+  [
+    'จะรีบไปไนหทำไมไม่นอนนี่',
+    'charibpainaihthammaimainonni',
+  ],
+  [
+    'นอน',
+    'non',
+  ],
+  [
+    'น้อนน่ารัก',
+    'nonnarak',
+  ],
+  [
+    'lทพซ่าหมาเห่า',
+    'lthphsahmahao',
+  ],
+  [
+    'สวัสดีครับ',
+    'swasdikhrab',
+  ],
+  [
+    'ข้าวมันไก่',
+    'khawmankai',
+  ],
+  [
+    'กากีนัง',
+    'kakinang',
+  ],
+  [
+    'อยากกินปลาย่าง',
+    'yakkinplaiang',
+  ],
+  [
+    'พระยาพิชัยดาบหัก',
+    'phrayaphichaidabhak',
+  ],
+  [
+    'หาไรกินดีกว่า',
+    'haraikindikwa',
+  ],
+  [
+    'ยินดี',
+    'yindi',
+  ],
+  [
+    'ไปครับเมีย',
+    'paikhrabmia',
+  ],
+  [
+    'เดสคุงง',
+    'deskhungng',
+  ],
+  [
+    'เทอมีABCแต่เทอไม่มีD',
+    'thoemiABCtaethoemaimiD',
+  ],
+  [
+    'หมาป่าขี้เซา',
+    'hmapakhisao',
+  ],
+  [
+    'โดนัทนัทโดโดเนทเนทนัท',
+    'donathnathdodonethnethnath',
+  ],
+  [
+    'ทาจิบานะ',
+    'thachibana',
+  ],
+  [
+    'ملاحظة 🥀(เนซึเกะหน้าม่วง)',
+    'ملاحظة 🥀(nesuekunamuang)',
+  ],
+  [
+    'โลกมันเหลี่ยมมมม',
+    'lokmanheliymmmm',
+  ],
+  [
+    'หยกซี่',
+    'yoksi',
+  ],
+  [
+    'ผัวเผลอแล้วเจอกัน',
+    'phuaphelolaewchoekan',
+  ],
+  [
+    'Guมาลีเอง',
+    'Gumalieng',
+  ],
+  [
+    'เกทอด',
+    'kethod',
+  ],
+  [
+    'sparkle ⭑๋܂෨',
+    'sparkle ⭑܂෨',
+  ],
+  [
+    'ครีมมี่',
+    'khrimmi',
+  ],
+  [
+    'สิฮิน้องบ่',
+    'sihinongb',
+  ],
+  [
+    'พีพีพีพีพีพีพีพีพีพีพีพีพีพีพีพี',
+    'phiphiphiphiphiphiphiphiphiphiphiphiphiphiphiphi',
+  ],
+  [
+    'ต้าทั่วเท่อชั่วปู๋ย้าหลาย',
+    'tathuathoechuapuyahlai',
+  ],
+  [
+    'พิซซ่า',
+    'phissa',
+  ],
+  [
+    'รักพี่เรน♥',
+    'rakphiren♥',
+  ],
+  [
+    'โดนดักช่วยที',
+    'dondakchuaithi',
+  ],
+  [
+    'นิคสุดหล่อ',
+    'nikhsudlo',
+  ],
+  [
+    'หัวหน้าเผ่า',
+    'huanaphao',
+  ],
+  [
+    '＜๑ⵗⵗ﹒﹙`🎹`﹚﹒𝙱𝚎𝚛𝚛𝚢𝟺𝚛 ﹒ ᥪꪫ⌣',
+    '＜1ⵗⵗ﹒﹙`🎹`﹚﹒𝙱𝚎𝚛𝚛𝚢𝟺𝚛 ﹒ ᥪꪫ⌣',
+  ],
+  [
+    'รักน้องชา😘',
+    'raknongcha😘',
+  ],
+  [
+    'popcatสุดepic',
+    'popcatsudepic',
+  ],
+  [
+    'ได้เวลาออกล่า',
+    'daiwelaokla',
+  ],
+  [
+    'Rov กัน',
+    'Rov kan',
+  ],
+  [
+    'วิบวูบ',
+    'wibuab',
+  ],
+  [
+    'บนบ้านมีอะไรว่ะ',
+    'bonbanmiaraiwa',
+  ],
+  [
+    'แจ้มๆ',
+    'chaem',
+  ],
+  [
+    'ผมอยากเป็นสตรีมเมอร์',
+    'phmoiakpunstrimmoer',
+  ],
+  [
+    'ทีนี้ก็ว้าวุ่นเลย',
+    'thinikwawunloei',
+  ],
+  [
+    'ไวท์',
+    'waith',
+  ],
+  [
+    'แพะบุญชื่น',
+    'phaebuychn',
+  ],
+  [
+    'ใส่สบงเเล้วทรงเเรปเปอร์',
+    'saisbonglewthrngreppoer',
+  ],
+  [
+    'คิดชื่อ ไม่ออก',
+    'khidchue maiok',
+  ],
+  [
+    'คิดถึงพี่มี้',
+    'khidthngphimi',
+  ],
+  [
+    'มะคำพรื่อหนิ',
+    'makhamphruehni',
+  ],
+  [
+    'น้องนํ้าตาล',
+    'nongnatal',
+  ],
+  [
+    'ไฟต์ ราฟาเอล.',
+    'fait rafael.',
+  ],
+  [
+    'เศร้าว่ะ',
+    'saowa',
+  ],
+  [
+    'วันนี้กูชนหมาวันหน้ากูจะชนมึง',
+    'wannikuchonhmaonnakuchachonmueng',
+  ],
+  [
+    'ไม่หล่อเท่าเขาแต่เราเท่าแขน',
+    'mailothaokhaotaeraothaokhaen',
+  ],
+  [
+    'แกออกจากเซฟโซนเมื่อไหร่แกเจอแน่',
+    'kookchaksefsonmuehairkaechoenae',
+  ],
+  [
+    'ด.ญ. สไปเดอร์แมน',
+    'd.y. spaidoermaen',
+  ],
+  [
+    'นอร์ท (North)',
+    'north (North)',
+  ],
+  [
+    'น้องคานะน่ารักนะะะ',
+    'nongkhananaraknaaa',
+  ],
+  [
+    'ก๋วยเตี๋ยว~',
+    'kwytiyua~',
+  ],
+  [
+    'ก๋วยเตี๋ยว',
+    'kwytiyua',
+  ],
+  [
+    'SZ-★Takumi★สไปร์ท',
+    'SZ-★Takumi★spairth',
+  ],
+  [
+    'ซุปค้างคาวไม่ค้างคืน',
+    'supkhangkhaomaikhangkhn',
+  ],
+  [
+    'บะ..บัดสีที่สุดค่ะ!!!',
+    'ba..badsithisudkha!!!',
+  ],
+  [
+    'เจ๊สี่น้ำหดอดล้างตูด',
+    'chesinhdodlangtud',
+  ],
+  [
+    'ก็เขียวเเหละ',
+    'kkhiaohela',
+  ],
+  [
+    'มองหน้าหาเรื่อง',
+    'mongnaharuang',
+  ],
+  [
+    'ผมทำเพื่อพ่อ แต่ผมโดนงอน',
+    'phomthamphuepho taephomdonngon',
+  ],
+  [
+    'NOoๅเอน',
+    'NOoen',
+  ],
+  [
+    'เสือ',
+    'sue',
+  ],
+  [
+    'DANGแดงวิไรรัตน์Vilairat',
+    'DANGdaenguarairatonVilairat',
+  ],
+  [
+    'บล็อคเคอรี่บ๋อย',
+    'blkhkhoeriboi',
+  ],
+  [
+    'ฟอร์ด เรนเจอร์ แร็พเตอร์',
+    'ford renchoer raephtoer',
+  ],
+  [
+    '๋ซอซองอึน',
+    'sosongon',
+  ],
+  [
+    'สตอร์เบอรี่มรกต',
+    'storboerimrokt',
+  ],
+  [
+    'ศุภวิชญ์แก๊งโตเกียวมันจิไค',
+    'suphwichykaengtokiaomanchikhai',
+  ],
+  [
+    'แม่มึงอะโดนกูตุ๋ย',
+    'maemuengoadonkutuy',
+  ],
+  [
+    '! ด.ช.สมเย็ด เอียงซ้ายแม่ยายรัก',
+    '! d.ch.somyud iyongsaymaeyairak',
+  ],
+  [
+    'เชฟเอียน',
+    'chefiyon',
+  ],
+  [
+    'พ่ำ เพ่ง โพ่ง',
+    'pham pheng phong',
+  ],
+  [
+    'ไม่เคยลืมเลือน',
+    'maikhoeilmluen',
+  ],
+  [
+    'ฝนตกฟ้ามันฮึมๆ',
+    'fontokfamanhuem',
+  ],
+  [
+    'เกมเมอร์โตนสเลง',
+    'kemmoertonsleng',
+  ],
+  [
+    'พระนครอยู่บนเเมพ',
+    'phrankhroibonmeph',
+  ],
+  [
+    'กบิลพัสดุ์คุง',
+    'kbilphasdukhung',
+  ],
+  [
+    'ง่วงนอนเเต่ไม่นอน',
+    'nguangnontemainon',
+  ],
+  [
+    'ผู้ที่ก้าวไปบนวิถีแห่งสวรรค์',
+    'phuthikawpaibnuathhaengswakh',
+  ],
+  [
+    'บาราเอียเอ',
+    'baraiye',
+  ],
+  [
+    'มีหัวใจไว้รักก๋วยเตี๋ยว',
+    'mihuachaiwairakkwytiyua',
+  ],
+  [
+    'ถึงจะเตี้ยแต่ก็เหยียบตีนมึงได้นะ',
+    'thngchatiytaekhoeiyobtinmuengdaina',
+  ],
+  [
+    'ไาดไ่ดไยดยสไท',
+    'addaiyaidysthai',
+  ],
+  [
+    'ปัสสาวะ',
+    'passaoa',
+  ],
+  [
+    'น้ำปลาจืด',
+    'nplachd',
+  ],
+  [
+    'พ้คข้ขรเีขเรขเขอ',
+    'phkhkhkhrkhrekhkhoe',
+  ],
+  [
+    'ไวรุ่นไหวชิว',
+    'wairunhuachio',
+  ],
+  [
+    'ไม่สนิทบิดหมดไม่สลดบิดอีก',
+    'maisnithbidmodmaislodbidok',
+  ],
+  [
+    'ฤฆ๐ฎกไกแ',
+    'ruekh0dokkai',
+  ],
+  [
+    'ตะแมะแอ๊ะะะ',
+    'tamaeaeaaa',
+  ],
+  [
+    'เบื่อมึง',
+    'buemueng',
+  ],
+  [
+    'เล่นให้ดีเหมือนปากก็พอ',
+    'lenhaidihemuenpakkpho',
+  ],
+  [
+    'Bank จะเอา GTR อะ',
+    'Bank chaa GTR a',
+  ],
+  [
+    'ผู้หมวดกิบส์เจ๋ง',
+    'phuhmuadkibscheng',
+  ],
+  [
+    'ตัวแสบแถบอีสาน',
+    'tuasaebthbosan',
+  ],
+  [
+    'จักเถื่อเเน่',
+    'chakthne',
+  ],
+  [
+    'เพื่อนๆอย่าร้อนเงินกัน',
+    'phuenyaronngoenkan',
+  ],
+  [
+    'ดอร็อค',
+    'dorkh',
+  ],
+  [
+    'ยัตล็อค8',
+    'yatlkh8',
+  ],
+  [
+    'กูชื่อ \'Kailek โว้ยยย!',
+    'kuchue \'Kailek woyyy!',
+  ],
+  [
+    'เหวย',
+    'huai',
+  ],
+  [
+    'นนท์',
+    'nnth',
+  ],
+  [
+    '✦ ผู้ใช้บัญชีนี้ถูกแบน !!!',
+    '✦ phuchaibaychinithkbaen !!!',
+  ],
+  [
+    'เตงโย๊ะ',
+    'tengyoa',
+  ],
+  [
+    'พรี่แซมเองน่ะเออ  /-.-.-/',
+    'phrisaemengnae  /-.-.-/',
+  ],
+  [
+    'ถุงพิหิตให',
+    'thngphihithai',
+  ],
+  [
+    'เฟรชไงที่ยิ้มหวานๆッ',
+    'ferchngaithiyimhwanッ',
+  ],
+  [
+    'แมวดีย์🔧',
+    'maeodiy🔧',
+  ],
+  [
+    'หมอลำเอาให้',
+    'hmolamahai',
+  ],
+  [
+    'พี่ยงจะเฟี้ยวและเลี้ยวไปไหนอยูปะ',
+    'phiyongchafiyualaeliyuapaihainoipa',
+  ],
+  [
+    'เบื่อว้อยยยยยย',
+    'buewoiyyyyy',
+  ],
+  [
+    'พันตรี ทาเนีย เดอกูเรเชฟฟ์ 💢',
+    'phantri thania doekurecheff 💢',
+  ],
+  [
+    'ทายเอา',
+    'thaia',
+  ],
+  [
+    'เธอๆชื่อไรอะ',
+    'thoechueraia',
+  ],
+  [
+    'ไหวป่าวลุงงงงงงงงงงงงงงงงงง',
+    'huapaolungngngngngngngngngngngngngngngngngng',
+  ],
+  [
+    'คุณชายลืม นอน',
+    'khunchailm non',
+  ],
+  [
+    'มาร์ติน',
+    'martin',
+  ],
+  [
+    'น่าเบื่อจังเลย!!!!!!!!',
+    'nabuechangloei!!!!!!!!',
+  ],
+  [
+    'แม็ก',
+    'maek',
+  ],
+  [
+    'ชี้นกชี้ไม้ชี้พ่อมึงก็ตายนะไอสัส',
+    'chinokchimaichiphomuengktainaaisas',
+  ],
+  [
+    'เอ็กซ์',
+    'eks',
+  ],
+  [
+    'เจ็บจี๊ด! หวานเจี๊ยบ!',
+    'chubchid! hwanchiyob!',
+  ],
+  [
+    'เคาะงวย',
+    'khaoanguai',
+  ],
+  [
+    'ม่วงชิงทรัพย์',
+    'muangchingthraphy',
+  ],
+  [
+    'อ.น้องไอซ์',
+    '.nongais',
+  ],
+  [
+    'เรียลมั้ยล่ะ',
+    'rialmayla',
+  ],
+  [
+    'ภะวะรัน',
+    'phawaran',
+  ],
+  [
+    'โอ็ตแหละ',
+    'othaela',
+  ],
+  [
+    'สระไอไม้มะลายอออ่างซอโซ่การันต์',
+    'sraaimaimalaioangsosokannt',
+  ],
+  [
+    'แฮ่มๆ ツ',
+    'haem ツ',
+  ],
+  [
+    'มุ้บมิ้บอุอิอุอิ',
+    'mubmiboiui',
+  ],
+  [
+    'ซันเงาะ',
+    'sanngaoa',
+  ],
+  [
+    'จบละะ',
+    'choblaa',
+  ],
+  [
+    'เบื่อด้วย',
+    'buedwy',
+  ],
+  [
+    'เรียลเบียวเบื่อ',
+    'rialbiaobue',
+  ],
+  [
+    'ไก่เหี่ยว',
+    'kaihiao',
+  ],
+  [
+    'กระหนูยทมๆ',
+    'krahnuythom',
+  ],
+  [
+    'ขอเผือกหน่อยครับ 😏หุ้หิ...',
+    'khophuekhnoikhrab 😏huhi...',
+  ],
+  [
+    'สารวัตรแจ๊ะ',
+    'saruatrchaea',
+  ],
+  [
+    'สมองดีเท่าปากก็น่าจะฉลาดเป็นอสต.',
+    'smongdithaopakknachachladpunost.',
+  ],
+  [
+    'ตัวร้ายฝั่งธนล่ารอยยิ้มวันเพ็ญ',
+    'tuarayfangthonlaroiyimuanphuy',
+  ],
+  [
+    'น้องภาระ',
+    'nongphana',
+  ],
+  [
+    'เจมส์ ชาวไร่',
+    'chems chaorai',
+  ],
+  [
+    'มะแงวมีอาไย',
+    'manguamiayai',
+  ],
+  [
+    'บันนี่บุ๋ยๆ🫧',
+    'bannibuy🫧',
+  ],
+  [
+    'สมศักดิ์ จู๋ยืนยง',
+    'somsakdi chuynyong',
+  ],
+  [
+    'มะเขือเทศ',
+    'makhuethes',
+  ],
+  [
+    '1%ก็ถือว่าเป็นโอกาส',
+    '1%kthwapunokas',
+  ],
+  [
+    'อ า ซ้ อ K̶ G̶ ( หั ว แ ค ล น )',
+    ' a s  K̶ G̶ ( ha w  kh l n )',
+  ],
+  [
+    'นปโปะหม่ำๆ',
+    'nppohmam',
+  ],
+  [
+    'ดางหางฮัลเลย์',
+    'danghanghalloei',
+  ],
+  [
+    'เจนที่ชื่อว่าเจน',
+    'chenthichuewachen',
+  ],
+  [
+    'สวัสดีครับคุณอาธรรมมรงค์',
+    'swasdikhrabkhunathammrongkh',
+  ],
+  [
+    'ดริปๆ',
+    'drip',
+  ],
+  [
+    'รק๏t.',
+    'rק0t.',
+  ],
+  [
+    'ซอยๆนกคุ้มหลี่',
+    'soinokkhumhli',
+  ],
+  [
+    '🤤น้ำลายไหลย้อน',
+    '🤤nlaihailyon',
+  ],
+  [
+    'เลือนลางจางหาย',
+    'luenlangchanghai',
+  ],
+  [
+    'ไม่ใหญ่ไม่โต๋เลยไม่โก้ไม่เฟี้ยว',
+    'maihaiymaitoloeimaikomaifiyua',
+  ],
+  [
+    'น้องนอร์ทเอง',
+    'nongnortheng',
+  ],
+  [
+    'แงว',
+    'ngua',
+  ],
+  [
+    'ชานมวันมอ☕',
+    'chanmuanmo☕',
+  ],
+  [
+    'ภาวิณี',
+    'phawin',
+  ],
+  [
+    'มู มินฯ.',
+    'mu min.',
+  ],
+  [
+    'บริษัท กำจัดเรื้อน',
+    'brisath kamchadreon',
+  ],
+  [
+    'เเมวเมี๊ยวจะรับฟังคุณเอง',
+    'muamiyuacharabfangkhuneng',
+  ],
+  [
+    'ธรรมนัสพงษ์เผ่า',
+    'thamnasphongsphao',
+  ],
+  [
+    'รคlคzคг ภเl๏',
+    'rkhlkhzkhг phl0',
+  ],
+  [
+    'ไซส์โล',
+    'saislo',
+  ],
+  [
+    'ชื่อยูครับ',
+    'chueyukhrab',
+  ],
+  [
+    'คิงส์แลนด์',
+    'khingslaenod',
+  ],
+  [
+    'เภง',
+    'phong',
+  ],
+  [
+    'จตุรงค์ เสาเวียง',
+    'chturongkh saowiang',
+  ],
+  [
+    'โก๊ะโจ',
+    'koacho',
+  ],
+  [
+    'เอ๊ะ?!',
+    'ea?!',
+  ],
+  [
+    'ฉันหน่ะเป็นนึ่งเดี๋ยวกับความือ',
+    'chanhnapunnuengdiyuakabkhwam',
+  ],
+  [
+    'มนต์รักน้องอึนแช',
+    'montraknonguenchae',
+  ],
+  [
+    'ม้าเบอร์ตอง888',
+    'maboertong888',
+  ],
+  [
+    'แล้วพี่ทำไรเธอยัง',
+    'laewphithamraithoing',
+  ],
+  [
+    'มองดาวในถุงกาว',
+    'mongdaonaithngkao',
+  ],
+  [
+    'ฟู่่ๆๆๆๆๆๆๆๆๆ',
+    'fu',
+  ],
+  [
+    'อู้ดๆ',
+    'ud',
+  ],
+  [
+    'คุณหนูฟอร์ด',
+    'khunhnuford',
+  ],
+  [
+    'อิฐจะเอาGTR',
+    'ithchaaGTR',
+  ],
+  [
+    'น้องเดียร์',
+    'nongdiar',
+  ],
+  [
+    'ควยไรไอสัสห๊ะ',
+    'khuairaiaisasha',
+  ],
+  [
+    'ฮุสซาซ่า บัทเตอร์ฟาย',
+    'hussasa bathtoerfai',
+  ],
+  [
+    'น้ำดื่มสิงโตนำโชครถแห่',
+    'ndmsingtonamchokhrthhae',
+  ],
+  [
+    'กันตพัฒน์',
+    'kantphathon',
+  ],
+  [
+    'เบืิอพวกอ่อร',
+    'bephuakor',
+  ],
+  [
+    'คิดถึงนะครับคนเก่งของพี่',
+    'khidthngnakhrabkhonkengkhongphi',
+  ],
+  [
+    'ชื่อหัวกล้วย',
+    'chuehuaklwy',
+  ],
+  [
+    'ประมาณนี้ๆ',
+    'pramanni',
+  ],
+  [
+    'Iแอมยัวfาเฐ้อ',
+    'Iaemyuafath',
+  ],
+  [
+    'กุ๊กละกุ๊กละอู๊ดๆๆ',
+    'kuklakuklaud',
+  ],
+  [
+    'เหนื่อย',
+    'henuey',
+  ],
+  [
+    'ควายไไไ',
+    'khwai',
+  ],
+  [
+    'จั๊กส์',
+    'chaks',
+  ],
+  [
+    'บอมเงี่ยน',
+    'bomngian',
+  ],
+  [
+    'เฌอแตม<3',
+    'chtaem<3',
+  ],
+  [
+    'อยากกินเค้กสกู้ปี้ดูในวันเกิด',
+    'yakkinkhekskupidunuankoed',
+  ],
+  [
+    'หมาป่าในเงามืด',
+    'hmapanaingaomd',
+  ],
+  [
+    'หนูอ้วนนักแร็ป',
+    'hnuonnakraep',
+  ],
+  [
+    'เอิ๊ก',
+    'ik',
+  ],
+  [
+    'ประตู4หมี่เกี้ยว',
+    'pratu4hmikiyua',
+  ],
+  [
+    'กูอะเตอร์มึงควยไร',
+    'kuatoermuengkhuairai',
+  ],
+  [
+    'จ้วบวัดดอน',
+    'chwbuaddon',
+  ],
+  [
+    'หวังปี้เจ้า ฟ้าแว็ปๆ',
+    'hwangpichea fawaep',
+  ],
+  [
+    'จอนๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆ',
+    'chon',
+  ],
+  [
+    '🇹🇭นัחบุ₪เລืටดເઈ็थ🇹🇭',
+    '🇹🇭naחbu₪ລටdເઈथ🇹🇭',
+  ],
+  [
+    'หมาลืมไข่',
+    'hmalmkhai',
+  ],
+  [
+    'กลมกล่อมแต่ไม่เอามะขาม',
+    'klmoklomtaemaiamakham',
+  ],
+  [
+    'หัวเกรียนมีสิทธิ์ไร',
+    'huakeriyonmisiththrai',
+  ],
+  [
+    'สิทธิทัต เอมเมอรัล',
+    'sithththat emmoeral',
+  ],
+  [
+    'มาเบวว',
+    'mabuaw',
+  ],
+  [
+    'งั่มๆๆ',
+    'ngam',
+  ],
+  [
+    'ชิงกะเบว',
+    'chingkabua',
+  ],
+  [
+    'สะเง๊าะสะแง๊ะ',
+    'sangeaasangaea',
+  ],
+  [
+    'ศูนย์เทพศิรินทร์โหดๆ',
+    'sunythephsirinthrhod',
+  ],
+  [
+    'อ้วนเทพประสิทธิ์',
+    'onthephprasithth',
+  ],
+  [
+    'ผมชื่อ ปอนด์ ไม่ใช่ ปอน',
+    'phomchue ponod maichai pon',
+  ],
+  [
+    'ใครปิดไมค์กู',
+    'khairpidmaikhku',
+  ],
+  [
+    'เหงาๆ',
+    'henga',
+  ],
+  [
+    'อยากเสียวเลี้ยวมา',
+    'yaksiaoliyuama',
+  ],
+  [
+    'เฟิร์นเฟิน',
+    'foernfoen',
+  ],
+  [
+    'ร่างแยกของจอห์นชาวไร่',
+    'rangyaekkhongchohnchaorai',
+  ],
+  [
+    'ลูกอีเสี่ยว',
+    'lukosiao',
+  ],
+  [
+    'ไน๋ไหนไนท์',
+    'naihainnaith',
+  ],
+  [
+    'ม า ย ด์ ยู ☁',
+    'm a y d yu ☁',
+  ],
+  [
+    'ฟันเหล้กเด้กเเนว',
+    'fanhelokdeknua',
+  ],
+  [
+    'เหงาตุ่ยยยย',
+    'hengatuiyyy',
+  ],
+  [
+    'เพื่อแม่แพ้บ่ได้',
+    'phuemaephaebdai',
+  ],
+  [
+    'เฮีนจินแฟนแก้ว',
+    'hinchinfaenkaew',
+  ],
+  [
+    'ร่างทรงนนท์นี่',
+    'rangthrongnnthni',
+  ],
+  [
+    'ไม่ถึงกับแย่แค่แม่ไม่ปลิ้ม',
+    'maithngkabyaekhaemaemaiplim',
+  ],
+  [
+    'ไล่ฆ่าพวกเรื้อน',
+    'laikhaphuakreon',
+  ],
+  [
+    'ลืมกันแล้วหรือยัง',
+    'lmkanlaewhrueyang',
+  ],
+  [
+    'พอเเล้วกูกลัว',
+    'pholewkuklua',
+  ],
+  [
+    'น้องแม็กงุงิ',
+    'nongmaekngungi',
+  ],
+  [
+    'แมวอ้วนชาร์จแบต',
+    'maeooncharchbaet',
+  ],
+  [
+    'แล้วเองคิดถึงข้าบ้างปร้าาา',
+    'laewengkhidthngkhabangpraaa',
+  ],
+  [
+    'ตัวเหล็ก><',
+    'tuahelk><',
+  ],
+  [
+    'เครรรรรรรรรรร',
+    'khararara',
+  ],
+  [
+    'นป หม่ำๆ',
+    'np hmam',
+  ],
+  [
+    'เมี๊ยววววววว',
+    'miyuawuawuawua',
+  ],
+  [
+    'ไไผ',
+    'phai',
+  ],
+  [
+    'รีเฟ็กซ์เอ็กทรู',
+    'rifuksekthru',
+  ],
+  [
+    'หนุ่มเมืองดาวมีใจให้สาวเมืองร้อน',
+    'hnummuengdaomichaihaisaomuengron',
+  ],
+  [
+    'เจ้าก็อต',
+    'cheakt',
+  ],
+  [
+    'หื้ม',
+    'hm',
+  ],
+  [
+    'อีหยังวะทำไมยังไม่นอน',
+    'ihyanguaathammaiyangmainon',
+  ],
+  [
+    'ไม่ลืมๆ',
+    'mailm',
+  ],
+  [
+    'เตยจาเรื้อน!',
+    'toeichareon!',
+  ],
+  [
+    'แล้วเธอแม่งเป็นเกือบทุกอย่าง',
+    'laewthoemaengpunkuebthukoiang',
+  ],
+  [
+    '⇝Uภkภ๏wภ gสmΐήg⇜',
+    '⇝Uphkph0wph gsmΐήg⇜',
+  ],
+  [
+    'ไอ้ทีอยากโซโล่เก่งๆ TT',
+    'aithiyaksolokeng TT',
+  ],
+  [
+    'มูฮัมหมัด ซะเดาะกอน',
+    'muhamhmad sadaoakon',
+  ],
+  [
+    'อ้ายยังอยู่ม่งเก่า',
+    'ayyangoimongkao',
+  ],
+  [
+    'กูชื่อข้าวมึงเห็นป่ะเนี่ยไอตาบอด',
+    'kuchuekhawmuenghenpaniaaitabod',
+  ],
+  [
+    'ระวังเมียคุณดีๆนะครับ',
+    'rawangmiakhundinakhrab',
+  ],
+  [
+    'ภ๏гเ ☆',
+    'ph0г ☆',
+  ],
+  [
+    'кเllยค',
+    'кllykh',
+  ],
+  [
+    'แมวเรื้อน',
+    'maeoreon',
+  ],
+  [
+    'ว่าแต่กูชื่ออะไรนะ',
+    'wataekuchuearaina',
+  ],
+  [
+    'อู๊ดอู๊ด',
+    'udod',
+  ],
+  [
+    'กูบีมีไรป่ะ',
+    'kubimiraipa',
+  ],
+  [
+    'เเบงค์ 47',
+    'bengkh 47',
+  ],
+  [
+    'ลูกฉันเป็นคนดีย์!',
+    'lukchanpunkhondiy!',
+  ],
+  [
+    'แง่งแง่งแง่งแ่วงง',
+    'ngaengngaengngaengwaengng',
+  ],
+  [
+    'ไกรวิชญ์ฯ',
+    'kairuachy',
+  ],
+  [
+    'ซาร่าห์',
+    'sarah',
+  ],
+  [
+    'นํ้ากับเต้เรื้อนจาด',
+    'nakabtereonchad',
+  ],
+  [
+    'ซุปเปอร์ตุ๋ย',
+    'suppoertuy',
+  ],
+  [
+    'เด็กเอ็นงับบบ',
+    'dukenngabbb',
+  ],
+  [
+    'ไม่เสือกนะคับสุดหล่อ',
+    'maisueknakhabsudlo',
+  ],
+  [
+    'ไม่รู้ลืม\'ม เมื่อคืนหลับฯ',
+    'mairulm\'m muekhnhlab',
+  ],
+  [
+    'แม่ชื่อติ๋ม',
+    'maechuetim',
+  ],
+  [
+    'เสี่ยเต้',
+    'siate',
+  ],
+  [
+    'อย่าเสือก เดี๋ยวเงือกสั่น',
+    'yasuek diyuangueksan',
+  ],
+  [
+    'เรื่องมันยาว',
+    'ruangmanyao',
+  ],
+  [
+    'หลุดเดี่ยวโรนัลโด้',
+    'hluddiawronaldo',
+  ],
+  [
+    'เปี๊ยก',
+    'piyok',
+  ],
+  [
+    'ตัวเบี๋ยว',
+    'tuabiyua',
+  ],
+  [
+    'ข้าวมันไก่ ใส่น้ำจิ้ม',
+    'khawmankai sainchim',
+  ],
+  [
+    'า้ดเดเ',
+    'adde',
+  ],
+  [
+    'โย้วๆๆ',
+    'yow',
+  ],
+  [
+    'มิโอะ',
+    'mioa',
+  ],
+  [
+    'จิ๋มโบ๋ชื่อนี้เสียไม่ได้😝',
+    'chimbochuenisiamaidai😝',
+  ],
 ]
